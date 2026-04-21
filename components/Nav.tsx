@@ -36,7 +36,7 @@ export default function Nav() {
         >
           {/* Logo */}
           <a
-            href="#"
+            href="/"
             className="font-serif text-base font-semibold text-text-primary hover:opacity-80 transition-opacity px-3 py-1.5 flex-shrink-0"
             aria-label="Zenifai — Accueil"
           >

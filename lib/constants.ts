@@ -7,6 +7,7 @@ export const NAV_LINKS = [
   { label: "Cas clients", href: "#cas-clients" },
   { label: "Services", href: "#services" },
   { label: "FAQ", href: "#faq" },
+  { label: "Ressources", href: "/ressources" },
 ];
 
 export const STATS = [

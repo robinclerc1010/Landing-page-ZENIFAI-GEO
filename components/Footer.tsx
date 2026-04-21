@@ -53,14 +53,20 @@ export default function Footer() {
               Ressources
             </h4>
             <ul className="space-y-2.5" role="list">
+              <li>
+                <a
+                  href="/ressources/geo-avocats"
+                  className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-200"
+                >
+                  GEO pour cabinets d&apos;avocats
+                </a>
+              </li>
               {[
-                "Blog GEO",
                 "Lexique GEO",
                 "Case studies",
                 "Newsletter IA",
               ].map((label) => (
                 <li key={label}>
-                  {/* TODO: ajouter vrais liens ressources */}
                   <span className="text-sm text-text-secondary/40 cursor-not-allowed select-none">
                     {label} <span className="text-[10px] ml-1 text-accent-violet/50">bientôt</span>
                   </span>
