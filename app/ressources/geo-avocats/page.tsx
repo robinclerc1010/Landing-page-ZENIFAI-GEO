@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "article",
     locale: "fr_FR",
-    url: "https://zenifai.com/ressources/geo-avocats",
+    url: "https://zenifai.ai/ressources/geo-avocats",
     title: "GEO pour Cabinets d'Avocats : guide stratégique 2026",
     description:
       "Comment les cabinets d'avocats d'affaires et fiscalistes gagnent des clients via ChatGPT et Perplexity. Guide complet du GEO appliqué au secteur juridique.",
@@ -45,10 +45,10 @@ const jsonLd = {
   headline: "Comment les cabinets d'avocats gagnent des clients via ChatGPT, Perplexity et Gemini",
   description:
     "Guide stratégique du GEO appliqué aux cabinets d'avocats d'affaires et fiscalistes. Comment être recommandé par les IA quand un dirigeant cherche un conseil juridique.",
-  author: { "@type": "Organization", name: "Zenifai", url: "https://zenifai.com" },
-  publisher: { "@type": "Organization", name: "Zenifai", url: "https://zenifai.com" },
+  author: { "@type": "Organization", name: "Zenifai", url: "https://zenifai.ai" },
+  publisher: { "@type": "Organization", name: "Zenifai", url: "https://zenifai.ai" },
   datePublished: "2026-01-01",
-  url: "https://zenifai.com/ressources/geo-avocats",
+  url: "https://zenifai.ai/ressources/geo-avocats",
   inLanguage: "fr-FR",
   about: [
     { "@type": "Thing", name: "Generative Engine Optimization" },

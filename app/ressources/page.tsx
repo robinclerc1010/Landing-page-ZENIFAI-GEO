@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://zenifai.com/ressources",
+    url: "https://zenifai.ai/ressources",
     title: "Ressources GEO — Guides et stratégies | Zenifai",
     description:
       "Guides stratégiques et analyses sur le GEO pour être recommandé par les IA génératives.",

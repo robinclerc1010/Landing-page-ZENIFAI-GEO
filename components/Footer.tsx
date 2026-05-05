@@ -126,9 +126,18 @@ export default function Footer() {
         <div className="mt-12 pt-6 border-t border-border-default flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-text-secondary/40">
           <p>© {year} Zenifai. Tous droits réservés.</p>
           <div className="flex items-center gap-5">
-            {/* TODO: ajouter vraies pages légales */}
-            <span className="cursor-not-allowed opacity-50">Mentions légales</span>
-            <span className="cursor-not-allowed opacity-50">Politique de confidentialité</span>
+            <a
+              href="/mentions-legales"
+              className="hover:text-text-secondary transition-colors duration-200"
+            >
+              Mentions légales
+            </a>
+            <a
+              href="/mentions-legales#donnees-personnelles"
+              className="hover:text-text-secondary transition-colors duration-200"
+            >
+              Politique de confidentialité
+            </a>
           </div>
         </div>
       </div>

@@ -35,11 +35,14 @@ export const metadata: Metadata = {
   authors: [{ name: "Zenifai" }],
   creator: "Zenifai",
   publisher: "Zenifai",
-  metadataBase: new URL("https://zenifai.com"),
+  metadataBase: new URL("https://zenifai.ai"),
+  alternates: {
+    canonical: "https://zenifai.ai",
+  },
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    url: "https://zenifai.com",
+    url: "https://zenifai.ai",
     title: "Zenifai • Agence GEO — Visibilité IA sur ChatGPT, Perplexity & Gemini",
     description:
       "Agence GEO française. Positionnez votre marque dans les réponses des IA génératives. Audit gratuit en 72h.",
@@ -78,10 +81,10 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://zenifai.com/#organization",
+      "@id": "https://zenifai.ai/#organization",
       name: "Zenifai",
-      url: "https://zenifai.com",
-      logo: "https://zenifai.com/logo.png",
+      url: "https://zenifai.ai",
+      logo: "https://zenifai.ai/logo.png",
       description:
         "Agence GEO (Generative Engine Optimization) française. Nous positionnons votre marque dans les réponses des IA génératives.",
       contactPoint: {
@@ -94,9 +97,9 @@ const jsonLd = {
     },
     {
       "@type": "ProfessionalService",
-      "@id": "https://zenifai.com/#service",
+      "@id": "https://zenifai.ai/#service",
       name: "Zenifai — Agence GEO",
-      provider: { "@id": "https://zenifai.com/#organization" },
+      provider: { "@id": "https://zenifai.ai/#organization" },
       description:
         "Services de Generative Engine Optimization (GEO) pour marques B2B et e-commerce.",
       serviceType: "Generative Engine Optimization",
