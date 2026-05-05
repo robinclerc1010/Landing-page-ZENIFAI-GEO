@@ -6,11 +6,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
 
   return [
+    { url: `${BASE_URL}/`, lastModified, changeFrequency: "weekly", priority: 1.0 },
+    { url: `${BASE_URL}/methode`, lastModified, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${BASE_URL}/services`, lastModified, changeFrequency: "monthly", priority: 0.9 },
     {
-      url: `${BASE_URL}/`,
+      url: `${BASE_URL}/services/audit-visibilite-ia`,
       lastModified,
-      changeFrequency: "weekly",
-      priority: 1.0,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/services/strategie-geo`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/services/contenu-llm`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/services/autorite-marque`,
+      lastModified,
+      changeFrequency: "monthly",
+      priority: 0.9,
     },
     {
       url: `${BASE_URL}/ressources`,

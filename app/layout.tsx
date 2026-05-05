@@ -83,10 +83,30 @@ const jsonLd = {
       "@type": "Organization",
       "@id": "https://zenifai.ai/#organization",
       name: "Zenifai",
+      legalName: "Zenifai SAS",
       url: "https://zenifai.ai",
       logo: "https://zenifai.ai/logo.png",
       description:
         "Agence GEO (Generative Engine Optimization) française. Nous positionnons votre marque dans les réponses des IA génératives.",
+      foundingDate: "2025-04-23",
+      founders: [
+        { "@type": "Person", name: "Robin Clerc" },
+        { "@type": "Person", name: "Louis Chabert" },
+      ],
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "16 Rue Cuvier",
+        addressLocality: "Lyon",
+        postalCode: "69006",
+        addressCountry: "FR",
+      },
+      taxID: "FR06943532093",
+      vatID: "FR06943532093",
+      identifier: [
+        { "@type": "PropertyValue", propertyID: "SIREN", value: "943532093" },
+        { "@type": "PropertyValue", propertyID: "SIRET", value: "94353209300011" },
+        { "@type": "PropertyValue", propertyID: "RCS", value: "943 532 093 R.C.S. Lyon" },
+      ],
       contactPoint: {
         "@type": "ContactPoint",
         email: "robin@zenifai.ai",

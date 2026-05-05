@@ -30,10 +30,10 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5" role="list">
               {[
-                ["Audit de visibilité IA", "#services"],
-                ["Stratégie & Consulting GEO", "#services"],
-                ["Optimisation de contenu", "#services"],
-                ["Autorité & Mentions", "#services"],
+                ["Audit de visibilité IA", "/services/audit-visibilite-ia"],
+                ["Stratégie & Consulting GEO", "/services/strategie-geo"],
+                ["Optimisation de contenu", "/services/contenu-llm"],
+                ["Autorité & Mentions", "/services/autorite-marque"],
               ].map(([label, href]) => (
                 <li key={label}>
                   <a

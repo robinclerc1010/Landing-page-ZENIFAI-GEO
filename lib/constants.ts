@@ -3,10 +3,10 @@ export const CALENDLY_URL = "https://calendly.com/rclerc26/new-meeting";
 export const LLM_NAMES = ["ChatGPT.", "Perplexity.", "Gemini.", "Claude."];
 
 export const NAV_LINKS = [
-  { label: "Méthode", href: "#methode" },
-  { label: "Cas clients", href: "#cas-clients" },
-  { label: "Services", href: "#services" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Méthode", href: "/methode" },
+  { label: "Services", href: "/services" },
+  { label: "Cas clients", href: "/#cas-clients" },
+  { label: "FAQ", href: "/#faq" },
   { label: "Ressources", href: "/ressources" },
 ];
 

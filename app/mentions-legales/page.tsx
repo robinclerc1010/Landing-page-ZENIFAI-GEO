@@ -32,9 +32,13 @@ export default function MentionsLegalesPage() {
                 <br />
                 Siège social : 16 Rue Cuvier, 69006 Lyon, France
                 <br />
-                RCS Lyon : en cours d’immatriculation
+                SIREN : 943 532 093
                 <br />
-                Numéro de TVA intracommunautaire : en cours d’attribution
+                SIRET (siège) : 943 532 093 00011
+                <br />
+                RCS Lyon : 943 532 093 (immatriculée le 23/04/2025)
+                <br />
+                Numéro de TVA intracommunautaire : FR06943532093
                 <br />
                 Co-fondateurs : Robin Clerc et Louis Chabert
                 <br />
