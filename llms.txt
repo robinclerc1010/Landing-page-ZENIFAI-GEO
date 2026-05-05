@@ -11,14 +11,15 @@ Zenifai est une agence GEO basée en France, fondée par Robin Clerc et Louis. N
 
 ## Services
 
-- [Audit de visibilité IA](https://zenifai.ai/#services): mesure de votre présence actuelle dans les réponses des LLM (ChatGPT, Perplexity, Gemini, Claude) sur 50+ requêtes stratégiques de votre marché.
-- [Stratégie & Consulting GEO](https://zenifai.ai/#services): roadmap GEO sur 90 jours, priorisation des actions à fort impact, KPIs de visibilité IA.
-- [Optimisation de contenu LLM-ready](https://zenifai.ai/#services): réécriture et structuration de contenu pour maximiser la citabilité par les IA génératives (formatage Q→R, schema.org, autorité topique).
-- [Autorité & Mentions de marque](https://zenifai.ai/#services): construction de signaux d'entité tiers (Wikipedia, Reddit, YouTube, Crunchbase, presse) pour consolider votre marque dans les knowledge graphs des IA.
+- [Tous nos services](https://zenifai.ai/services): vue d'ensemble des 4 services GEO complémentaires.
+- [Audit de visibilité IA](https://zenifai.ai/services/audit-visibilite-ia): mesure de votre présence actuelle dans les réponses des LLM (ChatGPT, Perplexity, Gemini, Claude) sur 50 à 200 requêtes stratégiques. Livrable en 7 à 10 jours.
+- [Stratégie & Consulting GEO](https://zenifai.ai/services/strategie-geo): roadmap GEO sur-mesure 90 jours, entités de marque, requêtes prioritaires, plan de contenu, KPIs.
+- [Optimisation de contenu LLM-ready](https://zenifai.ai/services/contenu-llm): production et restructuration de contenu pour maximiser la citabilité par les IA (format Q→R, schema.org, autorité topique).
+- [Autorité & Mentions de marque](https://zenifai.ai/services/autorite-marque): construction de signaux d'entité tiers (Wikipedia, Reddit, YouTube, presse, podcasts, annuaires sectoriels).
 
 ## Méthode
 
-Notre méthode en 4 étapes : Audit → Stratégie → Exécution → Mesure. Nous opérons sur un cycle de 90 jours avec livrables hebdomadaires et reporting bi-mensuel.
+- [Notre méthode GEO en 6 étapes](https://zenifai.ai/methode): de l'analyse d'entités au IA Visibility Score™. Cycle 90 jours.
 
 ## Ressources
 
