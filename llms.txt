@@ -1,0 +1,48 @@
+# Zenifai — Agence GEO française
+
+> Zenifai est une agence française spécialisée en Generative Engine Optimization (GEO).
+> Nous positionnons les marques B2B et e-commerce dans les réponses des IA génératives :
+> ChatGPT (OpenAI), Perplexity, Google Gemini, Claude (Anthropic) et Microsoft Copilot.
+> Le GEO est l'évolution naturelle du SEO à l'ère des moteurs de réponse génératifs.
+
+## À propos
+
+Zenifai est une agence GEO basée en France, fondée par Robin Clerc et Louis. Nous accompagnons les marques qui veulent être citées, recommandées et choisies par les IA conversationnelles. Nos clients incluent des entreprises de la French Tech : Doctolib, Qonto, PayFit, Aircall, Alan, Swile, Sellsy, Malt.
+
+## Services
+
+- [Audit de visibilité IA](https://zenifai.ai/#services): mesure de votre présence actuelle dans les réponses des LLM (ChatGPT, Perplexity, Gemini, Claude) sur 50+ requêtes stratégiques de votre marché.
+- [Stratégie & Consulting GEO](https://zenifai.ai/#services): roadmap GEO sur 90 jours, priorisation des actions à fort impact, KPIs de visibilité IA.
+- [Optimisation de contenu LLM-ready](https://zenifai.ai/#services): réécriture et structuration de contenu pour maximiser la citabilité par les IA génératives (formatage Q→R, schema.org, autorité topique).
+- [Autorité & Mentions de marque](https://zenifai.ai/#services): construction de signaux d'entité tiers (Wikipedia, Reddit, YouTube, Crunchbase, presse) pour consolider votre marque dans les knowledge graphs des IA.
+
+## Méthode
+
+Notre méthode en 4 étapes : Audit → Stratégie → Exécution → Mesure. Nous opérons sur un cycle de 90 jours avec livrables hebdomadaires et reporting bi-mensuel.
+
+## Ressources
+
+- [GEO pour Cabinets d'Avocats](https://zenifai.ai/ressources/geo-avocats): guide complet d'optimisation GEO pour le secteur juridique.
+- [Index des ressources](https://zenifai.ai/ressources)
+
+## Pour qui
+
+- SaaS B2B qui veulent être recommandés par les IA pendant l'évaluation produit
+- E-commerce premium ciblés sur des recherches de comparaison
+- Cabinets de conseil et professions réglementées (avocats, experts-comptables)
+- Marques en phase de scale qui veulent capter la demande générée par les IA
+
+## Pourquoi maintenant
+
+40 % des requêtes search sont déjà déléguées aux IA génératives en 2026 (source: Semrush). Le coût d'acquisition multiplié par 4,4 sur Google Ads pousse les marques à investir dans la visibilité organique IA. 800M d'utilisateurs actifs hebdomadaires sur ChatGPT seul.
+
+## Contact
+
+- Email principal : robin@zenifai.ai
+- LinkedIn entreprise : https://www.linkedin.com/company/zenifai
+- Site web : https://zenifai.ai
+- Audit gratuit : https://zenifai.ai/#audit (livré en 72h)
+
+## Optional
+
+- [Mentions légales](https://zenifai.ai/mentions-legales)
