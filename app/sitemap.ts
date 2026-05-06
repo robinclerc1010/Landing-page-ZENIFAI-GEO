@@ -51,6 +51,12 @@ const PAGES: Array<{
     priority: 0.7,
   },
   {
+    path: "/ressources/cas-client-cabinet-avocats",
+    lastModified: "2026-05-06",
+    changeFrequency: "monthly",
+    priority: 0.8,
+  },
+  {
     path: "/mentions-legales",
     lastModified: "2026-05-06",
     changeFrequency: "yearly",

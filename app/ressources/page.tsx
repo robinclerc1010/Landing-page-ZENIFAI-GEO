@@ -19,13 +19,22 @@ export const metadata: Metadata = {
 
 const ARTICLES = [
   {
+    href: "/ressources/cas-client-cabinet-avocats",
+    badge: "Cas client · Anonymisé",
+    title: "8 % → 64 % de visibilité IA en 90 jours",
+    excerpt:
+      "Comment un cabinet d'avocats français en contentieux commercial a multiplié par 8 sa part de voix dans ChatGPT, Perplexity, Gemini et Claude. Méthode, livrables, métriques.",
+    readTime: "9 min",
+    date: "Avril 2026",
+  },
+  {
     href: "/ressources/geo-avocats",
     badge: "Expertise sectorielle",
     title: "GEO pour Cabinets d'Avocats",
     excerpt:
       "Comment les cabinets d'avocats d'affaires et fiscalistes gagnent des clients via ChatGPT et Perplexity. Guide stratégique complet.",
     readTime: "12 min",
-    date: "2026",
+    date: "Avril 2026",
   },
 ];
 
