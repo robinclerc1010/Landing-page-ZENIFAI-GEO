@@ -17,9 +17,9 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Zenifai • Agence GEO — Visibilité IA sur ChatGPT, Perplexity & Gemini",
+  title: "Zenifai — Agence GEO française | Visibilité IA & ChatGPT",
   description:
-    "Agence GEO française. Positionnez votre marque dans les réponses des IA génératives. Audit gratuit en 72h.",
+    "Zenifai est l'agence GEO qui positionne votre marque dans les réponses de ChatGPT, Perplexity, Gemini et Claude. Audit gratuit en 30 min.",
   keywords: [
     "GEO",
     "Generative Engine Optimization",
@@ -43,9 +43,9 @@ export const metadata: Metadata = {
     type: "website",
     locale: "fr_FR",
     url: "https://zenifai.ai",
-    title: "Zenifai • Agence GEO — Visibilité IA sur ChatGPT, Perplexity & Gemini",
+    title: "Zenifai — Agence GEO française | Visibilité IA & ChatGPT",
     description:
-      "Agence GEO française. Positionnez votre marque dans les réponses des IA génératives. Audit gratuit en 72h.",
+      "Zenifai est l'agence GEO qui positionne votre marque dans les réponses de ChatGPT, Perplexity, Gemini et Claude. Audit gratuit en 30 min.",
     siteName: "Zenifai",
     // TODO: remplacer par une vraie OG image
     images: [
@@ -114,6 +114,22 @@ const jsonLd = {
         availableLanguage: "French",
       },
       sameAs: ["https://www.linkedin.com/company/zenifai"],
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://zenifai.ai/#website",
+      url: "https://zenifai.ai",
+      name: "Zenifai",
+      inLanguage: "fr-FR",
+      publisher: { "@id": "https://zenifai.ai/#organization" },
+      potentialAction: {
+        "@type": "SearchAction",
+        target: {
+          "@type": "EntryPoint",
+          urlTemplate: "https://zenifai.ai/?s={search_term_string}",
+        },
+        "query-input": "required name=search_term_string",
+      },
     },
     {
       "@type": "ProfessionalService",

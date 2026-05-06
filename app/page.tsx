@@ -26,9 +26,30 @@ const faqJsonLd = {
   })),
 };
 
+const webPageJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://zenifai.ai/#webpage",
+  url: "https://zenifai.ai/",
+  name: "Zenifai — Agence GEO française",
+  description:
+    "Zenifai est l’agence GEO qui positionne votre marque dans les réponses de ChatGPT, Perplexity, Gemini et Claude.",
+  isPartOf: { "@id": "https://zenifai.ai/#website" },
+  about: { "@id": "https://zenifai.ai/#organization" },
+  inLanguage: "fr-FR",
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["h1", "h2", "[data-speakable]"],
+  },
+};
+
 export default function Home() {
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
