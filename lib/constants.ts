@@ -44,24 +44,28 @@ export const SERVICES = [
     title: "Audit de visibilité IA",
     description:
       "Nous analysons votre présence actuelle dans ChatGPT, Perplexity, Gemini et Claude. Baseline précise, gap concurrentiel, opportunités priorisées.",
+    href: "/services/audit-visibilite-ia",
   },
   {
     icon: "Compass",
     title: "Stratégie & Consulting GEO",
     description:
       "Feuille de route sur-mesure : entités de marque, requêtes prioritaires, plan de contenu, KPIs. Aligné sur vos objectifs business.",
+    href: "/services/strategie-geo",
   },
   {
     icon: "FileText",
     title: "Optimisation de contenu LLM-ready",
     description:
       "Production et restructuration de contenus pensés pour être compris, cités et recommandés par les modèles d'IA.",
+    href: "/services/contenu-llm",
   },
   {
     icon: "Share2",
     title: "Autorité & Mentions de marque",
     description:
       "Placement stratégique sur les sources que les LLMs consultent : presse, Wikipedia, Reddit, annuaires, bases ouvertes.",
+    href: "/services/autorite-marque",
   },
 ];
 

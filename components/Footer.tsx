@@ -25,9 +25,12 @@ export default function Footer() {
 
           {/* Col 2: Services */}
           <div className="space-y-4">
-            <h4 className="text-xs font-medium tracking-widest uppercase text-text-secondary/60">
+            <a
+              href="/services"
+              className="block text-xs font-medium tracking-widest uppercase text-text-secondary/60 hover:text-accent-violet transition-colors duration-200"
+            >
               Services
-            </h4>
+            </a>
             <ul className="space-y-2.5" role="list">
               {[
                 ["Audit de visibilité IA", "/services/audit-visibilite-ia"],
@@ -49,9 +52,12 @@ export default function Footer() {
 
           {/* Col 3: Ressources */}
           <div className="space-y-4">
-            <h4 className="text-xs font-medium tracking-widest uppercase text-text-secondary/60">
+            <a
+              href="/ressources"
+              className="block text-xs font-medium tracking-widest uppercase text-text-secondary/60 hover:text-accent-violet transition-colors duration-200"
+            >
               Ressources
-            </h4>
+            </a>
             <ul className="space-y-2.5" role="list">
               <li>
                 <a

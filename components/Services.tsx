@@ -2,7 +2,8 @@
 
 // Source: Custom bento grid 2×2 — cards avec hover glow lumineux, inspiré Magic UI BentoGrid
 
-import { Search, Compass, FileText, Share2 } from "lucide-react";
+import Link from "next/link";
+import { Search, Compass, FileText, Share2, ArrowUpRight } from "lucide-react";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import { motion } from "framer-motion";
 import { SERVICES } from "@/lib/constants";
@@ -42,28 +43,42 @@ export default function Services() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-60px" }}
                 transition={{ duration: 0.5, delay: i * 0.08 }}
-                className="group relative rounded-2xl border border-border-default bg-bg-secondary p-6 lg:p-8 cursor-default overflow-hidden
-                  hover:border-accent-violet/40 hover:shadow-violet-sm transition-all duration-300"
               >
-                {/* Hover gradient */}
-                <div className="absolute inset-0 bg-gradient-to-br from-accent-violet/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl" />
+                <Link
+                  href={service.href}
+                  aria-label={`En savoir plus sur ${service.title}`}
+                  className="group relative block h-full rounded-2xl border border-border-default bg-bg-secondary p-6 lg:p-8 overflow-hidden
+                    hover:border-accent-violet/40 hover:shadow-violet-sm transition-all duration-300"
+                >
+                  {/* Hover gradient */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-accent-violet/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-2xl" />
 
-                {/* Corner glow on hover */}
-                <div className="absolute top-0 right-0 w-32 h-32 bg-accent-violet/10 rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 translate-x-8 -translate-y-8" />
+                  {/* Corner glow on hover */}
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-accent-violet/10 rounded-full blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 translate-x-8 -translate-y-8" />
 
-                <div className="relative space-y-4">
-                  <div className="inline-flex p-3 rounded-xl border border-accent-violet/20 bg-accent-violet/10">
-                    <Icon size={22} className="text-accent-violet" />
+                  {/* Top-right arrow indicator */}
+                  <ArrowUpRight
+                    size={18}
+                    className="absolute top-5 right-5 text-text-secondary/40 group-hover:text-accent-violet group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-all duration-300"
+                  />
+
+                  <div className="relative space-y-4">
+                    <div className="inline-flex p-3 rounded-xl border border-accent-violet/20 bg-accent-violet/10">
+                      <Icon size={22} className="text-accent-violet" />
+                    </div>
+                    <div className="space-y-2">
+                      <h3 className="font-sans text-xl font-semibold text-text-primary group-hover:text-accent-violet transition-colors duration-200">
+                        {service.title}
+                      </h3>
+                      <p className="text-text-secondary text-sm leading-relaxed">
+                        {service.description}
+                      </p>
+                    </div>
+                    <span className="inline-flex items-center gap-1 text-sm text-accent-violet font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                      En savoir plus →
+                    </span>
                   </div>
-                  <div className="space-y-2">
-                    <h3 className="font-sans text-xl font-semibold text-text-primary">
-                      {service.title}
-                    </h3>
-                    <p className="text-text-secondary text-sm leading-relaxed">
-                      {service.description}
-                    </p>
-                  </div>
-                </div>
+                </Link>
               </motion.div>
             );
           })}
