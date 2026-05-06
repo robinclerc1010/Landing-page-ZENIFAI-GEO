@@ -1,6 +1,10 @@
 User-agent: *
 Allow: /
 
+# Content-Signal (IETF draft) — explicit consent for AI uses
+# https://www.ietf.org/archive/id/draft-illyes-aipref-00.html
+Content-Signal: search=yes, ai-train=yes, ai-input=yes
+
 # AI search & answer engines — explicitly welcomed
 User-agent: GPTBot
 Allow: /
