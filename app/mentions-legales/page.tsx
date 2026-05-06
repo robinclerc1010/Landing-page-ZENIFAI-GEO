@@ -75,7 +75,7 @@ export default function MentionsLegalesPage() {
               </p>
             </section>
 
-            <section className="space-y-3">
+            <section id="donnees-personnelles" className="space-y-3 scroll-mt-24">
               <h2 className="font-serif text-2xl font-semibold text-text-primary">
                 Données personnelles
               </h2>

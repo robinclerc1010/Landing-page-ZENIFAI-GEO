@@ -12,9 +12,9 @@ export default function Footer() {
           {/* Col 1: Logo + tagline */}
           <div className="space-y-3 sm:col-span-2 lg:col-span-1">
             <a
-              href="#"
+              href="/"
               className="inline-block font-serif text-xl font-semibold text-text-primary hover:opacity-80 transition-opacity"
-              aria-label="Zenifai — retour en haut"
+              aria-label="Zenifai — retour à l'accueil"
             >
               Zenifai<span className="text-accent-violet">•</span>
             </a>
@@ -98,9 +98,10 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                {/* TODO: remplacer par vrai lien LinkedIn */}
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/company/zenifai"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-sm text-text-secondary hover:text-accent-violet transition-colors duration-200 cursor-pointer"
                   aria-label="Zenifai sur LinkedIn"
                 >

@@ -31,7 +31,7 @@ const faq = [
   {
     question: "Quel est le tarif d’un audit GEO ?",
     answer:
-      "Le pré-audit de cadrage est offert. L’audit complet démarre à partir de 3 500 € HT selon le périmètre (nombre de marchés, langues, concurrents). Devis personnalisé sous 24h.",
+      "Le pré-audit de cadrage est offert. Le tarif d’un audit complet est défini sur-mesure en fonction de votre besoin : nombre de marchés et langues, profondeur d’analyse concurrentielle, périmètre du diagnostic technique. Nous établissons un devis personnalisé sous 24h après un échange de cadrage de 30 min.",
   },
 ];
 
