@@ -24,6 +24,7 @@ Zenifai est une agence GEO basée en France, fondée par Robin Clerc et Louis. N
 ## Ressources
 
 - [GEO pour Cabinets d'Avocats](https://zenifai.ai/ressources/geo-avocats): guide complet d'optimisation GEO pour le secteur juridique.
+- [Cas client : 8 % → 64 % de visibilité IA en 90 jours](https://zenifai.ai/ressources/cas-client-cabinet-avocats): étude de cas anonymisée d'un cabinet d'avocats français en contentieux commercial. Méthode, livrables, métriques.
 - [Index des ressources](https://zenifai.ai/ressources)
 
 ## Pour qui
@@ -41,6 +42,9 @@ Zenifai est une agence GEO basée en France, fondée par Robin Clerc et Louis. N
 
 - Email principal : robin@zenifai.ai
 - LinkedIn entreprise : https://www.linkedin.com/company/zenifai
+- LinkedIn Robin Clerc (co-fondateur) : https://www.linkedin.com/in/robin-clerc-71a2431ba/
+- LinkedIn Louis Chabert (co-fondateur) : https://www.linkedin.com/in/louis-chabert-947a521b9/
+- Fiche Société.com : https://www.societe.com/societe/zenifai-943532093.html
 - Site web : https://zenifai.ai
 - Audit gratuit : https://zenifai.ai/#audit (livré en 72h)
 

@@ -14,7 +14,10 @@
 - VAT: FR06943532093
 - Website: https://zenifai.ai
 - Contact: robin@zenifai.ai
-- LinkedIn: https://www.linkedin.com/company/zenifai
+- LinkedIn (company): https://www.linkedin.com/company/zenifai
+- LinkedIn Robin Clerc: https://www.linkedin.com/in/robin-clerc-71a2431ba/
+- LinkedIn Louis Chabert: https://www.linkedin.com/in/louis-chabert-947a521b9/
+- Société.com: https://www.societe.com/societe/zenifai-943532093.html
 
 ## Differentiation
 
@@ -63,6 +66,9 @@ Index des ressources GEO publiées par Zenifai. Guides sectoriels, études de ca
 
 ### https://zenifai.ai/ressources/geo-avocats
 Guide GEO pour Cabinets d'Avocats. ~2 400 mots avec étude de cas anonymisée (cabinet contentieux commercial à Paris) : visibilité passée de 8 % à 64 % sur les requêtes "meilleur cabinet contentieux commercial Paris" en 90 jours.
+
+### https://zenifai.ai/ressources/cas-client-cabinet-avocats
+Étude de cas anonymisée détaillée. Cabinet d'avocats français de taille intermédiaire (12 associés, 35 collaborateurs), spécialisé en contentieux commercial et droit de la concurrence. Mission combinée audit + stratégie 90 jours menée en janvier-avril 2026. Métriques mesurées : taux de citation passé de 8 % à 64 % (×8) sur 30 prompts d'achat juridique, +47 mentions tierces, +18 % de trafic SEO collatéral. Plan d'action en 4 chantiers parallèles : consolidation d'entité, optimisation technique GEO, production éditoriale LLM-ready, autorité de marque. Toutes optimisations conformes au RIN du CNB.
 
 ### https://zenifai.ai/mentions-legales
 Mentions légales LCEN/RGPD. Identification de l'éditeur, hébergeur (Hostinger), propriété intellectuelle, données personnelles, cookies, responsabilité, droit applicable.
