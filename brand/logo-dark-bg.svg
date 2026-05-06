@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 120" width="480" height="120" role="img" aria-label="Zenifai">
+  <defs>
+    <style type="text/css"><![CDATA[
+      @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600&display=swap');
+      .word { font: 600 88px 'Fraunces','Times New Roman','Garamond',serif; fill:#FFFFFF; letter-spacing:-1px; }
+      .dot  { fill:#7C5CFF; }
+    ]]></style>
+  </defs>
+  <text x="20" y="92" class="word">Zenifai</text>
+  <circle cx="395" cy="84" r="9" class="dot"/>
+</svg>
