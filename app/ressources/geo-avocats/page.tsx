@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import GeoAvocatsContent from "./GeoAvocatsContent";
+import { FAQ_ITEMS } from "./faq-data";
+import { faqJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
 
 export const metadata: Metadata = {
   title: "GEO pour Cabinets d'Avocats : guide stratégique 2026 | Zenifai",
@@ -48,7 +50,12 @@ const jsonLd = {
   author: { "@type": "Organization", name: "Zenifai", url: "https://zenifai.ai" },
   publisher: { "@type": "Organization", name: "Zenifai", url: "https://zenifai.ai" },
   datePublished: "2026-01-01",
+  dateModified: "2026-05-06",
   url: "https://zenifai.ai/ressources/geo-avocats",
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://zenifai.ai/ressources/geo-avocats",
+  },
   inLanguage: "fr-FR",
   about: [
     { "@type": "Thing", name: "Generative Engine Optimization" },
@@ -57,12 +64,28 @@ const jsonLd = {
   ],
 };
 
+const faqSchema = faqJsonLd(FAQ_ITEMS);
+
+const breadcrumbSchema = breadcrumbJsonLd([
+  { name: "Accueil", url: "https://zenifai.ai" },
+  { name: "Ressources", url: "https://zenifai.ai/ressources" },
+  { name: "GEO pour Cabinets d'Avocats", url: "https://zenifai.ai/ressources/geo-avocats" },
+]);
+
 export default function GeoAvocatsPage() {
   return (
     <main className="bg-bg-primary text-text-primary">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
       <Nav />
       <GeoAvocatsContent />

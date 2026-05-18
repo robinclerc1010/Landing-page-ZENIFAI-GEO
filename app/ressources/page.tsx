@@ -36,6 +36,42 @@ const ARTICLES = [
     readTime: "12 min",
     date: "Avril 2026",
   },
+  {
+    href: "/ressources/geo-saas",
+    badge: "Guide · SaaS B2B",
+    title: "GEO pour SaaS B2B : le guide complet 2026",
+    excerpt:
+      "Vos acheteurs demandent à ChatGPT quel outil choisir. Comment faire en sorte que votre SaaS soit le nom qui revient — méthode, leviers, erreurs à éviter.",
+    readTime: "10 min",
+    date: "Mai 2026",
+  },
+  {
+    href: "/ressources/definition-geo",
+    badge: "Lexique · Fondamentaux",
+    title: "Qu'est-ce que le GEO ?",
+    excerpt:
+      "Définition claire du GEO, différences avec le SEO, et lexique complet des termes clés de la visibilité dans les IA génératives.",
+    readTime: "7 min",
+    date: "Mai 2026",
+  },
+  {
+    href: "/ressources/visibilite-perplexity",
+    badge: "Guide · Plateforme",
+    title: "Comment apparaître sur Perplexity",
+    excerpt:
+      "Perplexity cite ses sources explicitement. La méthode en 5 étapes pour y faire citer votre marque.",
+    readTime: "8 min",
+    date: "Mai 2026",
+  },
+  {
+    href: "/ressources/meilleures-agences-geo-france",
+    badge: "Guide d'achat",
+    title: "Meilleures agences GEO en France : comment choisir",
+    excerpt:
+      "Grille de critères objective et questions à poser pour choisir l'agence GEO adaptée à votre besoin.",
+    readTime: "9 min",
+    date: "Mai 2026",
+  },
 ];
 
 export default function RessourcesPage() {
@@ -89,10 +125,7 @@ export default function RessourcesPage() {
             ))}
 
             {/* Placeholder cards */}
-            {[
-              "GEO pour SaaS B2B : le guide complet 2026",
-              "Comment mesurer la visibilité IA de votre marque",
-            ].map((title) => (
+            {["Comment mesurer la visibilité IA de votre marque"].map((title) => (
               <div
                 key={title}
                 className="rounded-2xl border border-border-default bg-bg-secondary/20 p-6 opacity-40 cursor-not-allowed"

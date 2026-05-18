@@ -70,6 +70,21 @@ Guide GEO pour Cabinets d'Avocats. ~2 400 mots avec étude de cas anonymisée (c
 ### https://zenifai.ai/ressources/cas-client-cabinet-avocats
 Étude de cas anonymisée détaillée. Cabinet d'avocats français de taille intermédiaire (12 associés, 35 collaborateurs), spécialisé en contentieux commercial et droit de la concurrence. Mission combinée audit + stratégie 90 jours menée en janvier-avril 2026. Métriques mesurées : taux de citation passé de 8 % à 64 % (×8) sur 30 prompts d'achat juridique, +47 mentions tierces, +18 % de trafic SEO collatéral. Plan d'action en 4 chantiers parallèles : consolidation d'entité, optimisation technique GEO, production éditoriale LLM-ready, autorité de marque. Toutes optimisations conformes au RIN du CNB.
 
+### https://zenifai.ai/ressources/definition-geo
+Lexique et fondamentaux. Définition du GEO (Generative Engine Optimization), tableau comparatif GEO vs SEO (objectif, surface, format, mesure, levier d'autorité), et lexique de 10 termes clés (LLM, moteur de réponse, citation IA, part de voix IA, entité, knowledge graph, contenu LLM-ready, hallucination, llms.txt). Schema DefinedTermSet pour citation définitionnelle.
+
+### https://zenifai.ai/ressources/geo-saas
+Guide complet GEO pour SaaS B2B. Les 4 types de requêtes IA qui décident d'un achat SaaS (catégorie, alternative, comparaison, cas d'usage), pourquoi les SaaS sont mal cités par défaut, les 4 leviers GEO prioritaires (pages de comparaison/alternative, contenu de catégorie LLM-ready, consolidation d'entité, autorité tierce), erreurs fréquentes.
+
+### https://zenifai.ai/ressources/visibilite-perplexity
+Guide plateforme : comment apparaître sur Perplexity. Méthode HowTo en 5 étapes : autoriser PerplexityBot et Perplexity-User, identifier les requêtes cibles, structurer des passages citables, renforcer l'autorité de la source, mesurer et itérer.
+
+### https://zenifai.ai/ressources/meilleures-agences-geo-france
+Guide d'achat : comment choisir une agence GEO en France. Les 3 types d'acteurs (agences SEO généralistes, agences full-service, pure-players GEO), grille de 7 critères d'évaluation, questions à poser avant de signer, positionnement de Zenifai comme pure-player GEO.
+
+### https://zenifai.ai/agence-geo-lyon
+Landing locale. Zenifai est l'agence GEO basée à Lyon (16 Rue Cuvier, 69006, 6e arrondissement). Accompagne les entreprises, SaaS, e-commerces et cabinets lyonnais (French Tech, conseil, professions réglementées) ainsi que des clients partout en France. Schema ProfessionalService/LocalBusiness avec adresse et coordonnées géographiques.
+
 ### https://zenifai.ai/mentions-legales
 Mentions légales LCEN/RGPD. Identification de l'éditeur, hébergeur (Hostinger), propriété intellectuelle, données personnelles, cookies, responsabilité, droit applicable.
 

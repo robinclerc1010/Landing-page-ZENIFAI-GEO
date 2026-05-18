@@ -15,6 +15,7 @@ const AUDIENCES = [
       "Votre pipeline se tarit sans comprendre pourquoi.",
       "Votre contenu est excellent — mais les LLMs ne le citent pas.",
     ],
+    link: { href: "/ressources/geo-saas", label: "Guide : GEO pour SaaS B2B" },
   },
   {
     icon: ShoppingBag,
@@ -24,6 +25,10 @@ const AUDIENCES = [
       "Meta Ads coûte de plus en plus cher pour des résultats décroissants.",
       "Vos concurrents sont recommandés par Perplexity. Pas vous.",
     ],
+    link: {
+      href: "/ressources/visibilite-perplexity",
+      label: "Guide : apparaître sur Perplexity",
+    },
   },
   {
     icon: Briefcase,
@@ -33,6 +38,10 @@ const AUDIENCES = [
       "Secteurs : conseil, juridique, santé, finance.",
       "La réputation en ligne ne suffit plus — il faut la crédibilité IA.",
     ],
+    link: {
+      href: "/ressources/geo-avocats",
+      label: "Guide : GEO pour cabinets d'avocats",
+    },
   },
 ];
 
@@ -77,6 +86,15 @@ export default function ForWho() {
                     </li>
                   ))}
                 </ul>
+
+                {audience.link && (
+                  <a
+                    href={audience.link.href}
+                    className="inline-flex items-center gap-1 text-sm font-medium text-accent-violet hover:gap-2 transition-all duration-200"
+                  >
+                    {audience.link.label} →
+                  </a>
+                )}
               </motion.div>
             );
           })}

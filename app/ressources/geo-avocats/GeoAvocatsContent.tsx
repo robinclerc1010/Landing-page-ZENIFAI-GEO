@@ -16,6 +16,7 @@ import {
 import { CALENDLY_URL } from "@/lib/constants";
 import AnimatedNumber from "@/components/ui/AnimatedNumber";
 import SectionWrapper from "@/components/ui/SectionWrapper";
+import { FAQ_ITEMS } from "./faq-data";
 
 // ─── Data ──────────────────────────────────────────────────────────────────────
 
@@ -170,39 +171,6 @@ const ERREURS = [
   {
     title: "Mesurer avec les mauvais KPIs",
     desc: "Le trafic web seul ne dit rien du GEO. Il faut mesurer la part de voix IA, le nombre de requêtes couvertes et les citations dans les réponses LLM — des métriques que les outils SEO classiques ne fournissent pas.",
-  },
-];
-
-const FAQ_ITEMS = [
-  {
-    question: "Le GEO est-il compatible avec les règles déontologiques des avocats ?",
-    answer:
-      "Oui, intégralement, si la stratégie est pensée dans ce cadre. Nous travaillons uniquement sur des contenus d'expertise, des publications factuelles et des signaux d'autorité légitimes — jamais sur des approches promotionnelles non conformes au RIN.",
-  },
-  {
-    question: "Combien de temps avant de voir mon cabinet cité par ChatGPT ?",
-    answer:
-      "Les premiers signaux apparaissent généralement entre 45 et 90 jours. Une présence stable sur les requêtes stratégiques s'installe sur 4 à 6 mois. Le GEO est un actif durable, pas un levier court-terme.",
-  },
-  {
-    question: "Quels cabinets sont les plus concernés ?",
-    answer:
-      "Les cabinets d'avocats d'affaires (M&A, corporate, fiscal, social, contentieux commercial) ciblant des dirigeants d'entreprise et fondateurs. Également les cabinets spécialisés (propriété intellectuelle, tech, concurrence) où le prospect effectue des recherches très ciblées.",
-  },
-  {
-    question: "Quel budget prévoir pour une stratégie GEO efficace pour un cabinet ?",
-    answer:
-      "Nos accompagnements pour cabinets démarrent à 4 200 € HT/mois avec un setup initial. Pour un cabinet qui cible sérieusement un canal d'acquisition long terme, c'est un investissement largement inférieur au SEA juridique ou à un recruteur en développement commercial.",
-  },
-  {
-    question: "Le GEO remplace-t-il le SEO classique ?",
-    answer:
-      "Non. Le SEO reste essentiel pour les requêtes transactionnelles directes. Le GEO capture une audience différente : des décideurs en amont du parcours, qui cherchent conseil plutôt qu'un prestataire. Les deux se renforcent mutuellement.",
-  },
-  {
-    question: "Puis-je faire du GEO en interne sans agence ?",
-    answer:
-      "Oui, techniquement. En pratique, cela demande une équipe dédiée — contenu, relations presse, technique SEO, suivi des LLMs — que peu de cabinets ont en interne. Une agence spécialisée apporte la méthode, les outils de tracking et la vitesse d'exécution.",
   },
 ];
 
@@ -651,7 +619,7 @@ export default function GeoAvocatsContent() {
         <div className="max-w-3xl mx-auto space-y-8">
           <div className="space-y-4">
             <h2 className="font-serif text-3xl sm:text-4xl font-semibold leading-[1.15] tracking-tight">
-              Les requêtes IA où vous{" "}
+              GEO avocats : les requêtes IA où vous{" "}
               <span className="bg-gradient-to-r from-[#7C5CFF] to-[#A78BFA] bg-clip-text text-transparent">
                 devez apparaître
               </span>

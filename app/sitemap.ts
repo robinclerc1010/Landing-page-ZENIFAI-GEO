@@ -15,6 +15,12 @@ const PAGES: Array<{
   { path: "/methode", lastModified: "2026-05-05", changeFrequency: "monthly", priority: 0.9 },
   { path: "/services", lastModified: "2026-05-05", changeFrequency: "monthly", priority: 0.9 },
   {
+    path: "/agence-geo-lyon",
+    lastModified: "2026-05-06",
+    changeFrequency: "monthly",
+    priority: 0.9,
+  },
+  {
     path: "/services/audit-visibilite-ia",
     lastModified: "2026-05-06",
     changeFrequency: "monthly",
@@ -55,6 +61,30 @@ const PAGES: Array<{
     lastModified: "2026-05-06",
     changeFrequency: "monthly",
     priority: 0.8,
+  },
+  {
+    path: "/ressources/definition-geo",
+    lastModified: "2026-05-06",
+    changeFrequency: "monthly",
+    priority: 0.8,
+  },
+  {
+    path: "/ressources/geo-saas",
+    lastModified: "2026-05-06",
+    changeFrequency: "monthly",
+    priority: 0.8,
+  },
+  {
+    path: "/ressources/visibilite-perplexity",
+    lastModified: "2026-05-06",
+    changeFrequency: "monthly",
+    priority: 0.7,
+  },
+  {
+    path: "/ressources/meilleures-agences-geo-france",
+    lastModified: "2026-05-06",
+    changeFrequency: "monthly",
+    priority: 0.7,
   },
   {
     path: "/mentions-legales",
