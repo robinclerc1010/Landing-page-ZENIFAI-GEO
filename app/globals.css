@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --font-inter: "Inter", system-ui, sans-serif;
-  --font-fraunces: "Fraunces", Georgia, serif;
-}
+/*
+ * Les variables --font-inter et --font-fraunces sont définies par next/font
+ * (scopées sur la classe appliquée à <html>). On NE les redéclare pas ici :
+ * une redéclaration dans :root entre en conflit de cascade et écrase la
+ * vraie police chargée par next/font → les titres retombent sur Georgia.
+ */
 
 * {
   box-sizing: border-box;
