@@ -55,6 +55,15 @@ const ARTICLES = [
     date: "Mai 2026",
   },
   {
+    href: "/ressources/visibilite-chatgpt",
+    badge: "Guide · Plateforme",
+    title: "Comment apparaître sur ChatGPT",
+    excerpt:
+      "Les deux leviers de ChatGPT — connaissance du modèle et ChatGPT Search — et la méthode en 6 étapes pour y faire citer votre marque.",
+    readTime: "10 min",
+    date: "Mai 2026",
+  },
+  {
     href: "/ressources/visibilite-perplexity",
     badge: "Guide · Plateforme",
     title: "Comment apparaître sur Perplexity",

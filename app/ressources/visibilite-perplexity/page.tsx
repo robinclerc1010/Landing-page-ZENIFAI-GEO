@@ -193,7 +193,12 @@ export default function Page() {
           <a href="/services/audit-visibilite-ia" className="text-accent-violet hover:underline">
             audit de visibilité IA
           </a>{" "}
-          mesure votre part de voix sur Perplexity comme sur ChatGPT, Gemini et Claude.
+          mesure votre part de voix sur Perplexity comme sur ChatGPT, Gemini et Claude. Voir
+          aussi notre guide{" "}
+          <a href="/ressources/visibilite-chatgpt" className="text-accent-violet hover:underline">
+            « Comment apparaître sur ChatGPT »
+          </a>
+          .
         </P>
       </ArticleLayout>
     </>
