@@ -97,7 +97,7 @@ const articleJsonLd = {
   description:
     "Méthode complète pour faire citer un site dans les AI Overviews de Google.",
   url: URL,
-  datePublished: "2026-05-19",
+  datePublished: "2025-06-15",
   dateModified: "2026-05-19",
   inLanguage: "fr-FR",
   author: { "@id": "https://zenifai.ai/#organization" },
@@ -138,7 +138,7 @@ export default function Page() {
         title="Comment apparaître dans"
         titleAccent="Google AI Overviews"
         intro="Les AI Overviews placent une réponse générée par l’IA tout en haut des résultats Google — devant le premier lien organique. C’est la plus grande surface d’exposition IA. Voici comment votre site peut en devenir une source citée."
-        date="Publié en mai 2026"
+        date="Publié en juin 2025"
         readTime="~10 min de lecture"
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}

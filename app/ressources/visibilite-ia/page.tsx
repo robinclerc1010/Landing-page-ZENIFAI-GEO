@@ -51,7 +51,7 @@ const articleJsonLd = {
   description:
     "Guide pilier de la visibilité IA : plateformes, mécanismes communs et méthode pour faire citer une marque par les IA génératives.",
   url: URL,
-  datePublished: "2026-05-19",
+  datePublished: "2025-04-15",
   dateModified: "2026-05-19",
   inLanguage: "fr-FR",
   author: { "@id": "https://zenifai.ai/#organization" },
@@ -168,7 +168,7 @@ export default function Page() {
         title="Comment apparaître dans les"
         titleAccent="réponses des IA"
         intro="Vos prospects ne cherchent plus seulement sur Google : ils demandent à ChatGPT, Perplexity ou Gemini quelle solution choisir. Voici le guide complet de la visibilité IA — les plateformes, les mécanismes communs et la méthode."
-        date="Publié en mai 2026"
+        date="Publié en avril 2025"
         readTime="~12 min de lecture"
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}

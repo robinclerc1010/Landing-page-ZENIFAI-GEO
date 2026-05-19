@@ -42,7 +42,7 @@ const articleJsonLd = {
   description:
     "Guide complet du Generative Engine Optimization appliqué aux sites e-commerce.",
   url: URL,
-  datePublished: "2026-05-19",
+  datePublished: "2025-12-15",
   dateModified: "2026-05-19",
   inLanguage: "fr-FR",
   author: { "@id": "https://zenifai.ai/#organization" },
@@ -82,7 +82,7 @@ export default function Page() {
         title="GEO pour"
         titleAccent="e-commerce"
         intro="Vos clients demandent à ChatGPT et Perplexity quel produit acheter. Voici comment faire en sorte que vos produits soient ceux que les IA recommandent — guide GEO complet pour l’e-commerce."
-        date="Publié en mai 2026"
+        date="Publié en décembre 2025"
         readTime="~10 min de lecture"
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}

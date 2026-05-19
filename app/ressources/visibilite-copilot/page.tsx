@@ -93,7 +93,7 @@ const articleJsonLd = {
   description:
     "Méthode complète pour faire citer votre marque par Microsoft Copilot via l’index Bing.",
   url: URL,
-  datePublished: "2026-05-19",
+  datePublished: "2025-09-15",
   dateModified: "2026-05-19",
   inLanguage: "fr-FR",
   author: { "@id": "https://zenifai.ai/#organization" },
@@ -134,7 +134,7 @@ export default function Page() {
         title="Comment apparaître sur"
         titleAccent="Microsoft Copilot"
         intro="Copilot est l’IA de Microsoft, intégrée à Bing, Edge, Windows et Microsoft 365. Sa particularité : il s’appuie sur l’index Bing — un levier souvent négligé. Voici comment en tirer parti."
-        date="Publié en mai 2026"
+        date="Publié en septembre 2025"
         readTime="~9 min de lecture"
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}

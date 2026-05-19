@@ -81,7 +81,7 @@ const articleJsonLd = {
   description:
     "Comparaison complète du GEO et du SEO : objectifs, formats, mesure, leviers d’autorité.",
   url: URL,
-  datePublished: "2026-05-19",
+  datePublished: "2025-02-15",
   dateModified: "2026-05-19",
   inLanguage: "fr-FR",
   author: { "@id": "https://zenifai.ai/#organization" },
@@ -155,7 +155,7 @@ export default function Page() {
         title="GEO vs SEO :"
         titleAccent="quelles différences ?"
         intro="Le SEO optimise votre classement dans une liste de liens. Le GEO optimise votre citation dans une réponse d’IA. Voici le comparatif complet — et les chiffres qui montrent pourquoi les deux comptent désormais."
-        date="Publié en mai 2026"
+        date="Publié en février 2025"
         readTime="~8 min de lecture"
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}

@@ -42,8 +42,8 @@ const articleJsonLd = {
   description:
     "Guide complet du Generative Engine Optimization appliqué aux SaaS B2B : méthode, leviers, erreurs à éviter.",
   url: URL,
-  datePublished: "2026-05-06",
-  dateModified: "2026-05-06",
+  datePublished: "2025-10-15",
+  dateModified: "2026-05-19",
   inLanguage: "fr-FR",
   author: { "@id": "https://zenifai.ai/#organization" },
   publisher: { "@id": "https://zenifai.ai/#organization" },
@@ -82,7 +82,7 @@ export default function Page() {
         title="GEO pour"
         titleAccent="SaaS B2B"
         intro="Vos acheteurs demandent à ChatGPT et Perplexity quel outil choisir. Voici comment faire en sorte que votre SaaS soit le nom qui revient — guide complet 2026."
-        date="Publié en mai 2026"
+        date="Publié en octobre 2025"
         readTime="~10 min de lecture"
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}

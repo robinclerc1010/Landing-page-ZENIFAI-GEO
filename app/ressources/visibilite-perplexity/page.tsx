@@ -82,8 +82,8 @@ const articleJsonLd = {
   description:
     "Méthode pas à pas pour faire citer votre marque par le moteur de réponse Perplexity.",
   url: URL,
-  datePublished: "2026-05-06",
-  dateModified: "2026-05-06",
+  datePublished: "2025-07-15",
+  dateModified: "2026-05-19",
   inLanguage: "fr-FR",
   author: { "@id": "https://zenifai.ai/#organization" },
   publisher: { "@id": "https://zenifai.ai/#organization" },
@@ -123,7 +123,7 @@ export default function Page() {
         title="Comment apparaître sur"
         titleAccent="Perplexity"
         intro="Perplexity cite ses sources explicitement — ce qui en fait le moteur de réponse le plus actionnable pour le GEO. Voici la méthode en 5 étapes pour y faire citer votre marque."
-        date="Publié en mai 2026"
+        date="Publié en juillet 2025"
         readTime="~8 min de lecture"
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}

@@ -46,8 +46,8 @@ const articleJsonLd = {
   description:
     "Guide objectif pour choisir une agence de Generative Engine Optimization en France.",
   url: URL,
-  datePublished: "2026-05-06",
-  dateModified: "2026-05-06",
+  datePublished: "2026-01-15",
+  dateModified: "2026-05-19",
   inLanguage: "fr-FR",
   author: { "@id": "https://zenifai.ai/#organization" },
   publisher: { "@id": "https://zenifai.ai/#organization" },
@@ -83,7 +83,7 @@ export default function Page() {
         title="Meilleures agences GEO en France :"
         titleAccent="comment choisir"
         intro="Le marché des agences GEO est jeune et hétérogène. Plutôt qu’un classement figé, voici une grille de critères objective pour choisir l’agence de Generative Engine Optimization adaptée à votre besoin."
-        date="Publié en mai 2026 — mis à jour régulièrement"
+        date="Publié en janvier 2026 — mis à jour régulièrement"
         readTime="~9 min de lecture"
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}

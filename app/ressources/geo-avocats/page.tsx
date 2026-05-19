@@ -49,8 +49,8 @@ const jsonLd = {
     "Guide stratégique du GEO appliqué aux cabinets d'avocats d'affaires et fiscalistes. Comment être recommandé par les IA quand un dirigeant cherche un conseil juridique.",
   author: { "@type": "Organization", name: "Zenifai", url: "https://zenifai.ai" },
   publisher: { "@type": "Organization", name: "Zenifai", url: "https://zenifai.ai" },
-  datePublished: "2026-01-01",
-  dateModified: "2026-05-06",
+  datePublished: "2025-11-15",
+  dateModified: "2026-05-19",
   url: "https://zenifai.ai/ressources/geo-avocats",
   mainEntityOfPage: {
     "@type": "WebPage",

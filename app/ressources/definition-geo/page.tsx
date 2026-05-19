@@ -42,8 +42,8 @@ const articleJsonLd = {
   description:
     "Définition du GEO (Generative Engine Optimization), différence avec le SEO et lexique des termes clés.",
   url: URL,
-  datePublished: "2026-05-06",
-  dateModified: "2026-05-06",
+  datePublished: "2025-01-15",
+  dateModified: "2026-05-19",
   inLanguage: "fr-FR",
   author: { "@id": "https://zenifai.ai/#organization" },
   publisher: { "@id": "https://zenifai.ai/#organization" },
@@ -139,7 +139,7 @@ export default function Page() {
         title="Qu’est-ce que le"
         titleAccent="GEO ?"
         intro="Le GEO, ou Generative Engine Optimization, est la discipline qui rend votre marque visible dans les réponses des IA génératives. Définition, différences avec le SEO, et lexique complet."
-        date="Publié en mai 2026"
+        date="Publié en janvier 2025"
         readTime="~7 min de lecture"
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}

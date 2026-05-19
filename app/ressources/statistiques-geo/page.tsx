@@ -120,7 +120,7 @@ const articleJsonLd = {
   description:
     "Statistiques GEO 2026 sourcées sur l’adoption des IA, la bascule de la recherche et l’impact pour les marques.",
   url: URL,
-  datePublished: "2026-05-19",
+  datePublished: "2026-05-15",
   dateModified: "2026-05-19",
   inLanguage: "fr-FR",
   author: { "@id": "https://zenifai.ai/#organization" },

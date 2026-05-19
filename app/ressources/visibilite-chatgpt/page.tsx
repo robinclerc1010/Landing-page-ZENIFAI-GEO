@@ -93,7 +93,7 @@ const articleJsonLd = {
   description:
     "Méthode complète pour faire citer votre marque par ChatGPT, sur ses deux leviers : connaissance d’entraînement et ChatGPT Search.",
   url: URL,
-  datePublished: "2026-05-19",
+  datePublished: "2025-05-15",
   dateModified: "2026-05-19",
   inLanguage: "fr-FR",
   author: { "@id": "https://zenifai.ai/#organization" },
@@ -134,7 +134,7 @@ export default function Page() {
         title="Comment apparaître sur"
         titleAccent="ChatGPT"
         intro="800 millions de personnes utilisent ChatGPT chaque semaine pour choisir un outil, un prestataire, une solution. Voici la méthode complète pour que votre marque figure dans ses réponses — sur ses deux leviers : la connaissance du modèle et ChatGPT Search."
-        date="Publié en mai 2026"
+        date="Publié en mai 2025"
         readTime="~10 min de lecture"
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}

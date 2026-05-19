@@ -56,7 +56,7 @@ const articleJsonLd = {
   description:
     "Glossaire complet du Generative Engine Optimization et de la recherche générative.",
   url: URL,
-  datePublished: "2026-05-19",
+  datePublished: "2025-03-15",
   dateModified: "2026-05-19",
   inLanguage: "fr-FR",
   author: { "@id": "https://zenifai.ai/#organization" },
@@ -97,7 +97,7 @@ export default function Page() {
         title="Lexique"
         titleAccent="GEO"
         intro="Toutes les définitions de la visibilité dans les IA génératives, en un glossaire clair et structuré. Du GEO aux crawlers IA, de l’entité à la part de voix — le vocabulaire de la recherche générative."
-        date="Mis à jour en mai 2026"
+        date="Publié en mars 2025"
         readTime={`${LEXIQUE_COUNT} termes · 5 catégories`}
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}

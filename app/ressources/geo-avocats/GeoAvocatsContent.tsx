@@ -317,7 +317,7 @@ export default function GeoAvocatsContent() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-text-secondary/40 mb-8"
           >
-            <span>Publié en 2026</span>
+            <span>Publié en novembre 2025</span>
             <span>·</span>
             <span>Lecture 12 min</span>
             <span>·</span>

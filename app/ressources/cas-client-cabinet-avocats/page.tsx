@@ -17,8 +17,8 @@ export const metadata: Metadata = {
   openGraph: { url: URL, title: "Cas client : 8 % → 64 % de visibilité IA", type: "article" },
 };
 
-const datePublished = "2026-04-15";
-const dateModified = "2026-05-06";
+const datePublished = "2026-03-15";
+const dateModified = "2026-05-19";
 
 const articleJsonLd = {
   "@context": "https://schema.org",
@@ -63,7 +63,7 @@ const reviewJsonLd = {
   publisher: { "@id": "https://zenifai.ai/#organization" },
   reviewBody:
     "En 90 jours, nos prospects ont commencé à nous citer spontanément les réponses qu’ils avaient obtenues sur ChatGPT à propos de notre cabinet. Le travail de Zenifai a transformé notre manière d’apparaître dans la phase de présélection.",
-  datePublished: "2026-04-10",
+  datePublished: "2026-03-10",
 };
 
 const faq = [
@@ -146,7 +146,7 @@ export default function Page() {
 
           <div className="mt-8 flex flex-wrap gap-3 text-xs text-text-secondary/70">
             <span className="px-3 py-1 rounded-full border border-border-default">
-              Publié le 15 avril 2026
+              Publié en mars 2026
             </span>
             <span className="px-3 py-1 rounded-full border border-border-default">
               ~9 min de lecture

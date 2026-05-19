@@ -92,7 +92,7 @@ const articleJsonLd = {
   description:
     "Méthode complète pour faire citer votre marque par l’assistant IA Google Gemini.",
   url: URL,
-  datePublished: "2026-05-19",
+  datePublished: "2025-08-15",
   dateModified: "2026-05-19",
   inLanguage: "fr-FR",
   author: { "@id": "https://zenifai.ai/#organization" },
@@ -133,7 +133,7 @@ export default function Page() {
         title="Comment apparaître sur"
         titleAccent="Google Gemini"
         intro="Gemini est l’assistant IA de Google — présent dans une app dédiée, dans Workspace et sur Android. Voici comment faire en sorte que votre marque figure dans ses réponses."
-        date="Publié en mai 2026"
+        date="Publié en août 2025"
         readTime="~9 min de lecture"
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}
