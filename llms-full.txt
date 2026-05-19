@@ -73,6 +73,9 @@ Guide GEO pour Cabinets d'Avocats. ~2 400 mots avec étude de cas anonymisée (c
 ### https://zenifai.ai/ressources/definition-geo
 Lexique et fondamentaux. Définition du GEO (Generative Engine Optimization), tableau comparatif GEO vs SEO (objectif, surface, format, mesure, levier d'autorité), et lexique de 10 termes clés (LLM, moteur de réponse, citation IA, part de voix IA, entité, knowledge graph, contenu LLM-ready, hallucination, llms.txt). Schema DefinedTermSet pour citation définitionnelle.
 
+### https://zenifai.ai/ressources/lexique-geo
+Lexique GEO : glossaire de référence de la visibilité dans les IA génératives. 47 termes définis, classés en 5 catégories — Fondamentaux (GEO, SEO, AEO, LLMO, moteur de réponse, recherche générative), IA & plateformes (LLM, ChatGPT, ChatGPT Search, Perplexity, Gemini, AI Overviews, AI Mode, Copilot, Claude, RAG, grounding, connaissance paramétrique), Technique & crawlers (robots.txt, llms.txt, GPTBot, OAI-SearchBot, Google-Extended, Content-Signal, IndexNow, schema.org, JSON-LD, SSR), Contenu & autorité (entité, knowledge graph, contenu LLM-ready, citabilité, passage, format Q→R, E-E-A-T, autorité tierce, hallucination, désambiguïsation d'entité, sameAs), Mesure & stratégie (citation IA, part de voix IA, IA Visibility Score, prompt, corpus de prompts, hub-and-spoke). Schema DefinedTermSet.
+
 ### https://zenifai.ai/ressources/geo-vs-seo
 Comparatif fondamental : GEO vs SEO. Définit les deux disciplines, fournit un tableau comparatif détaillé (objectif, surface, unité de résultat, format gagnant, levier d'autorité, indicateur de succès, rôle du contenu) et les chiffres de la bascule vers la recherche IA (sources OpenAI, Semrush, Google, McKinsey). Insiste sur la complémentarité : le GEO ne remplace pas le SEO, les AI Overviews et ChatGPT Search s'appuient sur l'index web. Section sur la combinaison concrète des deux.
 
