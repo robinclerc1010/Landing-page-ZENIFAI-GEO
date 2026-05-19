@@ -95,7 +95,8 @@ const platforms: {
   {
     name: "Google AI Overviews",
     desc: "Les réponses générées en tête des résultats Google. La plus grande surface d’exposition, adossée à l’index Google.",
-    guide: "Guide à venir",
+    href: "/ressources/google-ai-overviews",
+    guide: "Lire le guide AI Overviews",
   },
   {
     name: "Perplexity",

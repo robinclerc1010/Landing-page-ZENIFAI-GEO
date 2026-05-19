@@ -73,6 +73,15 @@ const ARTICLES = [
     date: "Mai 2026",
   },
   {
+    href: "/ressources/google-ai-overviews",
+    badge: "Guide · Plateforme",
+    title: "Comment apparaître dans Google AI Overviews",
+    excerpt:
+      "La réponse IA en tête de Google : comment Google génère les AI Overviews et la méthode en 6 étapes pour en devenir une source citée.",
+    readTime: "10 min",
+    date: "Mai 2026",
+  },
+  {
     href: "/ressources/visibilite-perplexity",
     badge: "Guide · Plateforme",
     title: "Comment apparaître sur Perplexity",

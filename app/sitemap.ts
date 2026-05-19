@@ -87,6 +87,12 @@ const PAGES: Array<{
     priority: 0.9,
   },
   {
+    path: "/ressources/google-ai-overviews",
+    lastModified: "2026-05-19",
+    changeFrequency: "monthly",
+    priority: 0.9,
+  },
+  {
     path: "/ressources/visibilite-perplexity",
     lastModified: "2026-05-06",
     changeFrequency: "monthly",
