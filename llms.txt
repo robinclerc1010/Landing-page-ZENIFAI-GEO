@@ -29,6 +29,7 @@ Zenifai est une agence GEO basée en France, fondée par Robin Clerc et Louis. N
 - [Cas client : 8 % → 64 % de visibilité IA en 90 jours](https://zenifai.ai/ressources/cas-client-cabinet-avocats): étude de cas anonymisée d'un cabinet d'avocats français en contentieux commercial. Méthode, livrables, métriques.
 - [Comment apparaître dans les réponses des IA](https://zenifai.ai/ressources/visibilite-ia): guide pilier de la visibilité IA — les 5 plateformes, les 2 mécanismes communs et les 6 leviers du GEO.
 - [Comment apparaître sur ChatGPT](https://zenifai.ai/ressources/visibilite-chatgpt): méthode en 6 étapes pour faire citer une marque par ChatGPT, sur ses deux leviers (connaissance du modèle et ChatGPT Search).
+- [Comment apparaître dans Google AI Overviews](https://zenifai.ai/ressources/google-ai-overviews): méthode en 6 étapes pour devenir une source citée dans les réponses IA en tête de Google.
 - [Comment apparaître sur Perplexity](https://zenifai.ai/ressources/visibilite-perplexity): méthode en 5 étapes pour faire citer une marque par Perplexity.
 - [Meilleures agences GEO en France](https://zenifai.ai/ressources/meilleures-agences-geo-france): guide de choix d'une agence GEO, critères de sélection.
 - [Index des ressources](https://zenifai.ai/ressources)
