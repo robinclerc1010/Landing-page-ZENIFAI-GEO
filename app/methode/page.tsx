@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import MethodeTimeline from "@/components/MethodeTimeline";
 import { CALENDLY_URL, METHODOLOGY_STEPS } from "@/lib/constants";
 import { breadcrumbJsonLd, faqJsonLd } from "@/lib/jsonld";
 
@@ -95,29 +96,7 @@ export default function Page() {
         </div>
       </section>
 
-      <section className="py-12 lg:py-16 border-t border-border-default">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ol className="space-y-12">
-            {METHODOLOGY_STEPS.map((step, i) => (
-              <li
-                key={step.number}
-                id={`etape-${i + 1}`}
-                className="flex flex-col sm:flex-row gap-6 sm:gap-10"
-              >
-                <span className="font-serif text-5xl sm:text-6xl text-accent-violet/80 flex-shrink-0 leading-none w-20">
-                  {step.number}
-                </span>
-                <div>
-                  <h2 className="font-serif text-2xl sm:text-3xl font-semibold text-text-primary mb-3">
-                    {step.title}
-                  </h2>
-                  <p className="text-text-secondary leading-relaxed">{step.description}</p>
-                </div>
-              </li>
-            ))}
-          </ol>
-        </div>
-      </section>
+      <MethodeTimeline />
 
       <section className="py-16 lg:py-20 border-t border-border-default bg-bg-secondary/30">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
