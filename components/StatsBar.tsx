@@ -35,7 +35,7 @@ export default function StatsBar() {
           ))}
         </div>
         <p className="text-xs text-zinc-500 text-center italic mt-8">
-          Sources : Semrush, McKinsey Digital 2025-2026
+          Sources : Semrush, McKinsey Digital 2025-2026, OpenAI
         </p>
       </div>
     </SectionWrapper>

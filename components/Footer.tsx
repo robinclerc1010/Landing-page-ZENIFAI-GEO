@@ -59,25 +59,27 @@ export default function Footer() {
               Ressources
             </a>
             <ul className="space-y-2.5" role="list">
-              <li>
-                <a
-                  href="/ressources/geo-avocats"
-                  className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-200"
-                >
-                  GEO pour cabinets d&apos;avocats
-                </a>
-              </li>
               {[
-                "Lexique GEO",
-                "Case studies",
-                "Newsletter IA",
-              ].map((label) => (
+                ["Lexique GEO", "/ressources/lexique-geo"],
+                ["Statistiques GEO 2026", "/ressources/statistiques-geo"],
+                ["Apparaître dans les IA", "/ressources/visibilite-ia"],
+                ["GEO pour cabinets d'avocats", "/ressources/geo-avocats"],
+              ].map(([label, href]) => (
                 <li key={label}>
-                  <span className="text-sm text-text-secondary/40 cursor-not-allowed select-none">
-                    {label} <span className="text-[10px] ml-1 text-accent-violet/50">bientôt</span>
-                  </span>
+                  <a
+                    href={href}
+                    className="text-sm text-text-secondary hover:text-text-primary transition-colors duration-200"
+                  >
+                    {label}
+                  </a>
                 </li>
               ))}
+              <li>
+                <span className="text-sm text-text-secondary/40 cursor-not-allowed select-none">
+                  Newsletter IA{" "}
+                  <span className="text-[10px] ml-1 text-accent-violet/50">bientôt</span>
+                </span>
+              </li>
             </ul>
           </div>
 

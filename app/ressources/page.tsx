@@ -82,6 +82,15 @@ const ARTICLES = [
     date: "Mai 2026",
   },
   {
+    href: "/ressources/lexique-geo",
+    badge: "Lexique · Référence",
+    title: "Lexique GEO",
+    excerpt:
+      "Le glossaire complet de la visibilité IA : GEO, LLM, crawlers IA, llms.txt, entité, part de voix… 47 termes définis et classés.",
+    readTime: "Référence",
+    date: "Mai 2026",
+  },
+  {
     href: "/ressources/visibilite-ia",
     badge: "Guide pilier",
     title: "Comment apparaître dans les réponses des IA",
