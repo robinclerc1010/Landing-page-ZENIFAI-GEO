@@ -75,6 +75,12 @@ const PAGES: Array<{
     priority: 0.8,
   },
   {
+    path: "/ressources/visibilite-ia",
+    lastModified: "2026-05-19",
+    changeFrequency: "monthly",
+    priority: 0.9,
+  },
+  {
     path: "/ressources/visibilite-chatgpt",
     lastModified: "2026-05-19",
     changeFrequency: "monthly",

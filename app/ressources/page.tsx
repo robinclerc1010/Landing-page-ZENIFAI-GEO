@@ -55,6 +55,15 @@ const ARTICLES = [
     date: "Mai 2026",
   },
   {
+    href: "/ressources/visibilite-ia",
+    badge: "Guide pilier",
+    title: "Comment apparaître dans les réponses des IA",
+    excerpt:
+      "Le guide complet de la visibilité IA : les 5 plateformes, les 2 mécanismes communs et les 6 leviers pour faire citer votre marque par les IA génératives.",
+    readTime: "12 min",
+    date: "Mai 2026",
+  },
+  {
     href: "/ressources/visibilite-chatgpt",
     badge: "Guide · Plateforme",
     title: "Comment apparaître sur ChatGPT",

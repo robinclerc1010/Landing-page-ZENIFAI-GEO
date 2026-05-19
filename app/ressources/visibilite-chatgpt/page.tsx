@@ -316,8 +316,15 @@ export default function Page() {
             audit de visibilité IA
           </a>{" "}
           : il mesure votre présence actuelle dans ChatGPT — comme dans Perplexity, Gemini et
-          Claude — et identifie les leviers prioritaires. Pour le moteur de réponse qui cite
-          ses sources le plus explicitement, voir aussi notre guide{" "}
+          Claude — et identifie les leviers prioritaires.
+        </P>
+        <P>
+          ChatGPT n’est qu’une plateforme parmi d’autres. Pour la vue d’ensemble, consultez
+          notre guide pilier{" "}
+          <a href="/ressources/visibilite-ia" className="text-accent-violet hover:underline">
+            « Comment apparaître dans les réponses des IA »
+          </a>
+          , et le guide{" "}
           <a href="/ressources/visibilite-perplexity" className="text-accent-violet hover:underline">
             « Comment apparaître sur Perplexity »
           </a>
