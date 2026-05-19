@@ -74,8 +74,26 @@ const itemListJsonLd = {
     {
       "@type": "ListItem",
       position: 2,
+      name: "Comment apparaître dans Google AI Overviews",
+      url: "https://zenifai.ai/ressources/google-ai-overviews",
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
       name: "Comment apparaître sur Perplexity",
       url: "https://zenifai.ai/ressources/visibilite-perplexity",
+    },
+    {
+      "@type": "ListItem",
+      position: 4,
+      name: "Comment apparaître sur Google Gemini",
+      url: "https://zenifai.ai/ressources/visibilite-gemini",
+    },
+    {
+      "@type": "ListItem",
+      position: 5,
+      name: "Comment apparaître sur Microsoft Copilot",
+      url: "https://zenifai.ai/ressources/visibilite-copilot",
     },
   ],
 };
@@ -107,12 +125,14 @@ const platforms: {
   {
     name: "Google Gemini",
     desc: "L’assistant IA de Google, intégré à l’écosystème Workspace et Android. S’appuie sur l’index et le knowledge graph de Google.",
-    guide: "Guide à venir",
+    href: "/ressources/visibilite-gemini",
+    guide: "Lire le guide Gemini",
   },
   {
     name: "Microsoft Copilot",
     desc: "L’IA de Microsoft, intégrée à Bing et Windows. S’appuie sur l’index Bing pour sa recherche en direct.",
-    guide: "Guide à venir",
+    href: "/ressources/visibilite-copilot",
+    guide: "Lire le guide Copilot",
   },
 ];
 

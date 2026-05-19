@@ -91,6 +91,24 @@ const ARTICLES = [
     date: "Mai 2026",
   },
   {
+    href: "/ressources/visibilite-gemini",
+    badge: "Guide · Plateforme",
+    title: "Comment apparaître sur Google Gemini",
+    excerpt:
+      "L'assistant IA de Google, présent dans Workspace et sur Android. La méthode en 6 étapes pour y faire citer votre marque.",
+    readTime: "9 min",
+    date: "Mai 2026",
+  },
+  {
+    href: "/ressources/visibilite-copilot",
+    badge: "Guide · Plateforme",
+    title: "Comment apparaître sur Microsoft Copilot",
+    excerpt:
+      "Copilot s'appuie sur l'index Bing — un levier souvent négligé. La méthode en 6 étapes pour en tirer parti.",
+    readTime: "9 min",
+    date: "Mai 2026",
+  },
+  {
     href: "/ressources/meilleures-agences-geo-france",
     badge: "Guide d'achat",
     title: "Meilleures agences GEO en France : comment choisir",
