@@ -37,11 +37,29 @@ const ARTICLES = [
     date: "Avril 2026",
   },
   {
+    href: "/ressources/statistiques-geo",
+    badge: "Données · Repères",
+    title: "Statistiques GEO 2026",
+    excerpt:
+      "Les chiffres clés de la recherche par IA en 2026 : adoption des moteurs de réponse, bascule des usages, impact pour les marques. Données sourcées et analysées.",
+    readTime: "7 min",
+    date: "Mai 2026",
+  },
+  {
     href: "/ressources/geo-saas",
     badge: "Guide · SaaS B2B",
     title: "GEO pour SaaS B2B : le guide complet 2026",
     excerpt:
       "Vos acheteurs demandent à ChatGPT quel outil choisir. Comment faire en sorte que votre SaaS soit le nom qui revient — méthode, leviers, erreurs à éviter.",
+    readTime: "10 min",
+    date: "Mai 2026",
+  },
+  {
+    href: "/ressources/geo-ecommerce",
+    badge: "Guide · E-commerce",
+    title: "GEO pour e-commerce",
+    excerpt:
+      "Vos clients demandent à ChatGPT quel produit acheter. Comment faire en sorte que vos produits soient ceux que les IA recommandent.",
     readTime: "10 min",
     date: "Mai 2026",
   },

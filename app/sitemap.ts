@@ -75,6 +75,18 @@ const PAGES: Array<{
     priority: 0.8,
   },
   {
+    path: "/ressources/geo-ecommerce",
+    lastModified: "2026-05-19",
+    changeFrequency: "monthly",
+    priority: 0.8,
+  },
+  {
+    path: "/ressources/statistiques-geo",
+    lastModified: "2026-05-19",
+    changeFrequency: "weekly",
+    priority: 0.8,
+  },
+  {
     path: "/ressources/visibilite-ia",
     lastModified: "2026-05-19",
     changeFrequency: "monthly",
