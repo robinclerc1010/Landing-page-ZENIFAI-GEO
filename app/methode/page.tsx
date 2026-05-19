@@ -3,6 +3,8 @@ import Link from "next/link";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import MethodeTimeline from "@/components/MethodeTimeline";
+import PageHeroReveal from "@/components/PageHeroReveal";
+import FAQAccordion from "@/components/FAQAccordion";
 import { CALENDLY_URL, METHODOLOGY_STEPS } from "@/lib/constants";
 import { breadcrumbJsonLd, faqJsonLd } from "@/lib/jsonld";
 
@@ -80,21 +82,12 @@ export default function Page() {
 
       <Nav />
 
-      <section className="pt-32 pb-16 lg:pt-40 lg:pb-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-medium tracking-widest uppercase text-accent-violet mb-4">
-            Méthode
-          </p>
-          <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.1] tracking-tight mb-6">
-            Notre méthode GEO en{" "}
-            <span className="gradient-text">6 étapes</span>
-          </h1>
-          <p className="text-lg sm:text-xl text-text-secondary leading-relaxed max-w-3xl">
-            Une méthodologie éprouvée sur un cycle de 90 jours, de l’analyse d’entités à
-            l’IA Visibility Score™. Pensée pour les IA génératives — pas adaptée du SEO.
-          </p>
-        </div>
-      </section>
+      <PageHeroReveal
+        eyebrow="Méthode"
+        title="Notre méthode GEO en"
+        titleAccent="6 étapes"
+        intro="Une méthodologie éprouvée sur un cycle de 90 jours, de l’analyse d’entités à l’IA Visibility Score™. Pensée pour les IA génératives — pas adaptée du SEO."
+      />
 
       <MethodeTimeline />
 
@@ -103,24 +96,7 @@ export default function Page() {
           <h2 className="font-serif text-3xl sm:text-4xl font-semibold leading-tight mb-10">
             Questions fréquentes sur la méthode
           </h2>
-          <div className="space-y-6">
-            {faq.map((item, i) => (
-              <details
-                key={i}
-                className="group border-b border-border-default pb-5 cursor-pointer"
-              >
-                <summary className="font-medium text-text-primary list-none flex items-center justify-between gap-4">
-                  <span>{item.question}</span>
-                  <span className="text-accent-violet transition-transform group-open:rotate-45">
-                    +
-                  </span>
-                </summary>
-                <p className="mt-3 text-text-secondary leading-relaxed text-sm">
-                  {item.answer}
-                </p>
-              </details>
-            ))}
-          </div>
+          <FAQAccordion items={faq} />
         </div>
       </section>
 

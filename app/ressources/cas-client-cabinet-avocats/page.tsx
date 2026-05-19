@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import FAQAccordion from "@/components/FAQAccordion";
 import { CALENDLY_URL } from "@/lib/constants";
 import { breadcrumbJsonLd, faqJsonLd } from "@/lib/jsonld";
 
@@ -366,24 +367,7 @@ export default function Page() {
           <h2 className="font-serif text-3xl sm:text-4xl font-semibold text-text-primary mb-10">
             Questions fréquentes
           </h2>
-          <div className="space-y-6">
-            {faq.map((item, i) => (
-              <details
-                key={i}
-                className="group border-b border-border-default pb-5 cursor-pointer"
-              >
-                <summary className="font-medium text-text-primary list-none flex items-center justify-between gap-4">
-                  <span>{item.question}</span>
-                  <span className="text-accent-violet transition-transform group-open:rotate-45">
-                    +
-                  </span>
-                </summary>
-                <p className="mt-3 text-text-secondary leading-relaxed text-sm">
-                  {item.answer}
-                </p>
-              </details>
-            ))}
-          </div>
+          <FAQAccordion items={faq} />
         </div>
       </section>
 

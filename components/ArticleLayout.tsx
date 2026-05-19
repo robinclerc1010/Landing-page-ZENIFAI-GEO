@@ -3,6 +3,8 @@ import type { ReactNode } from "react";
 import Link from "next/link";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
+import PageHeroReveal from "@/components/PageHeroReveal";
+import FAQAccordion from "@/components/FAQAccordion";
 import { CALENDLY_URL } from "@/lib/constants";
 
 export type ArticleLayoutProps = {
@@ -35,37 +37,14 @@ export default function ArticleLayout({
       <Nav />
 
       {/* Hero */}
-      <section className="pt-32 pb-12 lg:pt-40 lg:pb-16">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <p className="text-xs font-medium tracking-widest uppercase text-accent-violet mb-4">
-            {eyebrow}
-          </p>
-          <h1
-            data-speakable
-            className="font-serif text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.1] tracking-tight mb-6"
-          >
-            {title}{" "}
-            {titleAccent && <span className="gradient-text">{titleAccent}</span>}
-          </h1>
-          <p data-speakable className="text-lg sm:text-xl text-text-secondary leading-relaxed">
-            {intro}
-          </p>
-          {(date || readTime) && (
-            <div className="mt-8 flex flex-wrap gap-3 text-xs text-text-secondary/70">
-              {date && (
-                <span className="px-3 py-1 rounded-full border border-border-default">
-                  {date}
-                </span>
-              )}
-              {readTime && (
-                <span className="px-3 py-1 rounded-full border border-border-default">
-                  {readTime}
-                </span>
-              )}
-            </div>
-          )}
-        </div>
-      </section>
+      <PageHeroReveal
+        eyebrow={eyebrow}
+        title={title}
+        titleAccent={titleAccent}
+        intro={intro}
+        maxWidth="max-w-3xl"
+        chips={[date, readTime].filter((c): c is string => Boolean(c))}
+      />
 
       {/* Body */}
       <section className="pb-8">
@@ -81,24 +60,7 @@ export default function ArticleLayout({
             <h2 className="font-serif text-3xl sm:text-4xl font-semibold leading-tight mb-10">
               Questions fréquentes
             </h2>
-            <div className="space-y-6">
-              {faq.map((item, i) => (
-                <details
-                  key={i}
-                  className="group border-b border-border-default pb-5 cursor-pointer"
-                >
-                  <summary className="font-medium text-text-primary list-none flex items-center justify-between gap-4">
-                    <span>{item.question}</span>
-                    <span className="text-accent-violet transition-transform group-open:rotate-45">
-                      +
-                    </span>
-                  </summary>
-                  <p className="mt-3 text-text-secondary leading-relaxed text-sm">
-                    {item.answer}
-                  </p>
-                </details>
-              ))}
-            </div>
+            <FAQAccordion items={faq} />
           </div>
         </section>
       )}
