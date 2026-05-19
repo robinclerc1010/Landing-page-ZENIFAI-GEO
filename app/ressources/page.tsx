@@ -73,6 +73,15 @@ const ARTICLES = [
     date: "Mai 2026",
   },
   {
+    href: "/ressources/geo-vs-seo",
+    badge: "Comparatif · Fondamentaux",
+    title: "GEO vs SEO : quelles différences ?",
+    excerpt:
+      "Le tableau comparatif complet — objectifs, formats, mesure, leviers d'autorité — et les chiffres de la bascule vers la recherche par IA.",
+    readTime: "8 min",
+    date: "Mai 2026",
+  },
+  {
     href: "/ressources/visibilite-ia",
     badge: "Guide pilier",
     title: "Comment apparaître dans les réponses des IA",

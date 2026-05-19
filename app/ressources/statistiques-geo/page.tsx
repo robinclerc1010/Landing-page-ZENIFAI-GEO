@@ -8,67 +8,85 @@ const URL = "https://zenifai.ai/ressources/statistiques-geo";
 export const metadata: Metadata = {
   title: "Statistiques GEO 2026 : les chiffres clés de la recherche IA | Zenifai",
   description:
-    "Les statistiques clés du GEO en 2026 : adoption de ChatGPT, bascule de la recherche vers les IA, impact pour les marques. Chiffres sourcés et analysés.",
+    "Statistiques GEO 2026 sourcées : 900M d'utilisateurs ChatGPT, +206% de trafic de référence IA, 88% d'adoption de l'IA en entreprise. Données OpenAI, Semrush, McKinsey.",
   alternates: { canonical: URL },
   openGraph: { url: URL, title: "Statistiques GEO 2026 — Zenifai", type: "article" },
 };
 
 const adoption: Stat[] = [
   {
-    value: 800,
+    value: 900,
     suffix: " M",
     label:
-      "utilisateurs actifs hebdomadaires de ChatGPT — l’un des produits numériques les plus utilisés au monde.",
-    source: "OpenAI, 2025",
+      "utilisateurs actifs hebdomadaires de ChatGPT en février 2026 — contre 800 M quatre mois plus tôt.",
+    source: "OpenAI, 2026",
   },
   {
-    value: 100,
+    value: 50,
     suffix: " M",
     label:
-      "utilisateurs atteints par ChatGPT en environ deux mois après son lancement — la croissance d’audience la plus rapide jamais observée pour une application grand public.",
-    source: "Analyses sectorielles, 2023",
+      "abonnés payants à ChatGPT — un usage qui passe de l’expérimentation à l’outil de travail quotidien.",
+    source: "OpenAI, 2026",
+  },
+  {
+    value: 88,
+    suffix: " %",
+    label:
+      "des organisations utilisent l’IA dans au moins une fonction de l’entreprise, contre 78 % un an plus tôt.",
+    source: "McKinsey, The State of AI 2025",
   },
 ];
 
 const bascule: Stat[] = [
   {
-    value: 25,
-    suffix: " %",
-    label:
-      "baisse projetée du volume des moteurs de recherche traditionnels d’ici 2026, au profit des IA et agents conversationnels.",
-    source: "Gartner, 2024",
-  },
-  {
-    value: 68,
-    suffix: " %",
-    label:
-      "des marketeurs anticipent une baisse de leur trafic SEO au profit de la recherche générative.",
-    source: "Enquêtes sectorielles (à vérifier)",
-  },
-  {
-    value: 40,
+    value: 206,
     prefix: "+",
     suffix: " %",
     label:
-      "des utilisateurs déclarent préférer une réponse générée par IA à une liste de liens classiques.",
-    source: "Enquêtes sectorielles (à vérifier)",
+      "de croissance, en un an, du trafic de référence sortant de ChatGPT vers le reste du web (janvier 2025 → janvier 2026).",
+    source: "Semrush, étude clickstream 2026",
+  },
+  {
+    value: 34.5,
+    decimals: 1,
+    suffix: " %",
+    label:
+      "des requêtes seulement déclenchent une recherche web dans ChatGPT — le reste des réponses s’appuie sur la seule connaissance du modèle.",
+    source: "Semrush, étude clickstream 2026",
+  },
+  {
+    value: 1.5,
+    decimals: 1,
+    suffix: " Md",
+    label:
+      "d’utilisateurs touchés chaque mois par les AI Overviews de Google, dans plus de 200 pays.",
+    source: "Google, 2026",
   },
 ];
 
 const impact: Stat[] = [
   {
-    value: 4.4,
+    value: 2.4,
     prefix: "×",
     decimals: 1,
     label:
-      "la valeur d’un visiteur issu d’une IA générative comparée à un visiteur de recherche classique — un trafic plus qualifié, déjà en phase de décision.",
-    source: "Données sectorielles (à vérifier)",
+      "le nombre de sites web recevant du trafic depuis ChatGPT en un peu plus d’un an (≈ 71 000 domaines/mois fin 2024 → ≈ 170 000 début 2026).",
+    source: "Semrush, étude clickstream 2026",
   },
   {
-    value: 5,
+    value: 21.6,
+    decimals: 1,
+    suffix: " %",
     label:
-      "moteurs de réponse majeurs à couvrir pour une stratégie de visibilité IA complète : ChatGPT, Google AI Overviews, Perplexity, Gemini et Copilot.",
-    source: "Zenifai",
+      "du trafic de référence de ChatGPT se concentre sur un seul domaine, Google : la visibilité IA récompense les marques de référence.",
+    source: "Semrush, étude clickstream 2026",
+  },
+  {
+    value: 39,
+    suffix: " %",
+    label:
+      "seulement des organisations attribuent à l’IA un impact mesurable sur leur résultat d’exploitation : l’adoption dépasse de loin la maîtrise.",
+    source: "McKinsey, The State of AI 2025",
   },
 ];
 
@@ -79,19 +97,19 @@ const faq = [
       "Le GEO (Generative Engine Optimization) désigne l’ensemble des techniques visant à faire citer et recommander une marque dans les réponses des IA génératives : ChatGPT, Google AI Overviews, Perplexity, Gemini, Copilot.",
   },
   {
-    question: "La recherche traditionnelle est-elle vraiment en déclin ?",
+    question: "ChatGPT s’appuie-t-il sur une recherche web ou sur sa mémoire ?",
     answer:
-      "Le volume des moteurs de recherche classiques est attendu en recul, selon les projections du cabinet Gartner, à mesure que les utilisateurs se tournent vers les IA conversationnelles. Le SEO ne disparaît pas, mais une part croissante de l’attention se déplace vers les moteurs de réponse — ce que mesure et travaille le GEO.",
+      "Les deux — mais surtout sur sa mémoire. Selon l’étude clickstream de Semrush, ChatGPT ne déclenche une recherche web que sur 34,5 % des requêtes en février 2026. Près de deux réponses sur trois reposent donc sur la seule connaissance d’entraînement du modèle, ce qui rend la cohérence d’entité et les mentions tierces décisives.",
+  },
+  {
+    question: "La recherche traditionnelle est-elle vraiment menacée ?",
+    answer:
+      "Elle se transforme. Le trafic de référence sortant de ChatGPT a progressé de 206 % en un an (Semrush), et les AI Overviews de Google touchent désormais environ 1,5 milliard d’utilisateurs par mois. Le SEO ne disparaît pas, mais une part croissante de l’attention se déplace vers les moteurs de réponse — c’est l’objet du GEO.",
   },
   {
     question: "Comment obtenir des données sur ma propre visibilité IA ?",
     answer:
       "Les statistiques de marché donnent la tendance ; seule une mesure dédiée donne votre situation. Un audit de visibilité IA teste votre marque sur un corpus de requêtes représentatives et calcule votre part de voix dans les réponses des LLMs — c’est l’IA Visibility Score™ de Zenifai.",
-  },
-  {
-    question: "Ces statistiques sont-elles régulièrement mises à jour ?",
-    answer:
-      "Oui. Le marché de la recherche IA évolue très vite : cette page est revue régulièrement pour refléter les chiffres les plus récents et les sources les plus fiables.",
   },
 ];
 
@@ -100,7 +118,7 @@ const articleJsonLd = {
   "@type": "Article",
   headline: "Statistiques GEO 2026 : les chiffres clés de la recherche IA",
   description:
-    "Les statistiques clés du GEO en 2026 : adoption des IA, bascule de la recherche, impact pour les marques.",
+    "Statistiques GEO 2026 sourcées sur l’adoption des IA, la bascule de la recherche et l’impact pour les marques.",
   url: URL,
   datePublished: "2026-05-19",
   dateModified: "2026-05-19",
@@ -138,7 +156,7 @@ export default function Page() {
         eyebrow="Données · Repères"
         title="Statistiques GEO"
         titleAccent="2026"
-        intro="Les chiffres clés de la recherche par IA en 2026 : adoption des moteurs de réponse, bascule des usages, et ce que cela change pour les marques. Données publiques, sourcées et analysées."
+        intro="Les chiffres clés de la recherche par IA en 2026 : adoption des moteurs de réponse, bascule des usages, impact pour les marques. Données publiques issues d’OpenAI, Semrush et McKinsey."
         date="Publié en mai 2026 — mis à jour régulièrement"
         readTime="~7 min de lecture"
         faq={faq}
@@ -146,56 +164,59 @@ export default function Page() {
       >
         <P>
           La façon dont les gens cherchent de l’information change plus vite que jamais.
-          Cette page rassemble les repères chiffrés essentiels pour comprendre l’ampleur du
-          phénomène — et pourquoi le GEO (Generative Engine Optimization) devient un canal
-          d’acquisition à part entière.
+          Cette page rassemble les repères chiffrés essentiels — issus de sources publiques
+          identifiées — pour comprendre l’ampleur du phénomène et pourquoi le GEO (Generative
+          Engine Optimization) devient un canal d’acquisition à part entière.
         </P>
 
         <H2>L’adoption des IA conversationnelles</H2>
         <P>
           En moins de trois ans, les assistants IA sont passés du statut de curiosité à
-          celui d’outil de masse. ChatGPT en est l’exemple le plus frappant, mais Gemini,
-          Copilot et Perplexity touchent eux aussi des audiences considérables.
+          celui d’infrastructure de travail. ChatGPT en est l’exemple le plus frappant, et
+          son adoption en entreprise se généralise.
         </P>
         <StatsGroup stats={adoption} />
 
         <H2>La recherche bascule vers les moteurs de réponse</H2>
         <P>
-          La conséquence directe de cette adoption : une partie des recherches qui passaient
-          hier par Google passe désormais par une IA conversationnelle. Les utilisateurs ne
-          veulent plus une liste de liens, mais une réponse — et de plus en plus de
-          professionnels du marketing l’anticipent.
+          Conséquence directe : une partie des recherches qui passaient hier par Google
+          passe désormais par une IA — et les IA renvoient elles-mêmes de plus en plus de
+          trafic vers le web, en citant leurs sources.
         </P>
         <StatsGroup stats={bascule} />
 
         <H2>Ce que cela change pour les marques</H2>
         <P>
-          Être absent des réponses IA, ce n’est pas être mal classé : c’est être hors de la
-          conversation. À l’inverse, un visiteur arrivant via une IA est souvent plus avancé
-          dans sa décision — il a déjà obtenu une recommandation.
+          Le trafic issu des IA se concentre sur un nombre restreint de domaines : être la
+          source citée devient un avantage compétitif décisif. Et si l’adoption de l’IA est
+          massive, sa maîtrise, elle, reste rare — l’écart est l’opportunité.
         </P>
         <StatsGroup stats={impact} />
 
         <H2>Méthodologie et sources</H2>
         <P>
-          Cette page compile des données publiques issues d’acteurs du secteur (OpenAI),
-          d’analyses de cabinets (Gartner) et d’enquêtes professionnelles. Les chiffres
-          relatifs à la recherche IA évoluent rapidement : ils sont indicatifs de tendances
-          et révisés régulièrement. Les statistiques de marché décrivent une tendance
-          générale — elles ne disent rien de la visibilité <em>de votre marque</em> en
-          particulier.
+          Les chiffres de cette page proviennent de sources publiques identifiées :{" "}
+          <strong className="text-text-primary">OpenAI</strong> (communications officielles
+          sur l’audience de ChatGPT) ;{" "}
+          <strong className="text-text-primary">Semrush</strong> (étude clickstream de la
+          recherche IA, analysant plus d’un milliard de lignes de données de navigation
+          d’octobre 2024 à février 2026) ;{" "}
+          <strong className="text-text-primary">McKinsey</strong> (rapport « The State of AI
+          2025 ») ; et Google (communications sur les AI Overviews). Le marché de la
+          recherche IA évoluant très vite, ces données sont indicatives de tendances et
+          révisées régulièrement.
         </P>
 
         <H2>Connaître vos propres chiffres</H2>
         <P>
-          La seule donnée qui compte vraiment pour votre stratégie, c’est votre part de voix
-          réelle dans les IA. Notre{" "}
+          Les statistiques de marché décrivent une tendance générale — elles ne disent rien
+          de la visibilité <em>de votre marque</em> en particulier. Notre{" "}
           <a href="/services/audit-visibilite-ia" className="text-accent-violet hover:underline">
             audit de visibilité IA
           </a>{" "}
           mesure la fréquence à laquelle votre marque est citée par ChatGPT, Perplexity,
-          Gemini et Claude sur les requêtes de votre marché — c’est l’IA Visibility Score™.
-          Pour comprendre les mécanismes derrière ces chiffres, voir notre guide{" "}
+          Gemini et Claude sur les requêtes de votre marché. Pour comprendre les mécanismes
+          derrière ces chiffres, voir notre guide{" "}
           <a href="/ressources/visibilite-ia" className="text-accent-violet hover:underline">
             « Comment apparaître dans les réponses des IA »
           </a>

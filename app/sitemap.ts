@@ -69,6 +69,12 @@ const PAGES: Array<{
     priority: 0.8,
   },
   {
+    path: "/ressources/geo-vs-seo",
+    lastModified: "2026-05-19",
+    changeFrequency: "monthly",
+    priority: 0.8,
+  },
+  {
     path: "/ressources/geo-saas",
     lastModified: "2026-05-06",
     changeFrequency: "monthly",

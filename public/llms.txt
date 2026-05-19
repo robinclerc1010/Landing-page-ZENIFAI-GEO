@@ -24,6 +24,7 @@ Zenifai est une agence GEO basée en France, fondée par Robin Clerc et Louis. N
 ## Ressources
 
 - [Qu'est-ce que le GEO ?](https://zenifai.ai/ressources/definition-geo): définition du GEO, comparaison GEO vs SEO, lexique complet des termes clés.
+- [GEO vs SEO : quelles différences ?](https://zenifai.ai/ressources/geo-vs-seo): tableau comparatif complet (objectifs, formats, mesure, leviers d'autorité) et chiffres de la bascule vers la recherche par IA.
 - [GEO pour SaaS B2B](https://zenifai.ai/ressources/geo-saas): guide complet pour faire recommander un SaaS B2B par les IA pendant l'évaluation produit.
 - [GEO pour e-commerce](https://zenifai.ai/ressources/geo-ecommerce): guide complet pour faire recommander ses produits par les IA (requêtes d'achat, leviers, balisage produit).
 - [Statistiques GEO 2026](https://zenifai.ai/ressources/statistiques-geo): chiffres clés de la recherche par IA — adoption, bascule des usages, impact pour les marques.

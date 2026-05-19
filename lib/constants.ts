@@ -32,9 +32,9 @@ export const STATS = [
   },
   {
     prefix: "",
-    value: 800,
+    value: 900,
     suffix: "M",
-    label: "d'utilisateurs hebdomadaires sur ChatGPT en 2026",
+    label: "d'utilisateurs hebdomadaires sur ChatGPT (OpenAI, 2026)",
   },
 ];
 
