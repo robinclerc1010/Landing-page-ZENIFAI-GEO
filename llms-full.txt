@@ -73,6 +73,9 @@ Guide GEO pour Cabinets d'Avocats. ~2 400 mots avec étude de cas anonymisée (c
 ### https://zenifai.ai/ressources/definition-geo
 Lexique et fondamentaux. Définition du GEO (Generative Engine Optimization), tableau comparatif GEO vs SEO (objectif, surface, format, mesure, levier d'autorité), et lexique de 10 termes clés (LLM, moteur de réponse, citation IA, part de voix IA, entité, knowledge graph, contenu LLM-ready, hallucination, llms.txt). Schema DefinedTermSet pour citation définitionnelle.
 
+### https://zenifai.ai/ressources/geo-vs-seo
+Comparatif fondamental : GEO vs SEO. Définit les deux disciplines, fournit un tableau comparatif détaillé (objectif, surface, unité de résultat, format gagnant, levier d'autorité, indicateur de succès, rôle du contenu) et les chiffres de la bascule vers la recherche IA (sources OpenAI, Semrush, Google, McKinsey). Insiste sur la complémentarité : le GEO ne remplace pas le SEO, les AI Overviews et ChatGPT Search s'appuient sur l'index web. Section sur la combinaison concrète des deux.
+
 ### https://zenifai.ai/ressources/geo-saas
 Guide complet GEO pour SaaS B2B. Les 4 types de requêtes IA qui décident d'un achat SaaS (catégorie, alternative, comparaison, cas d'usage), pourquoi les SaaS sont mal cités par défaut, les 4 leviers GEO prioritaires (pages de comparaison/alternative, contenu de catégorie LLM-ready, consolidation d'entité, autorité tierce), erreurs fréquentes.
 
