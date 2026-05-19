@@ -28,5 +28,11 @@
     "simple-icons": "^16.17.0",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
-  }
+  },
+  "browserslist": [
+    "Chrome >= 95",
+    "Edge >= 95",
+    "Firefox >= 95",
+    "Safari >= 15"
+  ]
 }

@@ -1,0 +1,39 @@
+# Hostinger / Apache — cache & compression
+# Tous les bundles JS, CSS et fontes générés par Next.js ont un hash dans
+# leur nom de fichier ; on peut donc les marquer immutables un an.
+
+<IfModule mod_headers.c>
+  # JS / CSS / fontes hashées — cache 1 an, immuable
+  <FilesMatch "\.(js|css|woff2|woff|ttf|otf|eot)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # Images, SVG, ICO — 30 jours
+  <FilesMatch "\.(jpg|jpeg|png|webp|avif|gif|ico|svg)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
+
+  # HTML — 5 minutes (les déploiements se propagent vite)
+  <FilesMatch "\.html$">
+    Header set Cache-Control "public, max-age=300, must-revalidate"
+  </FilesMatch>
+
+  # Fichiers texte techniques (robots, llms, sitemap)
+  <FilesMatch "\.(txt|xml)$">
+    Header set Cache-Control "public, max-age=3600"
+  </FilesMatch>
+</IfModule>
+
+# Compression à la volée
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css text/xml text/plain
+  AddOutputFilterByType DEFLATE application/javascript application/json application/xml application/xhtml+xml
+  AddOutputFilterByType DEFLATE image/svg+xml font/ttf font/otf
+</IfModule>
+
+# Brotli si dispo
+<IfModule mod_brotli.c>
+  AddOutputFilterByType BROTLI_COMPRESS text/html text/css text/xml text/plain
+  AddOutputFilterByType BROTLI_COMPRESS application/javascript application/json application/xml application/xhtml+xml
+  AddOutputFilterByType BROTLI_COMPRESS image/svg+xml
+</IfModule>
