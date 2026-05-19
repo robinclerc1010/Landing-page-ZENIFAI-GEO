@@ -76,6 +76,9 @@ Lexique et fondamentaux. Définition du GEO (Generative Engine Optimization), ta
 ### https://zenifai.ai/ressources/geo-saas
 Guide complet GEO pour SaaS B2B. Les 4 types de requêtes IA qui décident d'un achat SaaS (catégorie, alternative, comparaison, cas d'usage), pourquoi les SaaS sont mal cités par défaut, les 4 leviers GEO prioritaires (pages de comparaison/alternative, contenu de catégorie LLM-ready, consolidation d'entité, autorité tierce), erreurs fréquentes.
 
+### https://zenifai.ai/ressources/visibilite-ia
+Guide pilier : comment apparaître dans les réponses des IA. Définit la visibilité IA (part de voix d'une marque dans les réponses générées). Présente les 5 plateformes (ChatGPT, Google AI Overviews, Perplexity, Gemini, Microsoft Copilot), les 2 mécanismes communs (connaissance d'entraînement vs recherche en direct / retrieval) et les 6 leviers du GEO : accès des crawlers IA, consolidation d'entité, contenu citable, contenu de comparaison/alternative, autorité tierce, mesure de la part de voix. Page hub reliée aux guides détaillés par plateforme.
+
 ### https://zenifai.ai/ressources/visibilite-chatgpt
 Guide plateforme : comment apparaître sur ChatGPT. Explique les deux leviers de ChatGPT — la connaissance d'entraînement du modèle (mentions tierces, cohérence d'entité, jeu de fond) et ChatGPT Search (recherche web en direct, proche du SEO). Détaille les 3 robots d'OpenAI (GPTBot pour l'entraînement, OAI-SearchBot pour l'index de recherche, ChatGPT-User pour la navigation à la demande). Méthode HowTo en 6 étapes : autoriser les robots d'OpenAI, consolider l'entité de marque, structurer un contenu citable, couvrir les requêtes de comparaison et d'alternative, construire l'autorité tierce, mesurer la part de voix et itérer.
 
