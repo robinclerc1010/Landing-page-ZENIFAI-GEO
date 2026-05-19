@@ -130,6 +130,7 @@ export default function Page() {
         }}
       />
       <ArticleLayout
+        icon="copilot"
         eyebrow="Guide · Plateforme"
         title="Comment apparaître sur"
         titleAccent="Microsoft Copilot"

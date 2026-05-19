@@ -130,6 +130,7 @@ export default function Page() {
         }}
       />
       <ArticleLayout
+        icon="chatgpt"
         eyebrow="Guide · Plateforme"
         title="Comment apparaître sur"
         titleAccent="ChatGPT"

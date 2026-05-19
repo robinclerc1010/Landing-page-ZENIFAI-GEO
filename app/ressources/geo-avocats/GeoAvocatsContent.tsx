@@ -16,6 +16,7 @@ import {
 import { CALENDLY_URL } from "@/lib/constants";
 import AnimatedNumber from "@/components/ui/AnimatedNumber";
 import SectionWrapper from "@/components/ui/SectionWrapper";
+import ResourceIcon from "@/components/ResourceIcon";
 import { FAQ_ITEMS } from "./faq-data";
 
 // ─── Data ──────────────────────────────────────────────────────────────────────
@@ -274,11 +275,21 @@ export default function GeoAvocatsContent() {
             </span>
           </nav>
 
+          {/* Icône */}
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="mb-5"
+          >
+            <ResourceIcon icon="scale" />
+          </motion.div>
+
           {/* Badge */}
           <motion.p
             initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
+            transition={{ duration: 0.5, delay: 0.06 }}
             className="text-xs font-medium tracking-widest uppercase text-accent-violet mb-5"
           >
             Ressources · Expertise sectorielle

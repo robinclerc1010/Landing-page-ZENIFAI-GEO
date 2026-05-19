@@ -151,6 +151,7 @@ export default function Page() {
         }}
       />
       <ArticleLayout
+        icon="compare"
         eyebrow="Comparatif · Fondamentaux"
         title="GEO vs SEO :"
         titleAccent="quelles différences ?"

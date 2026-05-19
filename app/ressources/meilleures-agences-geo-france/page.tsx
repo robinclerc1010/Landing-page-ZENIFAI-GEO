@@ -79,6 +79,7 @@ export default function Page() {
         }}
       />
       <ArticleLayout
+        icon="award"
         eyebrow="Guide d’achat"
         title="Meilleures agences GEO en France :"
         titleAccent="comment choisir"

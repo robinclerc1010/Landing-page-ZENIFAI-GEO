@@ -135,6 +135,7 @@ export default function Page() {
         }}
       />
       <ArticleLayout
+        icon="help"
         eyebrow="Lexique · Fondamentaux"
         title="Qu’est-ce que le"
         titleAccent="GEO ?"

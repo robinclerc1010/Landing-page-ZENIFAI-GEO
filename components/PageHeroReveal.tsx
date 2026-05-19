@@ -6,6 +6,7 @@
 // data-speakable sur le titre et l'intro pour le schema SpeakableSpecification.
 
 import { motion, useReducedMotion } from "framer-motion";
+import ResourceIcon from "@/components/ResourceIcon";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 
@@ -16,6 +17,7 @@ type Props = {
   intro: string;
   chips?: string[];
   maxWidth?: string;
+  icon?: string;
 };
 
 export default function PageHeroReveal({
@@ -25,6 +27,7 @@ export default function PageHeroReveal({
   intro,
   chips = [],
   maxWidth = "max-w-4xl",
+  icon,
 }: Props) {
   const reduce = useReducedMotion();
   const step = (delay: number) =>
@@ -39,8 +42,13 @@ export default function PageHeroReveal({
   return (
     <section className="pt-32 pb-12 lg:pt-40 lg:pb-16">
       <div className={`${maxWidth} mx-auto px-4 sm:px-6 lg:px-8`}>
+        {icon && (
+          <motion.div {...step(0)} className="mb-5">
+            <ResourceIcon icon={icon} />
+          </motion.div>
+        )}
         <motion.p
-          {...step(0)}
+          {...step(icon ? 0.06 : 0)}
           className="text-xs font-medium tracking-widest uppercase text-accent-violet mb-4"
         >
           {eyebrow}

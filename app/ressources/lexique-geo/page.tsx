@@ -93,6 +93,7 @@ export default function Page() {
         }}
       />
       <ArticleLayout
+        icon="book"
         eyebrow="Lexique · Référence"
         title="Lexique"
         titleAccent="GEO"

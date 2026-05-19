@@ -153,6 +153,7 @@ export default function Page() {
         }}
       />
       <ArticleLayout
+        icon="chart"
         eyebrow="Données · Repères"
         title="Statistiques GEO"
         titleAccent="2026"

@@ -78,6 +78,7 @@ export default function Page() {
         }}
       />
       <ArticleLayout
+        icon="cloud"
         eyebrow="Guide · SaaS B2B"
         title="GEO pour"
         titleAccent="SaaS B2B"

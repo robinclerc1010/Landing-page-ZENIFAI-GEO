@@ -14,6 +14,7 @@ export type ArticleLayoutProps = {
   intro: string;
   date?: string;
   readTime?: string;
+  icon?: string;
   children: ReactNode;
   faq?: { question: string; answer: string }[];
   cta?: { heading: string; accent?: string; sub: string; label?: string };
@@ -27,6 +28,7 @@ export default function ArticleLayout({
   intro,
   date,
   readTime,
+  icon,
   children,
   faq,
   cta,
@@ -43,6 +45,7 @@ export default function ArticleLayout({
         titleAccent={titleAccent}
         intro={intro}
         maxWidth="max-w-3xl"
+        icon={icon}
         chips={[date, readTime].filter((c): c is string => Boolean(c))}
       />
 

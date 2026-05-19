@@ -78,6 +78,7 @@ export default function Page() {
         }}
       />
       <ArticleLayout
+        icon="shopping"
         eyebrow="Guide · E-commerce"
         title="GEO pour"
         titleAccent="e-commerce"

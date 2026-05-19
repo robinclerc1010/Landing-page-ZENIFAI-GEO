@@ -3,6 +3,7 @@ import Link from "next/link";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
 import FAQAccordion from "@/components/FAQAccordion";
+import ResourceIcon from "@/components/ResourceIcon";
 import { CALENDLY_URL } from "@/lib/constants";
 import { breadcrumbJsonLd, faqJsonLd } from "@/lib/jsonld";
 
@@ -125,6 +126,7 @@ export default function Page() {
       {/* Hero */}
       <section className="pt-32 pb-12 lg:pt-40 lg:pb-16">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ResourceIcon icon="trophy" className="mb-5" />
           <p className="text-xs font-medium tracking-widest uppercase text-accent-violet mb-4">
             Cas client · Anonymisé · Secteur juridique
           </p>

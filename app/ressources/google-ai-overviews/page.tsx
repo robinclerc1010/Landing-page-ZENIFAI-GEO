@@ -134,6 +134,7 @@ export default function Page() {
         }}
       />
       <ArticleLayout
+        icon="aio"
         eyebrow="Guide · Plateforme"
         title="Comment apparaître dans"
         titleAccent="Google AI Overviews"

@@ -164,6 +164,7 @@ export default function Page() {
         }}
       />
       <ArticleLayout
+        icon="network"
         eyebrow="Guide pilier · Fondamentaux"
         title="Comment apparaître dans les"
         titleAccent="réponses des IA"

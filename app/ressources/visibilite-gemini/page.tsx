@@ -129,6 +129,7 @@ export default function Page() {
         }}
       />
       <ArticleLayout
+        icon="gemini"
         eyebrow="Guide · Plateforme"
         title="Comment apparaître sur"
         titleAccent="Google Gemini"

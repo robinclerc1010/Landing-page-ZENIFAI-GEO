@@ -119,6 +119,7 @@ export default function Page() {
         }}
       />
       <ArticleLayout
+        icon="perplexity"
         eyebrow="Guide · Plateforme"
         title="Comment apparaître sur"
         titleAccent="Perplexity"
