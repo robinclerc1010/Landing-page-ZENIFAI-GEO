@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ArticleLayout, { H2, P, UL } from "@/components/ArticleLayout";
 import { faqJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
+import PullQuote from "@/components/PullQuote";
 
 const URL = "https://zenifai.ai/ressources/visibilite-gemini";
 
@@ -146,6 +147,10 @@ export default function Page() {
           Pour une marque, être citée par Gemini, c’est être recommandée au cœur même de
           l’écosystème le plus utilisé au monde.
         </P>
+
+        <PullQuote>
+          Une entité claire dans le knowledge graph de Google n’est pas un signal de plus — c’est la condition pour être cité de façon fiable.
+        </PullQuote>
 
         <H2>Gemini, AI Overviews : ne pas confondre</H2>
         <P>

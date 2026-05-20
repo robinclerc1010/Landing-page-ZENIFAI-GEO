@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ArticleLayout, { H2, P, UL } from "@/components/ArticleLayout";
 import { faqJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
+import PullQuote from "@/components/PullQuote";
 
 const URL = "https://zenifai.ai/ressources/google-ai-overviews";
 
@@ -153,6 +154,10 @@ export default function Page() {
           une opportunité : être la source citée, c’est occuper la position la plus visible
           de toute la recherche.
         </P>
+
+        <PullQuote>
+          Être la source citée dans un AI Overview, c’est occuper la position la plus visible de toute la recherche Google — devant le premier lien organique.
+        </PullQuote>
 
         <H2>Qu’est-ce que Google AI Overviews ?</H2>
         <P>

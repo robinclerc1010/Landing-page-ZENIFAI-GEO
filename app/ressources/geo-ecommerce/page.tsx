@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ArticleLayout, { H2, P, UL } from "@/components/ArticleLayout";
 import { faqJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
+import PullQuote from "@/components/PullQuote";
 
 const URL = "https://zenifai.ai/ressources/geo-ecommerce";
 
@@ -100,6 +101,10 @@ export default function Page() {
           existaient. C’est exactement le problème que résout le GEO (Generative Engine
           Optimization) pour l’e-commerce.
         </P>
+
+        <PullQuote>
+          Trois ou quatre produits dans la réponse de l’IA. Soit les vôtres en font partie, soit le client ne saura jamais qu’ils existaient.
+        </PullQuote>
 
         <H2>Les 4 types de requêtes IA qui décident d’un achat</H2>
         <UL

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ArticleLayout, { H2, P, UL } from "@/components/ArticleLayout";
 import { faqJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
+import PullQuote from "@/components/PullQuote";
 
 const URL = "https://zenifai.ai/ressources/visibilite-copilot";
 
@@ -146,6 +147,10 @@ export default function Page() {
           les collaborateurs et les clients vivent sous Windows et Office, c’est l’IA qu’ils
           ont sous la main toute la journée.
         </P>
+
+        <PullQuote>
+          Copilot s’appuie sur Bing, pas sur Google. La plupart des marques travaillent leur SEO Google et restent invisibles dans Copilot.
+        </PullQuote>
 
         <H2>La particularité de Copilot : l’index Bing</H2>
         <P>

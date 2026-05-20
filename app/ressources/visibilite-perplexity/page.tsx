@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ArticleLayout, { H2, P, UL } from "@/components/ArticleLayout";
 import { faqJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
+import PullQuote from "@/components/PullQuote";
 
 const URL = "https://zenifai.ai/ressources/visibilite-perplexity";
 
@@ -144,6 +145,10 @@ export default function Page() {
           privilégie les passages clairs, factuels et faciles à extraire. Voici comment
           structurer votre présence pour en faire partie.
         </P>
+
+        <PullQuote>
+          Perplexity cite ses sources sous chaque réponse. C’est le seul moteur de réponse où l’impact d’une optimisation se mesure aussi clairement.
+        </PullQuote>
 
         <H2>Étape 1 — Autoriser les crawlers Perplexity</H2>
         <P>

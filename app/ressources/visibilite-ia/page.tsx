@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ArticleLayout, { H2, P, UL } from "@/components/ArticleLayout";
 import { faqJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
+import PullQuote from "@/components/PullQuote";
 
 const URL = "https://zenifai.ai/ressources/visibilite-ia";
 
@@ -189,6 +190,10 @@ export default function Page() {
           couvre les plateformes et les mécanismes communs. Les guides détaillés par
           plateforme y sont reliés.
         </P>
+
+        <PullQuote>
+          Sur 100 questions posées à une IA dans votre marché, combien de fois votre marque est-elle citée — et comparée à qui ? C’est la part de voix IA.
+        </PullQuote>
 
         <H2>Qu’est-ce que la visibilité IA ?</H2>
         <P>

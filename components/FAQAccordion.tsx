@@ -28,7 +28,10 @@ export default function FAQAccordion({ items }: { items: FAQItem[] }) {
           : {
               initial: { opacity: 0, y: 16 },
               whileInView: { opacity: 1, y: 0 },
-              viewport: { once: true, margin: "-40px" },
+              // Seuil très permissif : on déclenche dès qu'un pixel touche le
+              // viewport, sans marge négative — évite que les questions restent
+              // invisibles dans certains parcours de scroll (Playwright, etc.).
+              viewport: { once: true, amount: 0 },
               transition: { duration: 0.4, delay: i * 0.05, ease: EASE },
             };
 

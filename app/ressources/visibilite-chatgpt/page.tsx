@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ArticleLayout, { H2, P, UL } from "@/components/ArticleLayout";
 import { faqJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
+import PullQuote from "@/components/PullQuote";
 
 const URL = "https://zenifai.ai/ressources/visibilite-chatgpt";
 
@@ -152,6 +153,10 @@ export default function Page() {
           Optimization). Et pour ChatGPT en particulier, il faut comprendre une chose
           essentielle : le modèle cite les marques de deux façons très différentes.
         </P>
+
+        <PullQuote>
+          Soit votre marque fait partie des trois ou quatre noms cités, soit elle est absente d’une présélection que votre équipe ne verra jamais.
+        </PullQuote>
 
         <H2>Les deux façons dont ChatGPT cite une marque</H2>
         <P>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ArticleLayout, { H2, P, UL } from "@/components/ArticleLayout";
 import { faqJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
+import PullQuote from "@/components/PullQuote";
 
 const URL = "https://zenifai.ai/ressources/geo-saas";
 
@@ -101,6 +102,10 @@ export default function Page() {
           marketing ne verra jamais passer. C’est exactement le problème que résout le
           GEO (Generative Engine Optimization).
         </P>
+
+        <PullQuote>
+          Soit votre SaaS fait partie de la shortlist générée par l’IA, soit il est éliminé d’une décision que votre équipe marketing ne verra jamais passer.
+        </PullQuote>
 
         <H2>Les 4 types de requêtes IA qui décident d’un achat SaaS</H2>
         <UL
