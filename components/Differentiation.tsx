@@ -5,6 +5,7 @@
 import { motion } from "framer-motion";
 import { BarChart3, Eye, Trophy } from "lucide-react";
 import SectionWrapper from "@/components/ui/SectionWrapper";
+import Eyebrow from "@/components/Eyebrow";
 
 const PILLARS = [
   {
@@ -32,12 +33,10 @@ export default function Differentiation() {
     <SectionWrapper className="py-24 lg:py-32">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 mb-14">
-          <p className="text-xs font-medium tracking-widest uppercase text-accent-violet">
-            Différenciation
-          </p>
+          <Eyebrow>Différenciation</Eyebrow>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold leading-[1.15] tracking-tight">
             Pourquoi{" "}
-            <span className="gradient-text">Zenifai</span>
+            <span className="italic font-light text-accent-violet/95">Zenifai</span>
           </h2>
         </div>
 

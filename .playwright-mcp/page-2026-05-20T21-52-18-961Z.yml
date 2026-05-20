@@ -1,0 +1,236 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "Zenifai — Accueil" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - text: Zenifai•
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Méthode" [ref=e8] [cursor=pointer]:
+            - /url: /methode
+            - text: Méthode
+        - listitem [ref=e9]:
+          - link "Services" [ref=e10] [cursor=pointer]:
+            - /url: /services
+            - text: Services
+        - listitem [ref=e11]:
+          - link "Cas clients" [ref=e12] [cursor=pointer]:
+            - /url: /#cas-clients
+            - text: Cas clients
+        - listitem [ref=e13]:
+          - link "FAQ" [ref=e14] [cursor=pointer]:
+            - /url: /#faq
+            - text: FAQ
+        - listitem [ref=e15]:
+          - link "Ressources" [ref=e16] [cursor=pointer]:
+            - /url: /ressources
+            - text: Ressources
+      - link "Réserver un audit GEO gratuit" [ref=e19] [cursor=pointer]:
+        - /url: https://calendly.com/rclerc26/new-meeting
+        - text: Audit gratuit
+    - generic [ref=e21]:
+      - img [ref=e24]
+      - paragraph [ref=e26]: Guide · Plateforme
+      - heading "Comment apparaître sur ChatGPT" [level=1] [ref=e27]
+      - paragraph [ref=e28]: "800 millions de personnes utilisent ChatGPT chaque semaine pour choisir un outil, un prestataire, une solution. Voici la méthode complète pour que votre marque figure dans ses réponses — sur ses deux leviers : la connaissance du modèle et ChatGPT Search."
+      - generic [ref=e29]:
+        - generic [ref=e30]: Publié en mai 2025
+        - generic [ref=e31]: ~10 min de lecture
+    - generic [ref=e33]:
+      - paragraph [ref=e34]:
+        - text: "ChatGPT n’est plus seulement un assistant conversationnel : c’est devenu un"
+        - strong [ref=e35]: moteur de recommandation
+        - text: . Quand un dirigeant demande « quel est le meilleur outil pour gérer X ? » ou « quelle agence choisir pour Y ? », ChatGPT répond par une liste courte de noms. Soit votre marque en fait partie, soit elle est absente d’une présélection que vous ne voyez jamais.
+      - paragraph [ref=e36]: "Apparaître dans ces réponses, c’est l’objet du GEO (Generative Engine Optimization). Et pour ChatGPT en particulier, il faut comprendre une chose essentielle : le modèle cite les marques de deux façons très différentes."
+      - heading "Les deux façons dont ChatGPT cite une marque" [level=2] [ref=e37]
+      - paragraph [ref=e38]: C’est la distinction la plus importante à saisir — et celle que la plupart des marques ignorent.
+      - paragraph [ref=e39]:
+        - strong [ref=e40]: 1. La connaissance d’entraînement (mémoire du modèle).
+        - text: "ChatGPT a été entraîné sur un immense corpus de texte. Une marque qui y apparaît de façon récurrente et cohérente est « connue » du modèle : il peut la citer sans même faire de recherche web. C’est un levier de fond, lent à bouger, qui dépend des mentions tierces et de la cohérence de votre entité dans le temps."
+      - paragraph [ref=e41]:
+        - strong [ref=e42]: 2. ChatGPT Search (recherche web en direct).
+        - text: "Quand la question l’exige — actualité, requête précise, demande de sources — ChatGPT lance une recherche web, lit des pages et cite ses sources sous la réponse. Ce levier se rapproche du SEO : il faut être indexé, pertinent et structuré pour l’extraction. Son avantage : l’impact d’une optimisation y est rapide."
+      - paragraph [ref=e43]: Une stratégie GEO sérieuse travaille les deux. Ignorer le premier, c’est rester invisible dès que l’utilisateur ne déclenche pas de recherche. Ignorer le second, c’est manquer toutes les requêtes récentes ou précises.
+      - heading "Les 3 robots d’OpenAI à autoriser" [level=2] [ref=e44]
+      - paragraph [ref=e45]: OpenAI explore le web avec trois agents distincts. Chacun alimente un levier différent — et bloquer l’un d’eux, même par inadvertance, vous exclut de ce levier.
+      - table [ref=e47]:
+        - rowgroup [ref=e48]:
+          - row "Robot Rôle Si vous l’autorisez" [ref=e49]:
+            - columnheader "Robot" [ref=e50]
+            - columnheader "Rôle" [ref=e51]
+            - columnheader "Si vous l’autorisez" [ref=e52]
+        - rowgroup [ref=e53]:
+          - row "GPTBot Collecte des données pour l’entraînement des futurs modèles. Candidat à la connaissance des prochaines versions de ChatGPT." [ref=e54]:
+            - cell "GPTBot" [ref=e55]
+            - cell "Collecte des données pour l’entraînement des futurs modèles." [ref=e56]
+            - cell "Candidat à la connaissance des prochaines versions de ChatGPT." [ref=e57]
+          - row "OAI-SearchBot Construit l’index utilisé par ChatGPT Search. Trouvable lors d’une recherche web dans ChatGPT." [ref=e58]:
+            - cell "OAI-SearchBot" [ref=e59]
+            - cell "Construit l’index utilisé par ChatGPT Search." [ref=e60]
+            - cell "Trouvable lors d’une recherche web dans ChatGPT." [ref=e61]
+          - row "ChatGPT-User Visite une page en direct quand un utilisateur déclenche une navigation. Lisible à la demande, en temps réel." [ref=e62]:
+            - cell "ChatGPT-User" [ref=e63]
+            - cell "Visite une page en direct quand un utilisateur déclenche une navigation." [ref=e64]
+            - cell "Lisible à la demande, en temps réel." [ref=e65]
+      - paragraph [ref=e66]:
+        - text: Ces autorisations se déclarent dans le fichier
+        - code [ref=e67]: robots.txt
+        - text: à la racine du site. C’est le tout premier point à vérifier d’un audit GEO.
+      - heading "La méthode en 6 étapes" [level=2] [ref=e68]
+      - heading "Étape 1 — Autoriser les robots d’OpenAI" [level=2] [ref=e69]
+      - paragraph [ref=e70]:
+        - text: Vérifiez votre
+        - code [ref=e71]: robots.txt
+        - text: ": GPTBot, OAI-SearchBot et ChatGPT-User doivent être explicitement autorisés. Beaucoup de sites bloquent ces agents par défaut via un plugin de sécurité ou un CDN — sans le savoir."
+      - heading "Étape 2 — Consolider l’entité de marque" [level=2] [ref=e72]
+      - paragraph [ref=e73]: ChatGPT ne peut recommander une marque que s’il sait précisément qui elle est. Si le nom, la description, le secteur ou les fondateurs varient entre votre site, LinkedIn, les annuaires et la presse, le modèle hésite — et une marque sur laquelle il hésite n’est pas recommandée. La consolidation d’entité aligne tous ces signaux, y compris sur Wikidata, pour donner au modèle une version unique et vérifiable.
+      - heading "Étape 3 — Structurer un contenu citable" [level=2] [ref=e74]
+      - paragraph [ref=e75]: ChatGPT extrait des passages, pas des pages entières. Chaque section utile doit répondre à une question précise dès sa première phrase, rester compréhensible hors contexte, et s’appuyer sur des données chiffrées avec sources liées. Le format question-réponse, les titres explicites et le schema.org rendent un contenu nettement plus citable.
+      - heading "Étape 4 — Couvrir les requêtes de comparaison et d’alternative" [level=2] [ref=e76]
+      - paragraph [ref=e77]: "Les questions qui déclenchent une recommandation sont presque toujours comparatives : « meilleur outil pour… », « alternative à… », « X ou Y ». Les pages de comparaison et d’alternative sont les formats que ChatGPT mobilise le plus pour construire ses shortlists. Une marque absente de ces contenus est absente de la décision."
+      - heading "Étape 5 — Construire l’autorité tierce" [level=2] [ref=e78]
+      - paragraph [ref=e79]: "C’est le levier qui pèse le plus sur la connaissance d’entraînement du modèle. ChatGPT « apprend » une marque à travers les sources qui en parlent : presse spécialisée, communautés, annuaires sectoriels, Wikipedia et Wikidata. Une marque uniquement présente sur son propre site reste fragile ; une marque mentionnée de façon cohérente ailleurs devient une référence stable."
+      - heading "Étape 6 — Mesurer la part de voix et itérer" [level=2] [ref=e80]
+      - paragraph [ref=e81]: Testez régulièrement, dans ChatGPT, un corpus de requêtes représentatives de votre marché. Notez votre fréquence de citation, les marques qui dominent les réponses et les éventuelles informations erronées. Cette mesure dans le temps — la part de voix IA — est ce qui transforme le GEO en discipline pilotable plutôt qu’en intuition.
+      - heading "Pourquoi votre marque n’apparaît pas dans ChatGPT" [level=2] [ref=e82]
+      - paragraph [ref=e83]: "Les causes les plus fréquentes que nous identifions en audit :"
+      - list [ref=e84]:
+        - listitem [ref=e85]:
+          - generic [ref=e87]: Les robots d’OpenAI sont bloqués dans le robots.txt — souvent sans que l’entreprise le sache.
+        - listitem [ref=e88]:
+          - generic [ref=e90]: "L’entité de marque est floue : le modèle confond la marque, le produit, ou une homonymie."
+        - listitem [ref=e91]:
+          - generic [ref=e93]: "Le contenu est écrit pour Google : pages centrées sur les fonctionnalités, sans passages auto-suffisants ni format question-réponse."
+        - listitem [ref=e94]:
+          - generic [ref=e96]: Aucune page de comparaison ni d’alternative — la marque est invisible au moment de la décision.
+        - listitem [ref=e97]:
+          - generic [ref=e99]: "L’autorité tierce est faible : peu de mentions sur les sources que ChatGPT considère comme fiables."
+      - heading "Exemples de requêtes ChatGPT à conquérir" [level=2] [ref=e100]
+      - paragraph [ref=e101]: "Le travail commence par lister les questions que vos prospects posent réellement. Quelques familles types :"
+      - list [ref=e102]:
+        - listitem [ref=e103]:
+          - generic [ref=e105]: "Catégorie : « quel est le meilleur logiciel de [votre catégorie] ? »"
+        - listitem [ref=e106]:
+          - generic [ref=e108]: "Alternative : « quelles alternatives à [un concurrent leader] ? »"
+        - listitem [ref=e109]:
+          - generic [ref=e111]: "Cas d’usage : « quel outil pour [problème concret que vous résolvez] ? »"
+        - listitem [ref=e112]:
+          - generic [ref=e114]: "Prestataire : « quelle agence / quel cabinet pour [votre service] ? »"
+        - listitem [ref=e115]:
+          - generic [ref=e117]: "Validation : « [votre marque] est-elle une bonne solution pour [besoin] ? »"
+      - heading "Par où commencer" [level=2] [ref=e118]
+      - paragraph [ref=e119]:
+        - text: La première étape concrète est un
+        - link "audit de visibilité IA" [ref=e120] [cursor=pointer]:
+          - /url: /services/audit-visibilite-ia
+        - text: ": il mesure votre présence actuelle dans ChatGPT — comme dans Perplexity, Gemini et Claude — et identifie les leviers prioritaires."
+      - paragraph [ref=e121]:
+        - text: ChatGPT n’est qu’une plateforme parmi d’autres. Pour la vue d’ensemble, consultez notre guide pilier
+        - link "« Comment apparaître dans les réponses des IA »" [ref=e122] [cursor=pointer]:
+          - /url: /ressources/visibilite-ia
+        - text: ", et le guide"
+        - link "« Comment apparaître sur Perplexity »" [ref=e123] [cursor=pointer]:
+          - /url: /ressources/visibilite-perplexity
+        - text: .
+    - generic [ref=e125]:
+      - heading "Questions fréquentes" [level=2] [ref=e126]
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - button "Comment ChatGPT choisit-il les marques qu’il cite ?" [ref=e129] [cursor=pointer]:
+            - generic [ref=e130]: Comment ChatGPT choisit-il les marques qu’il cite ?
+            - img [ref=e132]
+          - paragraph [ref=e133]: "ChatGPT s’appuie sur deux sources : sa connaissance d’entraînement (les marques vues de façon récurrente et cohérente dans son corpus) et ChatGPT Search, sa recherche web en direct qui lit et cite des pages en temps réel. Une marque citée est généralement une marque à la fois bien décrite sur son site et reconnue par des sources tierces."
+        - generic [ref=e134]:
+          - button "Faut-il un bon SEO pour apparaître dans ChatGPT ?" [ref=e135] [cursor=pointer]:
+            - generic [ref=e136]: Faut-il un bon SEO pour apparaître dans ChatGPT ?
+            - img [ref=e138]
+          - paragraph [ref=e139]: "Un bon SEO aide pour le levier ChatGPT Search, qui s’appuie sur une recherche web. Mais ce n’est pas suffisant : ChatGPT privilégie les passages clairs, factuels et structurés en question-réponse. Et la connaissance d’entraînement du modèle, elle, dépend surtout des mentions tierces et de la cohérence d’entité, pas du classement Google."
+        - generic [ref=e140]:
+          - button "Comment autoriser ChatGPT à accéder à mon site ?" [ref=e141] [cursor=pointer]:
+            - generic [ref=e142]: Comment autoriser ChatGPT à accéder à mon site ?
+            - img [ref=e144]
+          - paragraph [ref=e145]: "OpenAI utilise trois robots : GPTBot (entraînement des futurs modèles), OAI-SearchBot (index de ChatGPT Search) et ChatGPT-User (navigation à la demande). Il faut les autoriser explicitement dans le fichier robots.txt. Bloquer l’un d’eux exclut votre marque du levier correspondant."
+        - generic [ref=e146]:
+          - button "Combien de temps avant d’apparaître dans ChatGPT ?" [ref=e147] [cursor=pointer]:
+            - generic [ref=e148]: Combien de temps avant d’apparaître dans ChatGPT ?
+            - img [ref=e150]
+          - paragraph [ref=e151]: "Pour ChatGPT Search (recherche live), l’impact est rapide : quelques jours à quelques semaines après l’indexation des contenus optimisés. Pour la connaissance d’entraînement du modèle, c’est un jeu de fond : les signaux mettent plusieurs mois à se consolider et n’apparaissent qu’avec les nouvelles versions du modèle."
+        - generic [ref=e152]:
+          - button "ChatGPT donne des informations fausses sur ma marque, que faire ?" [ref=e153] [cursor=pointer]:
+            - generic [ref=e154]: ChatGPT donne des informations fausses sur ma marque, que faire ?
+            - img [ref=e156]
+          - paragraph [ref=e157]: "Ces hallucinations viennent presque toujours d’une entité de marque floue ou de sources tierces contradictoires. La correction passe par la consolidation d’entité : aligner le nom, la description et les faits clés sur votre site, vos profils, Wikidata et les annuaires, jusqu’à ce que le modèle dispose d’une version cohérente et vérifiable."
+    - generic [ref=e159]:
+      - heading "Prêt à devenir une référence citée par les IA ?" [level=2] [ref=e160]
+      - paragraph [ref=e161]: 30 minutes de cadrage gratuit pour évaluer votre visibilité actuelle dans les IA génératives.
+      - link "Réserver un cadrage →" [ref=e162] [cursor=pointer]:
+        - /url: https://calendly.com/rclerc26/new-meeting
+      - paragraph [ref=e163]:
+        - link "← Toutes les ressources" [ref=e164] [cursor=pointer]:
+          - /url: /ressources/
+    - generic [ref=e166]:
+      - generic [ref=e167]:
+        - generic [ref=e168]:
+          - link "Zenifai — retour à l'accueil" [ref=e169] [cursor=pointer]:
+            - /url: /
+            - text: Zenifai•
+          - paragraph [ref=e170]: L'agence GEO qui fait citer votre marque par les IA.
+        - generic [ref=e171]:
+          - link "Services" [ref=e172] [cursor=pointer]:
+            - /url: /services
+          - list [ref=e173]:
+            - listitem [ref=e174]:
+              - link "Audit de visibilité IA" [ref=e175] [cursor=pointer]:
+                - /url: /services/audit-visibilite-ia
+            - listitem [ref=e176]:
+              - link "Stratégie & Consulting GEO" [ref=e177] [cursor=pointer]:
+                - /url: /services/strategie-geo
+            - listitem [ref=e178]:
+              - link "Optimisation de contenu" [ref=e179] [cursor=pointer]:
+                - /url: /services/contenu-llm
+            - listitem [ref=e180]:
+              - link "Autorité & Mentions" [ref=e181] [cursor=pointer]:
+                - /url: /services/autorite-marque
+        - generic [ref=e182]:
+          - link "Ressources" [ref=e183] [cursor=pointer]:
+            - /url: /ressources
+          - list [ref=e184]:
+            - listitem [ref=e185]:
+              - link "Lexique GEO" [ref=e186] [cursor=pointer]:
+                - /url: /ressources/lexique-geo
+            - listitem [ref=e187]:
+              - link "Statistiques GEO 2026" [ref=e188] [cursor=pointer]:
+                - /url: /ressources/statistiques-geo
+            - listitem [ref=e189]:
+              - link "Apparaître dans les IA" [ref=e190] [cursor=pointer]:
+                - /url: /ressources/visibilite-ia
+            - listitem [ref=e191]:
+              - link "GEO pour cabinets d'avocats" [ref=e192] [cursor=pointer]:
+                - /url: /ressources/geo-avocats
+            - listitem [ref=e193]:
+              - generic [ref=e194]: Newsletter IA bientôt
+        - generic [ref=e195]:
+          - heading "Contact" [level=4] [ref=e196]
+          - list [ref=e197]:
+            - listitem [ref=e198]:
+              - link "robin@zenifai.ai" [ref=e199] [cursor=pointer]:
+                - /url: mailto:robin@zenifai.ai
+            - listitem [ref=e200]:
+              - link "louis@zenifai.ai" [ref=e201] [cursor=pointer]:
+                - /url: mailto:louis@zenifai.ai
+            - listitem [ref=e202]:
+              - link "Zenifai sur LinkedIn" [ref=e203] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/zenifai
+                - text: LinkedIn
+            - listitem [ref=e204]:
+              - link "Réserver un audit gratuit sur Calendly" [ref=e205] [cursor=pointer]:
+                - /url: https://calendly.com/rclerc26/new-meeting
+                - text: Réserver un audit →
+      - generic [ref=e206]:
+        - paragraph [ref=e207]: © 2026 Zenifai. Tous droits réservés.
+        - generic [ref=e208]:
+          - link "Mentions légales" [ref=e209] [cursor=pointer]:
+            - /url: /mentions-legales
+          - link "Politique de confidentialité" [ref=e210] [cursor=pointer]:
+            - /url: /mentions-legales#donnees-personnelles
+  - alert [ref=e211]

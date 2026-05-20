@@ -5,6 +5,7 @@
 import { motion } from "framer-motion";
 import { Package, ShoppingBag, Briefcase } from "lucide-react";
 import SectionWrapper from "@/components/ui/SectionWrapper";
+import Eyebrow from "@/components/Eyebrow";
 
 const AUDIENCES = [
   {
@@ -50,9 +51,7 @@ export default function ForWho() {
     <SectionWrapper className="py-24 lg:py-32 bg-bg-secondary/30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 mb-14">
-          <p className="text-xs font-medium tracking-widest uppercase text-accent-violet">
-            Pour qui
-          </p>
+          <Eyebrow>Pour qui</Eyebrow>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold leading-[1.15] tracking-tight">
             Vous êtes…
           </h2>

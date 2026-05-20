@@ -5,6 +5,7 @@
 import { motion } from "framer-motion";
 import { X, CheckCircle2 } from "lucide-react";
 import SectionWrapper from "@/components/ui/SectionWrapper";
+import Eyebrow from "@/components/Eyebrow";
 
 function GoogleMockup() {
   return (
@@ -119,12 +120,10 @@ export default function ProblemSection() {
         <div className="grid lg:grid-cols-2 gap-16 items-start">
           {/* Left: text */}
           <div className="space-y-6">
-            <p className="text-xs font-medium tracking-widest uppercase text-accent-violet">
-              Le problème
-            </p>
+            <Eyebrow>Le problème</Eyebrow>
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold leading-[1.15] tracking-tight">
               La recherche a changé.{" "}
-              <span className="gradient-text">Et vous ?</span>
+              <span className="italic font-light text-accent-violet/95">Et vous ?</span>
             </h2>
 
             <div className="space-y-4 text-text-secondary leading-relaxed">

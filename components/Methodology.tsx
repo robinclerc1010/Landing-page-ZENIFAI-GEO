@@ -4,6 +4,7 @@
 
 import { motion } from "framer-motion";
 import SectionWrapper from "@/components/ui/SectionWrapper";
+import Eyebrow from "@/components/Eyebrow";
 import { METHODOLOGY_STEPS } from "@/lib/constants";
 
 export default function Methodology() {
@@ -11,12 +12,10 @@ export default function Methodology() {
     <SectionWrapper id="methode" className="py-24 lg:py-32 bg-bg-secondary/30">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center space-y-4 mb-16">
-          <p className="text-xs font-medium tracking-widest uppercase text-accent-violet">
-            Méthode
-          </p>
+          <Eyebrow>Méthode</Eyebrow>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold leading-[1.15] tracking-tight">
             Notre méthode en{" "}
-            <span className="gradient-text">6 étapes</span>
+            <span className="italic font-light text-accent-violet/95">6 étapes</span>
           </h2>
           <p className="text-text-secondary max-w-xl mx-auto leading-relaxed">
             Une méthodologie propriétaire, pensée de zéro pour les IA génératives —

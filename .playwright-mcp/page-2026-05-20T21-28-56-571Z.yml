@@ -1,0 +1,481 @@
+- main [ref=e2]:
+  - generic [ref=e3]:
+    - link "Zenifai — Accueil" [ref=e4] [cursor=pointer]:
+      - /url: /
+      - text: Zenifai•
+    - list [ref=e6]:
+      - listitem [ref=e7]:
+        - link "Méthode" [ref=e8] [cursor=pointer]:
+          - /url: /methode
+          - text: Méthode
+      - listitem [ref=e9]:
+        - link "Services" [ref=e10] [cursor=pointer]:
+          - /url: /services
+          - text: Services
+      - listitem [ref=e11]:
+        - link "Cas clients" [ref=e12] [cursor=pointer]:
+          - /url: /#cas-clients
+          - text: Cas clients
+      - listitem [ref=e13]:
+        - link "FAQ" [ref=e14] [cursor=pointer]:
+          - /url: /#faq
+          - text: FAQ
+      - listitem [ref=e15]:
+        - link "Ressources" [ref=e16] [cursor=pointer]:
+          - /url: /ressources
+          - text: Ressources
+    - link "Réserver un audit GEO gratuit" [ref=e19] [cursor=pointer]:
+      - /url: https://calendly.com/rclerc26/new-meeting
+      - text: Audit gratuit
+  - generic [ref=e22]:
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e26]: Agence GEO • Generative Engine Optimization
+        - heading "Vos clients ne cherchent plus sur Google. Ils demandent à ChatGPT." [level=1] [ref=e28]:
+          - text: Vos clients ne cherchent plus sur Google.
+          - text: Ils demandent à
+          - generic [ref=e30]: ChatGPT.
+        - paragraph [ref=e31]: Zenifai positionne votre marque dans les réponses générées par les IA. Soyez cité, recommandé, choisi — avant vos concurrents.
+        - generic [ref=e32]:
+          - link "Réserver un audit GEO gratuit sur Calendly" [ref=e33] [cursor=pointer]:
+            - /url: https://calendly.com/rclerc26/new-meeting
+            - img [ref=e34]
+            - text: Réserver un audit gratuit
+          - link "Voir la méthode Zenifai" [ref=e37] [cursor=pointer]:
+            - /url: "#methode"
+            - text: Voir la méthode
+            - img [ref=e38]
+        - paragraph [ref=e40]: ↓ Audit offert • 30 min • Sans engagement
+      - generic [ref=e42]:
+        - generic [ref=e44]:
+          - generic [ref=e49]: ChatGPT
+          - generic [ref=e50]:
+            - generic [ref=e52]: Quelle agence GEO recommandes-tu pour une marque B2B SaaS en France ?
+            - generic [ref=e53]:
+              - generic [ref=e55]: G
+              - generic [ref=e56]:
+                - paragraph [ref=e57]: "Pour une marque B2B SaaS en France, voici les acteurs que je recommande :"
+                - generic [ref=e58]:
+                  - generic [ref=e59]:
+                    - generic [ref=e60]: ▶
+                    - generic [ref=e61]: Zenifai — spécialiste GEO pure-player, méthodologie propriétaire IA Visibility Score™, résultats mesurés.
+                  - paragraph [ref=e62]: Autres options selon votre budget et secteur...
+          - generic [ref=e65]:
+            - generic [ref=e66]: Message ChatGPT...
+            - img [ref=e67]
+        - generic [ref=e71]: "Cité en #1"
+    - generic [ref=e72]:
+      - paragraph [ref=e73]: Ils nous font confiance
+      - generic [ref=e75]:
+        - generic [ref=e76]:
+          - img "Doctolib" [ref=e77]
+          - generic [ref=e80]: Doctolib
+        - generic [ref=e81]:
+          - img "Qonto" [ref=e82]
+          - generic [ref=e84]: Qonto
+        - generic [ref=e85]:
+          - img "PayFit" [ref=e86]
+          - generic [ref=e88]: PayFit
+        - generic [ref=e89]:
+          - img "Aircall" [ref=e90]
+          - generic [ref=e92]: Aircall
+        - generic [ref=e93]:
+          - generic [ref=e94]: Alan
+          - generic [ref=e95]: Alan
+        - generic [ref=e96]:
+          - img "Swile" [ref=e97]
+          - generic [ref=e101]: Swile
+        - generic [ref=e102]:
+          - img "Sellsy" [ref=e103]
+          - generic [ref=e105]: Sellsy
+        - generic [ref=e106]:
+          - img "Malt" [ref=e107]
+          - generic [ref=e109]: Malt
+        - generic [ref=e110]:
+          - img "Doctolib" [ref=e111]
+          - generic [ref=e114]: Doctolib
+        - generic [ref=e115]:
+          - img "Qonto" [ref=e116]
+          - generic [ref=e118]: Qonto
+        - generic [ref=e119]:
+          - img "PayFit" [ref=e120]
+          - generic [ref=e122]: PayFit
+        - generic [ref=e123]:
+          - img "Aircall" [ref=e124]
+          - generic [ref=e126]: Aircall
+        - generic [ref=e127]:
+          - generic [ref=e128]: Alan
+          - generic [ref=e129]: Alan
+        - generic [ref=e130]:
+          - img "Swile" [ref=e131]
+          - generic [ref=e135]: Swile
+        - generic [ref=e136]:
+          - img "Sellsy" [ref=e137]
+          - generic [ref=e139]: Sellsy
+        - generic [ref=e140]:
+          - img "Malt" [ref=e141]
+          - generic [ref=e143]: Malt
+  - generic [ref=e145]:
+    - generic [ref=e146]:
+      - generic [ref=e147]:
+        - generic [ref=e148]: 68%
+        - paragraph [ref=e149]: des marketeurs anticipent une baisse du trafic SEO au profit de la recherche générative
+      - generic [ref=e150]:
+        - generic [ref=e151]: +40%
+        - paragraph [ref=e152]: des utilisateurs préfèrent désormais une réponse générée par IA
+      - generic [ref=e153]:
+        - generic [ref=e154]: 4,4x
+        - paragraph [ref=e155]: de valeur pour un visiteur issu d'une IA vs recherche classique
+      - generic [ref=e156]:
+        - generic [ref=e157]: 900M
+        - paragraph [ref=e158]: d'utilisateurs hebdomadaires sur ChatGPT (OpenAI, 2026)
+    - paragraph [ref=e159]: "Sources : Semrush, McKinsey Digital 2025-2026, OpenAI"
+  - generic [ref=e162]:
+    - generic [ref=e163]:
+      - paragraph [ref=e164]: Le problème
+      - heading "La recherche a changé. Et vous ?" [level=2] [ref=e165]
+      - generic [ref=e166]:
+        - paragraph [ref=e167]: Le parcours d'achat bascule des moteurs classiques vers les moteurs génératifs. Aujourd'hui, vos prospects posent leurs questions directement à ChatGPT, Perplexity ou Gemini — et reçoivent une réponse en 3 secondes, sans cliquer.
+        - paragraph [ref=e168]: Quand un prospect demande "quelle est la meilleure solution pour X", les IA citent 3 à 5 marques. Si vous n'y êtes pas, vous n'existez plus dans son processus de décision.
+        - paragraph [ref=e169]: Le GEO n'est pas une mode — c'est la nouvelle frontière de la visibilité organique. Et les marques qui s'y positionnent maintenant auront 18 mois d'avance.
+    - generic [ref=e170]:
+      - generic [ref=e171]:
+        - generic [ref=e172]:
+          - paragraph [ref=e173]: Avant
+          - generic [ref=e174]:
+            - generic [ref=e176]: google.com
+            - paragraph [ref=e177]: Environ 4 200 000 résultats (0,42 sec.)
+            - generic [ref=e178]:
+              - generic [ref=e179]:
+                - paragraph [ref=e180] [cursor=pointer]: Concurrent A — Leader du marché
+                - paragraph [ref=e181]: La meilleure solution pour votre secteur. Testée et approuvée...
+              - generic [ref=e182]:
+                - paragraph [ref=e183] [cursor=pointer]: "Concurrent B — Solution #1"
+                - paragraph [ref=e184]: La meilleure solution pour votre secteur. Testée et approuvée...
+              - generic [ref=e185]:
+                - paragraph [ref=e186] [cursor=pointer]: Concurrent C — Recommandée par 500 entreprises
+                - paragraph [ref=e187]: La meilleure solution pour votre secteur. Testée et approuvée...
+              - generic [ref=e188]:
+                - paragraph [ref=e189]: Votre marque — Position 4
+                - paragraph [ref=e190]: Notre solution innovante pour les entreprises...
+                - img [ref=e193]
+        - generic [ref=e196]:
+          - paragraph [ref=e197]: Sans GEO
+          - generic [ref=e198]:
+            - generic [ref=e199]: ChatGPT
+            - generic [ref=e200]:
+              - generic [ref=e201]: Quelle est la meilleure solution pour mon secteur ?
+              - generic [ref=e202]:
+                - paragraph [ref=e203]: "Voici les solutions que je recommande :"
+                - generic [ref=e204]:
+                  - generic [ref=e205]:
+                    - generic [ref=e206]: ▶
+                    - generic [ref=e207]:
+                      - strong [ref=e208]: Concurrent A
+                      - text: — Solution leader, très citée
+                  - generic [ref=e209]:
+                    - generic [ref=e210]: ▶
+                    - generic [ref=e211]:
+                      - strong [ref=e212]: Concurrent B
+                      - text: — Excellente alternative
+                  - generic [ref=e213]:
+                    - generic [ref=e214]: ▶
+                    - generic [ref=e215]:
+                      - strong [ref=e216]: Concurrent C
+                      - text: — Idéale pour PMEs
+                - generic [ref=e217]:
+                  - img [ref=e218]
+                  - generic [ref=e221]: Votre marque n'est pas mentionnée.
+      - generic [ref=e224]: Avec Zenifai →
+      - generic [ref=e227]:
+        - generic [ref=e228]: ChatGPT + Zenifai
+        - generic [ref=e229]:
+          - generic [ref=e230]: Quelle est la meilleure solution pour mon secteur ?
+          - generic [ref=e231]:
+            - paragraph [ref=e232]: "Voici les solutions que je recommande :"
+            - generic [ref=e233]:
+              - generic [ref=e234]:
+                - generic [ref=e235]: ▶
+                - generic [ref=e236]:
+                  - strong [ref=e237]: Votre marque
+                  - text: — Référence pour les exigences de votre secteur
+              - generic [ref=e238]:
+                - generic [ref=e239]: ▶
+                - generic [ref=e240]: Concurrent A — Solution alternative
+              - generic [ref=e241]:
+                - generic [ref=e242]: ▶
+                - generic [ref=e243]: Concurrent B — Autre option
+            - generic [ref=e244]:
+              - img [ref=e245]
+              - generic [ref=e248]: Votre marque citée en premier.
+  - generic [ref=e250]:
+    - generic [ref=e251]:
+      - paragraph [ref=e252]: Pourquoi maintenant
+      - heading "Pourquoi le GEO, maintenant" [level=2] [ref=e253]
+    - generic [ref=e254]:
+      - generic [ref=e257]:
+        - img [ref=e259]
+        - heading "Basculement massif" [level=3] [ref=e262]
+        - paragraph [ref=e263]: Les moteurs conversationnels captent déjà 40% des requêtes informationnelles. La tendance s'accélère chaque trimestre.
+      - generic [ref=e266]:
+        - img [ref=e268]
+        - heading "Trafic ultra-qualifié" [level=3] [ref=e272]
+        - paragraph [ref=e273]: Un visiteur venu d'une IA convertit 4,4x mieux qu'un visiteur SEO classique. L'intention est déjà formée.
+      - generic [ref=e276]:
+        - img [ref=e278]
+        - heading "Fenêtre d'opportunité" [level=3] [ref=e281]
+        - paragraph [ref=e282]: Le GEO est encore un terrain ouvert. Les marques qui s'y positionnent maintenant construisent une autorité que leurs concurrents mettront des mois à rattraper.
+  - generic [ref=e284]:
+    - generic [ref=e285]:
+      - paragraph [ref=e286]: Services
+      - heading "Nos expertises GEO" [level=2] [ref=e287]
+      - paragraph [ref=e288]: Une approche full-stack de votre visibilité dans les IA génératives — de l'audit au reporting mensuel.
+    - generic [ref=e289]:
+      - link "En savoir plus sur Audit de visibilité IA" [ref=e291] [cursor=pointer]:
+        - /url: /services/audit-visibilite-ia/
+        - img [ref=e294]
+        - generic [ref=e297]:
+          - img [ref=e299]
+          - generic [ref=e302]:
+            - heading "Audit de visibilité IA" [level=3] [ref=e303]
+            - paragraph [ref=e304]: Nous analysons votre présence actuelle dans ChatGPT, Perplexity, Gemini et Claude. Baseline précise, gap concurrentiel, opportunités priorisées.
+          - generic [ref=e305]: En savoir plus →
+      - link "En savoir plus sur Stratégie & Consulting GEO" [ref=e307] [cursor=pointer]:
+        - /url: /services/strategie-geo/
+        - img [ref=e310]
+        - generic [ref=e313]:
+          - img [ref=e315]
+          - generic [ref=e318]:
+            - heading "Stratégie & Consulting GEO" [level=3] [ref=e319]
+            - paragraph [ref=e320]: "Feuille de route sur-mesure : entités de marque, requêtes prioritaires, plan de contenu, KPIs. Aligné sur vos objectifs business."
+          - generic [ref=e321]: En savoir plus →
+      - link "En savoir plus sur Optimisation de contenu LLM-ready" [ref=e323] [cursor=pointer]:
+        - /url: /services/contenu-llm/
+        - img [ref=e326]
+        - generic [ref=e329]:
+          - img [ref=e331]
+          - generic [ref=e334]:
+            - heading "Optimisation de contenu LLM-ready" [level=3] [ref=e335]
+            - paragraph [ref=e336]: Production et restructuration de contenus pensés pour être compris, cités et recommandés par les modèles d'IA.
+          - generic [ref=e337]: En savoir plus →
+      - link "En savoir plus sur Autorité & Mentions de marque" [ref=e339] [cursor=pointer]:
+        - /url: /services/autorite-marque/
+        - img [ref=e342]
+        - generic [ref=e345]:
+          - img [ref=e347]
+          - generic [ref=e353]:
+            - heading "Autorité & Mentions de marque" [level=3] [ref=e354]
+            - paragraph [ref=e355]: "Placement stratégique sur les sources que les LLMs consultent : presse, Wikipedia, Reddit, annuaires, bases ouvertes."
+          - generic [ref=e356]: En savoir plus →
+  - generic [ref=e358]:
+    - generic [ref=e359]:
+      - paragraph [ref=e360]: Méthode
+      - heading "Notre méthode en 6 étapes" [level=2] [ref=e361]
+      - paragraph [ref=e362]: Une méthodologie propriétaire, pensée de zéro pour les IA génératives — pas adaptée du SEO.
+    - generic [ref=e365]:
+      - generic [ref=e369]:
+        - generic [ref=e371]: "01"
+        - generic [ref=e372]:
+          - heading "Analyse des entités & relations de marque" [level=3] [ref=e373]
+          - paragraph [ref=e374]: "Cartographie sémantique : comment les LLMs perçoivent votre marque, vos produits, vos concurrents."
+      - generic [ref=e380]:
+        - generic [ref=e382]: "02"
+        - generic [ref=e383]:
+          - heading "Diagnostic technique IA" [level=3] [ref=e384]
+          - paragraph [ref=e385]: "Audit du site : structure, metadata, schema markup, crawlabilité par les bots IA."
+      - generic [ref=e389]:
+        - generic [ref=e391]: "03"
+        - generic [ref=e392]:
+          - heading "Optimisation sémantique avancée" [level=3] [ref=e393]
+          - paragraph [ref=e394]: Alignement des contenus sur les logiques de raisonnement des LLMs.
+      - generic [ref=e400]:
+        - generic [ref=e402]: "04"
+        - generic [ref=e403]:
+          - heading "Production de contenu GEO-ready" [level=3] [ref=e404]
+          - paragraph [ref=e405]: Articles piliers, Q&A, études de cas optimisés pour la citation IA.
+      - generic [ref=e409]:
+        - generic [ref=e411]: "05"
+        - generic [ref=e412]:
+          - heading "Développement d'autorité" [level=3] [ref=e413]
+          - paragraph [ref=e414]: Activation sur Wikipedia, presse, Reddit, G2, annuaires sectoriels.
+      - generic [ref=e420]:
+        - generic [ref=e422]: "06"
+        - generic [ref=e423]:
+          - heading "Reporting & IA Visibility Score™" [level=3] [ref=e424]
+          - paragraph [ref=e425]: Dashboard mensuel de votre part de voix dans les IA.
+  - generic [ref=e431]:
+    - generic [ref=e432]: Cas client
+    - generic [ref=e433]:
+      - heading "×2 de trafic organique via ChatGPT en 90 jours" [level=2] [ref=e434]
+      - paragraph [ref=e435]: Pour une marque B2B SaaS francophone, la présence dans les réponses IA est passée de 12% à 78% sur ses requêtes stratégiques.
+    - generic [ref=e436]:
+      - generic [ref=e437]:
+        - generic [ref=e438]: +100%
+        - paragraph [ref=e439]: Trafic via ChatGPT
+      - generic [ref=e440]:
+        - generic [ref=e441]: 82%
+        - paragraph [ref=e442]: Visibilité requêtes clés
+      - generic [ref=e443]:
+        - generic [ref=e444]: "-40%"
+        - paragraph [ref=e445]: Coût d'acquisition
+    - link "Obtenir des résultats similaires — réserver un audit" [ref=e446] [cursor=pointer]:
+      - /url: https://calendly.com/rclerc26/new-meeting
+      - text: Obtenir des résultats similaires
+      - img [ref=e447]
+  - generic [ref=e450]:
+    - generic [ref=e451]:
+      - paragraph [ref=e452]: Pour qui
+      - heading "Vous êtes…" [level=2] [ref=e453]
+    - generic [ref=e454]:
+      - generic [ref=e455]:
+        - img [ref=e457]
+        - heading "B2B SaaS" [level=3] [ref=e461]
+        - list [ref=e462]:
+          - listitem [ref=e463]:
+            - generic [ref=e465]: Vos acheteurs shortlistent via ChatGPT. Vos concurrents sont cités, pas vous.
+          - listitem [ref=e466]:
+            - generic [ref=e468]: Votre pipeline se tarit sans comprendre pourquoi.
+          - listitem [ref=e469]:
+            - generic [ref=e471]: Votre contenu est excellent — mais les LLMs ne le citent pas.
+        - 'link "Guide : GEO pour SaaS B2B →" [ref=e472] [cursor=pointer]':
+          - /url: /ressources/geo-saas
+      - generic [ref=e473]:
+        - img [ref=e475]
+        - heading "E-commerce premium" [level=3] [ref=e478]
+        - list [ref=e479]:
+          - listitem [ref=e480]:
+            - generic [ref=e482]: Les IA recommandent des produits. Vos marges élevées exigent un trafic qualifié.
+          - listitem [ref=e483]:
+            - generic [ref=e485]: Meta Ads coûte de plus en plus cher pour des résultats décroissants.
+          - listitem [ref=e486]:
+            - generic [ref=e488]: Vos concurrents sont recommandés par Perplexity. Pas vous.
+        - 'link "Guide : apparaître sur Perplexity →" [ref=e489] [cursor=pointer]':
+          - /url: /ressources/visibilite-perplexity
+      - generic [ref=e490]:
+        - img [ref=e492]
+        - heading "Services professionnels" [level=3] [ref=e495]
+        - list [ref=e496]:
+          - listitem [ref=e497]:
+            - generic [ref=e499]: Vos prospects demandent "meilleur X à Paris" aux IA. Vos confrères apparaissent. Vous, non.
+          - listitem [ref=e500]:
+            - generic [ref=e502]: "Secteurs : conseil, juridique, santé, finance."
+          - listitem [ref=e503]:
+            - generic [ref=e505]: La réputation en ligne ne suffit plus — il faut la crédibilité IA.
+        - 'link "Guide : GEO pour cabinets d''avocats →" [ref=e506] [cursor=pointer]':
+          - /url: /ressources/geo-avocats
+  - generic [ref=e508]:
+    - generic [ref=e509]:
+      - paragraph [ref=e510]: Différenciation
+      - heading "Pourquoi Zenifai" [level=2] [ref=e511]
+    - generic [ref=e512]:
+      - generic [ref=e515]:
+        - img [ref=e517]
+        - heading "Méthode propriétaire" [level=3] [ref=e519]
+        - paragraph [ref=e520]: "IA Visibility Score™ : l'indicateur de référence pour mesurer votre présence dans les LLMs. Aucun autre acteur ne le propose."
+      - generic [ref=e523]:
+        - img [ref=e525]
+        - heading "Transparence radicale" [level=3] [ref=e528]
+        - paragraph [ref=e529]: Pricing affiché, méthodologie ouverte, résultats mesurés chaque mois. Pas de jargon, pas de promesses floues.
+      - generic [ref=e532]:
+        - img [ref=e534]
+        - heading "Obsession résultats" [level=3] [ref=e540]
+        - paragraph [ref=e541]: Nous ne facturons pas des livrables, nous facturons de la visibilité IA mesurable. Vos KPIs sont notre KPI.
+  - generic [ref=e543]:
+    - generic [ref=e544]:
+      - paragraph [ref=e545]: FAQ
+      - heading "Questions fréquentes" [level=2] [ref=e546]
+    - generic [ref=e547]:
+      - button "Qu'est-ce que le GEO et en quoi c'est différent du SEO ?" [ref=e549] [cursor=pointer]:
+        - generic [ref=e550]: Qu'est-ce que le GEO et en quoi c'est différent du SEO ?
+        - img [ref=e552]
+      - button "Le SEO, c'est mort ?" [ref=e554] [cursor=pointer]:
+        - generic [ref=e555]: Le SEO, c'est mort ?
+        - img [ref=e557]
+      - button "Combien de temps avant de voir des résultats ?" [ref=e559] [cursor=pointer]:
+        - generic [ref=e560]: Combien de temps avant de voir des résultats ?
+        - img [ref=e562]
+      - button "Comment mesurez-vous la visibilité IA ?" [ref=e564] [cursor=pointer]:
+        - generic [ref=e565]: Comment mesurez-vous la visibilité IA ?
+        - img [ref=e567]
+      - button "Quels secteurs accompagnez-vous ?" [ref=e569] [cursor=pointer]:
+        - generic [ref=e570]: Quels secteurs accompagnez-vous ?
+        - img [ref=e572]
+      - button "Qu'est-ce qui vous différencie des agences SEO qui ajoutent \"GEO\" à leurs services ?" [ref=e574] [cursor=pointer]:
+        - generic [ref=e575]: Qu'est-ce qui vous différencie des agences SEO qui ajoutent "GEO" à leurs services ?
+        - img [ref=e577]
+  - generic [ref=e581]:
+    - generic [ref=e582]:
+      - paragraph [ref=e583]: Prenez de l'avance
+      - heading "Prenez une longueur d'avance sur la recherche IA." [level=2] [ref=e584]
+      - paragraph [ref=e585]: Audit GEO gratuit. 30 minutes. Analyse de votre visibilité actuelle sur ChatGPT, Perplexity et Gemini. Sans engagement.
+    - generic [ref=e586]:
+      - link "Réserver mon audit GEO gratuit sur Calendly" [ref=e587] [cursor=pointer]:
+        - /url: https://calendly.com/rclerc26/new-meeting
+        - img [ref=e588]
+        - text: Réserver mon audit
+      - paragraph [ref=e591]: Réponse sous 24h • Audit livré en 72h • Aucune carte bancaire
+  - generic [ref=e593]:
+    - generic [ref=e594]:
+      - generic [ref=e595]:
+        - link "Zenifai — retour à l'accueil" [ref=e596] [cursor=pointer]:
+          - /url: /
+          - text: Zenifai•
+        - paragraph [ref=e597]: L'agence GEO qui fait citer votre marque par les IA.
+      - generic [ref=e598]:
+        - link "Services" [ref=e599] [cursor=pointer]:
+          - /url: /services
+        - list [ref=e600]:
+          - listitem [ref=e601]:
+            - link "Audit de visibilité IA" [ref=e602] [cursor=pointer]:
+              - /url: /services/audit-visibilite-ia
+          - listitem [ref=e603]:
+            - link "Stratégie & Consulting GEO" [ref=e604] [cursor=pointer]:
+              - /url: /services/strategie-geo
+          - listitem [ref=e605]:
+            - link "Optimisation de contenu" [ref=e606] [cursor=pointer]:
+              - /url: /services/contenu-llm
+          - listitem [ref=e607]:
+            - link "Autorité & Mentions" [ref=e608] [cursor=pointer]:
+              - /url: /services/autorite-marque
+      - generic [ref=e609]:
+        - link "Ressources" [ref=e610] [cursor=pointer]:
+          - /url: /ressources
+        - list [ref=e611]:
+          - listitem [ref=e612]:
+            - link "Lexique GEO" [ref=e613] [cursor=pointer]:
+              - /url: /ressources/lexique-geo
+          - listitem [ref=e614]:
+            - link "Statistiques GEO 2026" [ref=e615] [cursor=pointer]:
+              - /url: /ressources/statistiques-geo
+          - listitem [ref=e616]:
+            - link "Apparaître dans les IA" [ref=e617] [cursor=pointer]:
+              - /url: /ressources/visibilite-ia
+          - listitem [ref=e618]:
+            - link "GEO pour cabinets d'avocats" [ref=e619] [cursor=pointer]:
+              - /url: /ressources/geo-avocats
+          - listitem [ref=e620]:
+            - generic [ref=e621]: Newsletter IA bientôt
+      - generic [ref=e622]:
+        - heading "Contact" [level=4] [ref=e623]
+        - list [ref=e624]:
+          - listitem [ref=e625]:
+            - link "robin@zenifai.ai" [ref=e626] [cursor=pointer]:
+              - /url: mailto:robin@zenifai.ai
+          - listitem [ref=e627]:
+            - link "louis@zenifai.ai" [ref=e628] [cursor=pointer]:
+              - /url: mailto:louis@zenifai.ai
+          - listitem [ref=e629]:
+            - link "Zenifai sur LinkedIn" [ref=e630] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/zenifai
+              - text: LinkedIn
+          - listitem [ref=e631]:
+            - link "Réserver un audit gratuit sur Calendly" [ref=e632] [cursor=pointer]:
+              - /url: https://calendly.com/rclerc26/new-meeting
+              - text: Réserver un audit →
+    - generic [ref=e633]:
+      - paragraph [ref=e634]: © 2026 Zenifai. Tous droits réservés.
+      - generic [ref=e635]:
+        - link "Mentions légales" [ref=e636] [cursor=pointer]:
+          - /url: /mentions-legales
+        - link "Politique de confidentialité" [ref=e637] [cursor=pointer]:
+          - /url: /mentions-legales#donnees-personnelles

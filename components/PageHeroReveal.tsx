@@ -7,6 +7,7 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 import ResourceIcon from "@/components/ResourceIcon";
+import Eyebrow from "@/components/Eyebrow";
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 
@@ -47,12 +48,9 @@ export default function PageHeroReveal({
             <ResourceIcon icon={icon} />
           </motion.div>
         )}
-        <motion.p
-          {...step(icon ? 0.06 : 0)}
-          className="text-xs font-medium tracking-widest uppercase text-accent-violet mb-4"
-        >
-          {eyebrow}
-        </motion.p>
+        <motion.div {...step(icon ? 0.06 : 0)} className="mb-5">
+          <Eyebrow align="left">{eyebrow}</Eyebrow>
+        </motion.div>
         <motion.h1
           {...step(0.08)}
           data-speakable
@@ -62,7 +60,9 @@ export default function PageHeroReveal({
           {titleAccent && (
             <>
               {" "}
-              <span className="gradient-text">{titleAccent}</span>
+              <span className="italic font-light text-accent-violet/95">
+                {titleAccent}
+              </span>
             </>
           )}
         </motion.h1>

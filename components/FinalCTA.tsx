@@ -5,6 +5,7 @@
 import { motion } from "framer-motion";
 import { CalendarCheck } from "lucide-react";
 import { CALENDLY_URL } from "@/lib/constants";
+import Eyebrow from "@/components/Eyebrow";
 
 export default function FinalCTA() {
   return (
@@ -36,12 +37,10 @@ export default function FinalCTA() {
           transition={{ duration: 0.6 }}
           className="space-y-4"
         >
-          <p className="text-xs font-medium tracking-widest uppercase text-accent-violet">
-            Prenez de l&apos;avance
-          </p>
+          <Eyebrow>Prenez de l&apos;avance</Eyebrow>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold leading-[1.1] tracking-tight text-text-primary">
             Prenez une longueur d&apos;avance sur{" "}
-            <span className="gradient-text">la recherche IA.</span>
+            <span className="italic font-light text-accent-violet/95">la recherche IA.</span>
           </h2>
           <p className="text-text-secondary text-lg leading-relaxed max-w-xl mx-auto">
             Audit GEO gratuit. 30 minutes. Analyse de votre visibilité actuelle sur

@@ -45,7 +45,7 @@ export default function CaseStudy() {
             <div className="space-y-3">
               <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold leading-[1.15] tracking-tight">
                 ×2 de trafic organique via{" "}
-                <span className="gradient-text">ChatGPT</span> en 90 jours
+                <span className="italic font-light text-accent-violet/95">ChatGPT</span> en 90 jours
               </h2>
               <p className="text-text-secondary text-lg leading-relaxed max-w-2xl">
                 Pour une marque B2B SaaS francophone, la présence dans les réponses IA

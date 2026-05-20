@@ -1,0 +1,192 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "Zenifai — Accueil" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - text: Zenifai•
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Méthode" [ref=e8] [cursor=pointer]:
+            - /url: /methode
+            - text: Méthode
+        - listitem [ref=e9]:
+          - link "Services" [ref=e10] [cursor=pointer]:
+            - /url: /services
+            - text: Services
+        - listitem [ref=e11]:
+          - link "Cas clients" [ref=e12] [cursor=pointer]:
+            - /url: /#cas-clients
+            - text: Cas clients
+        - listitem [ref=e13]:
+          - link "FAQ" [ref=e14] [cursor=pointer]:
+            - /url: /#faq
+            - text: FAQ
+        - listitem [ref=e15]:
+          - link "Ressources" [ref=e16] [cursor=pointer]:
+            - /url: /ressources
+            - text: Ressources
+      - link "Réserver un audit GEO gratuit" [ref=e19] [cursor=pointer]:
+        - /url: https://calendly.com/rclerc26/new-meeting
+        - text: Audit gratuit
+    - generic [ref=e21]:
+      - paragraph [ref=e22]: Service 01
+      - heading "Audit de visibilité IA" [level=1] [ref=e23]
+      - paragraph [ref=e24]: Combien de fois votre marque est-elle citée par ChatGPT, Perplexity, Gemini ou Claude quand un prospect cherche votre solution ? Notre audit GEO vous donne la réponse chiffrée — et la roadmap pour la faire monter.
+      - generic [ref=e26]: "Durée typique : 7 à 10 jours"
+    - generic [ref=e28]:
+      - heading "Pour qui" [level=2] [ref=e29]
+      - list [ref=e30]:
+        - listitem [ref=e31]:
+          - generic [ref=e33]: Marques B2B SaaS qui veulent mesurer leur part de voix actuelle dans les IA
+        - listitem [ref=e34]:
+          - generic [ref=e36]: Directions marketing en réflexion sur leur stratégie GEO 2026
+        - listitem [ref=e37]:
+          - generic [ref=e39]: E-commerces premium ciblés sur des recherches comparatives
+        - listitem [ref=e40]:
+          - generic [ref=e42]: Cabinets et agences qui veulent benchmarker un client avant un pitch
+    - generic [ref=e44]:
+      - heading "Ce qu’on livre" [level=2] [ref=e45]
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - heading "Score de visibilité IA" [level=3] [ref=e48]
+          - paragraph [ref=e49]: Note globale sur 100 + détail par LLM. Comparaison versus 3 à 5 concurrents directs.
+        - generic [ref=e50]:
+          - heading "Cartographie des prompts" [level=3] [ref=e51]
+          - paragraph [ref=e52]: 50 à 200 prompts stratégiques classés par intention d’achat, avec votre taux de citation par requête.
+        - generic [ref=e53]:
+          - heading "Analyse d’entité" [level=3] [ref=e54]
+          - paragraph [ref=e55]: "Comment votre marque est perçue par les LLMs : attributs associés, positionnements, hallucinations détectées."
+        - generic [ref=e56]:
+          - heading "Diagnostic technique GEO" [level=3] [ref=e57]
+          - paragraph [ref=e58]: "Audit du site : robots.txt, llms.txt, schema.org, crawlabilité IA, qualité du contenu LLM-ready."
+        - generic [ref=e59]:
+          - heading "Roadmap priorisée" [level=3] [ref=e60]
+          - paragraph [ref=e61]: Plan d’actions classé par impact/effort sur 30, 60 et 90 jours. Quick wins identifiés.
+        - generic [ref=e62]:
+          - heading "Restitution live" [level=3] [ref=e63]
+          - paragraph [ref=e64]: Présentation 60 min avec votre équipe marketing pour discuter les enjeux et arbitrer.
+    - generic [ref=e66]:
+      - heading "Comment ça se passe" [level=2] [ref=e67]
+      - list [ref=e68]:
+        - listitem [ref=e69]:
+          - generic [ref=e70]: "01"
+          - generic [ref=e71]:
+            - heading "Brief & cadrage (J0)" [level=3] [ref=e72]
+            - paragraph [ref=e73]: 30 min pour aligner sur vos objectifs business, vos personas, vos concurrents prioritaires et la liste des LLMs à couvrir.
+        - listitem [ref=e74]:
+          - generic [ref=e75]: "02"
+          - generic [ref=e76]:
+            - heading "Construction du corpus de prompts (J1-J2)" [level=3] [ref=e77]
+            - paragraph [ref=e78]: Génération de 50 à 200 requêtes représentatives du parcours d’achat de vos prospects, validées avec vous.
+        - listitem [ref=e79]:
+          - generic [ref=e80]: "03"
+          - generic [ref=e81]:
+            - heading "Mesure multi-LLM (J3-J5)" [level=3] [ref=e82]
+            - paragraph [ref=e83]: Tests automatisés sur ChatGPT, Perplexity, Gemini, Claude avec plusieurs passes pour fiabiliser les résultats.
+        - listitem [ref=e84]:
+          - generic [ref=e85]: "04"
+          - generic [ref=e86]:
+            - heading "Analyse & livrable (J6-J8)" [level=3] [ref=e87]
+            - paragraph [ref=e88]: Synthèse en rapport PDF + dashboard interactif. Identification des leviers à fort ROI.
+        - listitem [ref=e89]:
+          - generic [ref=e90]: "05"
+          - generic [ref=e91]:
+            - heading "Restitution (J9-J10)" [level=3] [ref=e92]
+            - paragraph [ref=e93]: Présentation 60 min avec roadmap actionnable. Vous repartez avec un plan d’action concret.
+    - generic [ref=e95]:
+      - heading "Questions fréquentes" [level=2] [ref=e96]
+      - generic [ref=e97]:
+        - generic [ref=e98]:
+          - button "Qu’est-ce qu’un audit de visibilité IA ?" [ref=e99] [cursor=pointer]:
+            - generic [ref=e100]: Qu’est-ce qu’un audit de visibilité IA ?
+            - img [ref=e102]
+          - paragraph [ref=e103]: Un audit de visibilité IA mesure la fréquence et la qualité avec lesquelles votre marque est citée par les IA génératives (ChatGPT, Perplexity, Gemini, Claude) en réponse à des requêtes d’achat ou d’évaluation pertinentes pour votre marché.
+        - generic [ref=e104]:
+          - button "Combien de requêtes testez-vous ?" [ref=e105] [cursor=pointer]:
+            - generic [ref=e106]: Combien de requêtes testez-vous ?
+            - img [ref=e108]
+          - paragraph [ref=e109]: Notre audit standard couvre 50 à 200 prompts d’achat, segmentés par intention (recherche, comparaison, recommandation), testés sur les 4 LLMs majeurs avec plusieurs runs pour neutraliser la variance des modèles.
+        - generic [ref=e110]:
+          - button "Quel est le délai de livraison ?" [ref=e111] [cursor=pointer]:
+            - generic [ref=e112]: Quel est le délai de livraison ?
+            - img [ref=e114]
+          - paragraph [ref=e115]: Audit gratuit de cadrage en 72h. Audit complet (livrable détaillé + roadmap) en 7 à 10 jours ouvrés à partir du brief.
+        - generic [ref=e116]:
+          - button "Quel est le tarif d’un audit GEO ?" [ref=e117] [cursor=pointer]:
+            - generic [ref=e118]: Quel est le tarif d’un audit GEO ?
+            - img [ref=e120]
+          - paragraph [ref=e121]: "Le pré-audit de cadrage est offert. Le tarif d’un audit complet est défini sur-mesure en fonction de votre besoin : nombre de marchés et langues, profondeur d’analyse concurrentielle, périmètre du diagnostic technique. Nous établissons un devis personnalisé sous 24h après un échange de cadrage de 30 min."
+    - generic [ref=e123]:
+      - heading "Prêt à passer à l’action ?" [level=2] [ref=e124]
+      - paragraph [ref=e125]: 30 minutes pour évaluer votre visibilité actuelle dans les IA et identifier les actions à fort impact.
+      - link "Réserver un audit gratuit →" [ref=e126] [cursor=pointer]:
+        - /url: https://calendly.com/rclerc26/new-meeting
+      - paragraph [ref=e127]:
+        - link "← Tous nos services" [ref=e128] [cursor=pointer]:
+          - /url: /services/
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - generic [ref=e132]:
+          - link "Zenifai — retour à l'accueil" [ref=e133] [cursor=pointer]:
+            - /url: /
+            - text: Zenifai•
+          - paragraph [ref=e134]: L'agence GEO qui fait citer votre marque par les IA.
+        - generic [ref=e135]:
+          - link "Services" [ref=e136] [cursor=pointer]:
+            - /url: /services
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - link "Audit de visibilité IA" [ref=e139] [cursor=pointer]:
+                - /url: /services/audit-visibilite-ia
+            - listitem [ref=e140]:
+              - link "Stratégie & Consulting GEO" [ref=e141] [cursor=pointer]:
+                - /url: /services/strategie-geo
+            - listitem [ref=e142]:
+              - link "Optimisation de contenu" [ref=e143] [cursor=pointer]:
+                - /url: /services/contenu-llm
+            - listitem [ref=e144]:
+              - link "Autorité & Mentions" [ref=e145] [cursor=pointer]:
+                - /url: /services/autorite-marque
+        - generic [ref=e146]:
+          - link "Ressources" [ref=e147] [cursor=pointer]:
+            - /url: /ressources
+          - list [ref=e148]:
+            - listitem [ref=e149]:
+              - link "Lexique GEO" [ref=e150] [cursor=pointer]:
+                - /url: /ressources/lexique-geo
+            - listitem [ref=e151]:
+              - link "Statistiques GEO 2026" [ref=e152] [cursor=pointer]:
+                - /url: /ressources/statistiques-geo
+            - listitem [ref=e153]:
+              - link "Apparaître dans les IA" [ref=e154] [cursor=pointer]:
+                - /url: /ressources/visibilite-ia
+            - listitem [ref=e155]:
+              - link "GEO pour cabinets d'avocats" [ref=e156] [cursor=pointer]:
+                - /url: /ressources/geo-avocats
+            - listitem [ref=e157]:
+              - generic [ref=e158]: Newsletter IA bientôt
+        - generic [ref=e159]:
+          - heading "Contact" [level=4] [ref=e160]
+          - list [ref=e161]:
+            - listitem [ref=e162]:
+              - link "robin@zenifai.ai" [ref=e163] [cursor=pointer]:
+                - /url: mailto:robin@zenifai.ai
+            - listitem [ref=e164]:
+              - link "louis@zenifai.ai" [ref=e165] [cursor=pointer]:
+                - /url: mailto:louis@zenifai.ai
+            - listitem [ref=e166]:
+              - link "Zenifai sur LinkedIn" [ref=e167] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/zenifai
+                - text: LinkedIn
+            - listitem [ref=e168]:
+              - link "Réserver un audit gratuit sur Calendly" [ref=e169] [cursor=pointer]:
+                - /url: https://calendly.com/rclerc26/new-meeting
+                - text: Réserver un audit →
+      - generic [ref=e170]:
+        - paragraph [ref=e171]: © 2026 Zenifai. Tous droits réservés.
+        - generic [ref=e172]:
+          - link "Mentions légales" [ref=e173] [cursor=pointer]:
+            - /url: /mentions-legales
+          - link "Politique de confidentialité" [ref=e174] [cursor=pointer]:
+            - /url: /mentions-legales#donnees-personnelles
+  - alert [ref=e175]
