@@ -1,0 +1,305 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "Zenifai — Accueil" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - text: Zenifai•
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Méthode" [ref=e8] [cursor=pointer]:
+            - /url: /methode
+            - text: Méthode
+        - listitem [ref=e9]:
+          - link "Services" [ref=e10] [cursor=pointer]:
+            - /url: /services
+            - text: Services
+        - listitem [ref=e11]:
+          - link "Cas clients" [ref=e12] [cursor=pointer]:
+            - /url: /#cas-clients
+            - text: Cas clients
+        - listitem [ref=e13]:
+          - link "FAQ" [ref=e14] [cursor=pointer]:
+            - /url: /#faq
+            - text: FAQ
+        - listitem [ref=e15]:
+          - link "Ressources" [ref=e16] [cursor=pointer]:
+            - /url: /ressources
+            - text: Ressources
+      - link "Réserver un audit GEO gratuit" [ref=e19] [cursor=pointer]:
+        - /url: https://calendly.com/rclerc26/new-meeting
+        - text: Audit gratuit
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Ressources
+        - heading "Guides & analyses GEO" [level=1] [ref=e24]
+        - paragraph [ref=e25]: Stratégies, méthodes et retours terrain pour construire une présence durable dans les IA génératives — classés par thématique.
+        - navigation "Thématiques" [ref=e26]:
+          - link "Guides plateformes" [ref=e27] [cursor=pointer]:
+            - /url: "#plateformes"
+          - link "Fondamentaux GEO" [ref=e28] [cursor=pointer]:
+            - /url: "#fondamentaux"
+          - link "Guides sectoriels" [ref=e29] [cursor=pointer]:
+            - /url: "#sectoriels"
+          - link "Données & études" [ref=e30] [cursor=pointer]:
+            - /url: "#donnees"
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - paragraph [ref=e35]: Guides plateformes
+            - generic [ref=e36]: —
+            - heading "Apparaître sur chaque IA" [level=2] [ref=e37]
+          - link "À la une · Guides plateformes Comment apparaître sur ChatGPT Les deux leviers de ChatGPT — connaissance du modèle et ChatGPT Search — et la méthode en 6 étapes pour y faire citer votre marque. Mai 2025 10 min Lire le guide" [ref=e39] [cursor=pointer]:
+            - /url: /ressources/visibilite-chatgpt
+            - img [ref=e40]
+            - generic [ref=e43]:
+              - img [ref=e46]
+              - generic [ref=e48]:
+                - paragraph [ref=e51]: À la une · Guides plateformes
+                - heading "Comment apparaître sur ChatGPT" [level=3] [ref=e52]
+                - paragraph [ref=e53]: Les deux leviers de ChatGPT — connaissance du modèle et ChatGPT Search — et la méthode en 6 étapes pour y faire citer votre marque.
+                - generic [ref=e54]:
+                  - generic [ref=e55]: Mai 2025
+                  - generic [ref=e57]: 10 min
+                  - generic [ref=e58]:
+                    - text: Lire le guide
+                    - img [ref=e59]
+          - list [ref=e62]:
+            - listitem [ref=e63]:
+              - 'link "Comment apparaître dans Google AI Overviews La réponse IA en tête de Google : comment Google génère les AI Overviews et la méthode pour en devenir une source citée. Juin 2025 10 min" [ref=e64] [cursor=pointer]':
+                - /url: /ressources/google-ai-overviews
+                - img [ref=e66]
+                - img [ref=e68]
+                - heading "Comment apparaître dans Google AI Overviews" [level=3] [ref=e71]
+                - paragraph [ref=e72]: "La réponse IA en tête de Google : comment Google génère les AI Overviews et la méthode pour en devenir une source citée."
+                - generic [ref=e73]:
+                  - generic [ref=e74]: Juin 2025
+                  - generic [ref=e76]: 10 min
+            - listitem [ref=e77]:
+              - link "Comment apparaître sur Perplexity Perplexity cite ses sources explicitement. La méthode en 5 étapes pour y faire citer votre marque. Juillet 2025 8 min" [ref=e78] [cursor=pointer]:
+                - /url: /ressources/visibilite-perplexity
+                - img [ref=e80]
+                - img [ref=e82]
+                - heading "Comment apparaître sur Perplexity" [level=3] [ref=e85]
+                - paragraph [ref=e86]: Perplexity cite ses sources explicitement. La méthode en 5 étapes pour y faire citer votre marque.
+                - generic [ref=e87]:
+                  - generic [ref=e88]: Juillet 2025
+                  - generic [ref=e90]: 8 min
+            - listitem [ref=e91]:
+              - link "Comment apparaître sur Google Gemini L'assistant IA de Google, présent dans Workspace et sur Android. La méthode en 6 étapes pour y faire citer votre marque. Août 2025 9 min" [ref=e92] [cursor=pointer]:
+                - /url: /ressources/visibilite-gemini
+                - img [ref=e94]
+                - img [ref=e96]
+                - heading "Comment apparaître sur Google Gemini" [level=3] [ref=e99]
+                - paragraph [ref=e100]: L'assistant IA de Google, présent dans Workspace et sur Android. La méthode en 6 étapes pour y faire citer votre marque.
+                - generic [ref=e101]:
+                  - generic [ref=e102]: Août 2025
+                  - generic [ref=e104]: 9 min
+            - listitem [ref=e105]:
+              - link "Comment apparaître sur Microsoft Copilot Copilot s'appuie sur l'index Bing — un levier souvent négligé. La méthode en 6 étapes pour en tirer parti. Septembre 2025 9 min" [ref=e106] [cursor=pointer]:
+                - /url: /ressources/visibilite-copilot
+                - img [ref=e108]
+                - img [ref=e113]
+                - heading "Comment apparaître sur Microsoft Copilot" [level=3] [ref=e116]
+                - paragraph [ref=e117]: Copilot s'appuie sur l'index Bing — un levier souvent négligé. La méthode en 6 étapes pour en tirer parti.
+                - generic [ref=e118]:
+                  - generic [ref=e119]: Septembre 2025
+                  - generic [ref=e121]: 9 min
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - paragraph [ref=e125]: Fondamentaux GEO
+            - generic [ref=e126]: —
+            - heading "Comprendre le GEO" [level=2] [ref=e127]
+          - 'link "À la une · Fondamentaux GEO Comment apparaître dans les réponses des IA Le guide pilier de la visibilité IA : les 5 plateformes que vos prospects interrogent, les 2 mécanismes communs à toutes les IA (connaissance du modèle et recherche en direct) et les 6 leviers du GEO. Le point de départ pour comprendre le GEO en profondeur. Avril 2025 12 min Lire le guide" [ref=e129] [cursor=pointer]':
+            - /url: /ressources/visibilite-ia
+            - img [ref=e130]
+            - generic [ref=e133]:
+              - img [ref=e136]
+              - generic [ref=e141]:
+                - paragraph [ref=e144]: À la une · Fondamentaux GEO
+                - heading "Comment apparaître dans les réponses des IA" [level=3] [ref=e145]
+                - paragraph [ref=e146]: "Le guide pilier de la visibilité IA : les 5 plateformes que vos prospects interrogent, les 2 mécanismes communs à toutes les IA (connaissance du modèle et recherche en direct) et les 6 leviers du GEO. Le point de départ pour comprendre le GEO en profondeur."
+                - generic [ref=e147]:
+                  - generic [ref=e148]: Avril 2025
+                  - generic [ref=e150]: 12 min
+                  - generic [ref=e151]:
+                    - text: Lire le guide
+                    - img [ref=e152]
+          - list [ref=e155]:
+            - listitem [ref=e156]:
+              - link "Qu'est-ce que le GEO ? Définition claire du GEO, différences avec le SEO et lexique des termes clés de la visibilité dans les IA génératives. Janvier 2025 7 min" [ref=e157] [cursor=pointer]:
+                - /url: /ressources/definition-geo
+                - img [ref=e159]
+                - img [ref=e162]
+                - heading "Qu'est-ce que le GEO ?" [level=3] [ref=e165]
+                - paragraph [ref=e166]: Définition claire du GEO, différences avec le SEO et lexique des termes clés de la visibilité dans les IA génératives.
+                - generic [ref=e167]:
+                  - generic [ref=e168]: Janvier 2025
+                  - generic [ref=e170]: 7 min
+            - listitem [ref=e171]:
+              - 'link "GEO vs SEO : quelles différences ? Le tableau comparatif complet — objectifs, formats, mesure, leviers d''autorité — et les chiffres de la bascule vers la recherche par IA. Février 2025 8 min" [ref=e172] [cursor=pointer]':
+                - /url: /ressources/geo-vs-seo
+                - img [ref=e174]
+                - img [ref=e179]
+                - 'heading "GEO vs SEO : quelles différences ?" [level=3] [ref=e182]'
+                - paragraph [ref=e183]: Le tableau comparatif complet — objectifs, formats, mesure, leviers d'autorité — et les chiffres de la bascule vers la recherche par IA.
+                - generic [ref=e184]:
+                  - generic [ref=e185]: Février 2025
+                  - generic [ref=e187]: 8 min
+            - listitem [ref=e188]:
+              - 'link "Lexique GEO Le glossaire complet de la visibilité IA : 47 termes définis et classés en 5 catégories, du GEO à la part de voix. Mars 2025 Référence" [ref=e189] [cursor=pointer]':
+                - /url: /ressources/lexique-geo
+                - img [ref=e191]
+                - img [ref=e194]
+                - heading "Lexique GEO" [level=3] [ref=e197]
+                - paragraph [ref=e198]: "Le glossaire complet de la visibilité IA : 47 termes définis et classés en 5 catégories, du GEO à la part de voix."
+                - generic [ref=e199]:
+                  - generic [ref=e200]: Mars 2025
+                  - generic [ref=e202]: Référence
+        - generic [ref=e203]:
+          - generic [ref=e204]:
+            - paragraph [ref=e206]: Guides sectoriels
+            - generic [ref=e207]: —
+            - heading "Le GEO par secteur" [level=2] [ref=e208]
+          - link "À la une · Guides sectoriels GEO pour SaaS B2B Vos acheteurs demandent à ChatGPT quel outil choisir. Comment faire en sorte que votre SaaS soit le nom qui revient. Octobre 2025 10 min Lire le guide" [ref=e210] [cursor=pointer]:
+            - /url: /ressources/geo-saas
+            - img [ref=e211]
+            - generic [ref=e214]:
+              - img [ref=e217]
+              - generic [ref=e219]:
+                - paragraph [ref=e222]: À la une · Guides sectoriels
+                - heading "GEO pour SaaS B2B" [level=3] [ref=e223]
+                - paragraph [ref=e224]: Vos acheteurs demandent à ChatGPT quel outil choisir. Comment faire en sorte que votre SaaS soit le nom qui revient.
+                - generic [ref=e225]:
+                  - generic [ref=e226]: Octobre 2025
+                  - generic [ref=e228]: 10 min
+                  - generic [ref=e229]:
+                    - text: Lire le guide
+                    - img [ref=e230]
+          - list [ref=e233]:
+            - listitem [ref=e234]:
+              - link "GEO pour Cabinets d'Avocats Comment les cabinets d'avocats d'affaires et fiscalistes gagnent des clients via ChatGPT et Perplexity. Guide complet. Novembre 2025 12 min" [ref=e235] [cursor=pointer]:
+                - /url: /ressources/geo-avocats
+                - img [ref=e237]
+                - img [ref=e241]
+                - heading "GEO pour Cabinets d'Avocats" [level=3] [ref=e244]
+                - paragraph [ref=e245]: Comment les cabinets d'avocats d'affaires et fiscalistes gagnent des clients via ChatGPT et Perplexity. Guide complet.
+                - generic [ref=e246]:
+                  - generic [ref=e247]: Novembre 2025
+                  - generic [ref=e249]: 12 min
+            - listitem [ref=e250]:
+              - link "GEO pour e-commerce Vos clients demandent à ChatGPT quel produit acheter. Comment faire en sorte que vos produits soient ceux que les IA recommandent. Décembre 2025 10 min" [ref=e251] [cursor=pointer]:
+                - /url: /ressources/geo-ecommerce
+                - img [ref=e253]
+                - img [ref=e256]
+                - heading "GEO pour e-commerce" [level=3] [ref=e259]
+                - paragraph [ref=e260]: Vos clients demandent à ChatGPT quel produit acheter. Comment faire en sorte que vos produits soient ceux que les IA recommandent.
+                - generic [ref=e261]:
+                  - generic [ref=e262]: Décembre 2025
+                  - generic [ref=e264]: 10 min
+        - generic [ref=e265]:
+          - generic [ref=e266]:
+            - paragraph [ref=e268]: Données & études
+            - generic [ref=e269]: —
+            - heading "Chiffres et cas concrets" [level=2] [ref=e270]
+          - 'link "À la une · Données & études Statistiques GEO 2026 Les chiffres clés de la recherche par IA en 2026 : 900 M d''utilisateurs ChatGPT, +206 % de trafic de référence sortant, 88 % d''adoption de l''IA en entreprise. Données publiques sourcées OpenAI, Semrush, McKinsey et Google. Mai 2026 7 min Lire le guide" [ref=e272] [cursor=pointer]':
+            - /url: /ressources/statistiques-geo
+            - img [ref=e273]
+            - generic [ref=e276]:
+              - img [ref=e279]
+              - generic [ref=e281]:
+                - paragraph [ref=e284]: À la une · Données & études
+                - heading "Statistiques GEO 2026" [level=3] [ref=e285]
+                - paragraph [ref=e286]: "Les chiffres clés de la recherche par IA en 2026 : 900 M d'utilisateurs ChatGPT, +206 % de trafic de référence sortant, 88 % d'adoption de l'IA en entreprise. Données publiques sourcées OpenAI, Semrush, McKinsey et Google."
+                - generic [ref=e287]:
+                  - generic [ref=e288]: Mai 2026
+                  - generic [ref=e290]: 7 min
+                  - generic [ref=e291]:
+                    - text: Lire le guide
+                    - img [ref=e292]
+          - list [ref=e295]:
+            - listitem [ref=e296]:
+              - 'link "8 % → 64 % de visibilité IA en 90 jours Étude de cas anonymisée : comment un cabinet d''avocats a multiplié par 8 sa part de voix dans les IA. Méthode, livrables, métriques. Mars 2026 9 min" [ref=e297] [cursor=pointer]':
+                - /url: /ressources/cas-client-cabinet-avocats
+                - img [ref=e299]
+                - img [ref=e305]
+                - heading "8 % → 64 % de visibilité IA en 90 jours" [level=3] [ref=e308]
+                - paragraph [ref=e309]: "Étude de cas anonymisée : comment un cabinet d'avocats a multiplié par 8 sa part de voix dans les IA. Méthode, livrables, métriques."
+                - generic [ref=e310]:
+                  - generic [ref=e311]: Mars 2026
+                  - generic [ref=e313]: 9 min
+            - listitem [ref=e314]:
+              - link "Meilleures agences GEO en France Grille de critères objective et questions à poser pour choisir l'agence GEO adaptée à votre besoin. Janvier 2026 9 min" [ref=e315] [cursor=pointer]:
+                - /url: /ressources/meilleures-agences-geo-france
+                - img [ref=e317]
+                - img [ref=e320]
+                - heading "Meilleures agences GEO en France" [level=3] [ref=e323]
+                - paragraph [ref=e324]: Grille de critères objective et questions à poser pour choisir l'agence GEO adaptée à votre besoin.
+                - generic [ref=e325]:
+                  - generic [ref=e326]: Janvier 2026
+                  - generic [ref=e328]: 9 min
+    - generic [ref=e330]:
+      - generic [ref=e331]:
+        - generic [ref=e332]:
+          - link "Zenifai — retour à l'accueil" [ref=e333] [cursor=pointer]:
+            - /url: /
+            - text: Zenifai•
+          - paragraph [ref=e334]: L'agence GEO qui fait citer votre marque par les IA.
+        - generic [ref=e335]:
+          - link "Services" [ref=e336] [cursor=pointer]:
+            - /url: /services
+          - list [ref=e337]:
+            - listitem [ref=e338]:
+              - link "Audit de visibilité IA" [ref=e339] [cursor=pointer]:
+                - /url: /services/audit-visibilite-ia
+            - listitem [ref=e340]:
+              - link "Stratégie & Consulting GEO" [ref=e341] [cursor=pointer]:
+                - /url: /services/strategie-geo
+            - listitem [ref=e342]:
+              - link "Optimisation de contenu" [ref=e343] [cursor=pointer]:
+                - /url: /services/contenu-llm
+            - listitem [ref=e344]:
+              - link "Autorité & Mentions" [ref=e345] [cursor=pointer]:
+                - /url: /services/autorite-marque
+        - generic [ref=e346]:
+          - link "Ressources" [ref=e347] [cursor=pointer]:
+            - /url: /ressources
+          - list [ref=e348]:
+            - listitem [ref=e349]:
+              - link "Lexique GEO" [ref=e350] [cursor=pointer]:
+                - /url: /ressources/lexique-geo
+            - listitem [ref=e351]:
+              - link "Statistiques GEO 2026" [ref=e352] [cursor=pointer]:
+                - /url: /ressources/statistiques-geo
+            - listitem [ref=e353]:
+              - link "Apparaître dans les IA" [ref=e354] [cursor=pointer]:
+                - /url: /ressources/visibilite-ia
+            - listitem [ref=e355]:
+              - link "GEO pour cabinets d'avocats" [ref=e356] [cursor=pointer]:
+                - /url: /ressources/geo-avocats
+            - listitem [ref=e357]:
+              - generic [ref=e358]: Newsletter IA bientôt
+        - generic [ref=e359]:
+          - heading "Contact" [level=4] [ref=e360]
+          - list [ref=e361]:
+            - listitem [ref=e362]:
+              - link "robin@zenifai.ai" [ref=e363] [cursor=pointer]:
+                - /url: mailto:robin@zenifai.ai
+            - listitem [ref=e364]:
+              - link "louis@zenifai.ai" [ref=e365] [cursor=pointer]:
+                - /url: mailto:louis@zenifai.ai
+            - listitem [ref=e366]:
+              - link "Zenifai sur LinkedIn" [ref=e367] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/zenifai
+                - text: LinkedIn
+            - listitem [ref=e368]:
+              - link "Réserver un audit gratuit sur Calendly" [ref=e369] [cursor=pointer]:
+                - /url: https://calendly.com/rclerc26/new-meeting
+                - text: Réserver un audit →
+      - generic [ref=e370]:
+        - paragraph [ref=e371]: © 2026 Zenifai. Tous droits réservés.
+        - generic [ref=e372]:
+          - link "Mentions légales" [ref=e373] [cursor=pointer]:
+            - /url: /mentions-legales
+          - link "Politique de confidentialité" [ref=e374] [cursor=pointer]:
+            - /url: /mentions-legales#donnees-personnelles
+  - alert [ref=e375]

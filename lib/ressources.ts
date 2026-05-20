@@ -79,6 +79,15 @@ export const RESOURCE_THEMES: ResourceTheme[] = [
     accent: "#3B82F6",
     articles: [
       {
+        href: "/ressources/visibilite-ia",
+        icon: "network",
+        title: "Comment apparaître dans les réponses des IA",
+        excerpt:
+          "Le guide pilier de la visibilité IA : les 5 plateformes que vos prospects interrogent, les 2 mécanismes communs à toutes les IA (connaissance du modèle et recherche en direct) et les 6 leviers du GEO. Le point de départ pour comprendre le GEO en profondeur.",
+        date: "Avril 2025",
+        readTime: "12 min",
+      },
+      {
         href: "/ressources/definition-geo",
         icon: "help",
         title: "Qu'est-ce que le GEO ?",
@@ -104,15 +113,6 @@ export const RESOURCE_THEMES: ResourceTheme[] = [
           "Le glossaire complet de la visibilité IA : 47 termes définis et classés en 5 catégories, du GEO à la part de voix.",
         date: "Mars 2025",
         readTime: "Référence",
-      },
-      {
-        href: "/ressources/visibilite-ia",
-        icon: "network",
-        title: "Comment apparaître dans les réponses des IA",
-        excerpt:
-          "Le guide pilier de la visibilité IA : les 5 plateformes, les 2 mécanismes communs et les 6 leviers du GEO.",
-        date: "Avril 2025",
-        readTime: "12 min",
       },
     ],
   },
@@ -158,13 +158,13 @@ export const RESOURCE_THEMES: ResourceTheme[] = [
     accent: "#F59E0B",
     articles: [
       {
-        href: "/ressources/meilleures-agences-geo-france",
-        icon: "award",
-        title: "Meilleures agences GEO en France",
+        href: "/ressources/statistiques-geo",
+        icon: "chart",
+        title: "Statistiques GEO 2026",
         excerpt:
-          "Grille de critères objective et questions à poser pour choisir l'agence GEO adaptée à votre besoin.",
-        date: "Janvier 2026",
-        readTime: "9 min",
+          "Les chiffres clés de la recherche par IA en 2026 : 900 M d'utilisateurs ChatGPT, +206 % de trafic de référence sortant, 88 % d'adoption de l'IA en entreprise. Données publiques sourcées OpenAI, Semrush, McKinsey et Google.",
+        date: "Mai 2026",
+        readTime: "7 min",
       },
       {
         href: "/ressources/cas-client-cabinet-avocats",
@@ -176,13 +176,13 @@ export const RESOURCE_THEMES: ResourceTheme[] = [
         readTime: "9 min",
       },
       {
-        href: "/ressources/statistiques-geo",
-        icon: "chart",
-        title: "Statistiques GEO 2026",
+        href: "/ressources/meilleures-agences-geo-france",
+        icon: "award",
+        title: "Meilleures agences GEO en France",
         excerpt:
-          "Les chiffres clés de la recherche par IA en 2026 : adoption, bascule des usages, impact pour les marques. Données OpenAI, Semrush, McKinsey.",
-        date: "Mai 2026",
-        readTime: "7 min",
+          "Grille de critères objective et questions à poser pour choisir l'agence GEO adaptée à votre besoin.",
+        date: "Janvier 2026",
+        readTime: "9 min",
       },
     ],
   },
