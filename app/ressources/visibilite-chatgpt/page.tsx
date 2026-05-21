@@ -138,6 +138,12 @@ export default function Page() {
         intro="800 millions de personnes utilisent ChatGPT chaque semaine pour choisir un outil, un prestataire, une solution. Voici la méthode complète pour que votre marque figure dans ses réponses — sur ses deux leviers : la connaissance du modèle et ChatGPT Search."
         date="Publié en mai 2025"
         readTime="~10 min de lecture"
+        cta={{
+          heading: "Mesurez votre visibilité",
+          accent: "ChatGPT",
+          sub: "Notre audit teste votre marque sur 50 à 200 requêtes ChatGPT et calcule votre part de voix face à vos concurrents.",
+          label: "Réserver un audit",
+        }}
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}
       >

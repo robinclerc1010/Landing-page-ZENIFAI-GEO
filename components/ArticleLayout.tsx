@@ -73,7 +73,11 @@ export default function ArticleLayout({
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight mb-6">
             {cta?.heading ?? "Prêt à devenir une référence citée par les IA ?"}{" "}
-            {cta?.accent && <span className="gradient-text">{cta.accent}</span>}
+            {cta?.accent && (
+              <span className="italic font-light text-accent-violet/95">
+                {cta.accent}
+              </span>
+            )}
           </h2>
           <p className="text-text-secondary mb-8 max-w-xl mx-auto">
             {cta?.sub ??

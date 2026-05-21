@@ -121,7 +121,7 @@ export default function ServicePageLayout({
       <section className="py-20 lg:py-28 border-t border-border-default">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-semibold leading-tight mb-6">
-            Prêt à <span className="gradient-text">passer à l’action</span> ?
+            Prêt à <span className="italic font-light text-accent-violet/95">passer à l’action</span> ?
           </h2>
           <p className="text-text-secondary mb-8 max-w-xl mx-auto">
             30 minutes pour évaluer votre visibilité actuelle dans les IA et identifier les

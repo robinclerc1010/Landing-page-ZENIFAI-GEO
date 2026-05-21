@@ -142,6 +142,12 @@ export default function Page() {
         intro="Les AI Overviews placent une réponse générée par l’IA tout en haut des résultats Google — devant le premier lien organique. C’est la plus grande surface d’exposition IA. Voici comment votre site peut en devenir une source citée."
         date="Publié en juin 2025"
         readTime="~10 min de lecture"
+        cta={{
+          heading: "Apparaissez dans les",
+          accent: "AI Overviews",
+          sub: "Notre audit mesure votre présence dans les réponses IA de Google et identifie les leviers pour en devenir une source citée.",
+          label: "Réserver un audit",
+        }}
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}
       >

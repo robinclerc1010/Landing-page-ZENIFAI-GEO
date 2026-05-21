@@ -160,6 +160,12 @@ export default function Page() {
         intro="Les chiffres clés de la recherche par IA en 2026 : adoption des moteurs de réponse, bascule des usages, impact pour les marques. Données publiques issues d’OpenAI, Semrush et McKinsey."
         date="Publié en mai 2026 — mis à jour régulièrement"
         readTime="~7 min de lecture"
+        cta={{
+          heading: "Connaissez vos propres",
+          accent: "chiffres",
+          sub: "Les statistiques de marché donnent la tendance ; notre audit donne votre part de voix réelle dans les IA.",
+          label: "Mesurer ma visibilité IA",
+        }}
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}
       >

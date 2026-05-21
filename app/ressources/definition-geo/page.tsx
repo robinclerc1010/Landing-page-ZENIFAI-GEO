@@ -142,6 +142,12 @@ export default function Page() {
         intro="Le GEO, ou Generative Engine Optimization, est la discipline qui rend votre marque visible dans les réponses des IA génératives. Définition, différences avec le SEO, et lexique complet."
         date="Publié en janvier 2025"
         readTime="~7 min de lecture"
+        cta={{
+          heading: "Prêt à passer au",
+          accent: "GEO ?",
+          sub: "30 minutes de cadrage gratuit pour évaluer votre visibilité actuelle dans les IA génératives.",
+          label: "Réserver un cadrage",
+        }}
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}
       >

@@ -138,6 +138,12 @@ export default function Page() {
         intro="Copilot est l’IA de Microsoft, intégrée à Bing, Edge, Windows et Microsoft 365. Sa particularité : il s’appuie sur l’index Bing — un levier souvent négligé. Voici comment en tirer parti."
         date="Publié en septembre 2025"
         readTime="~9 min de lecture"
+        cta={{
+          heading: "Mesurez votre visibilité",
+          accent: "Copilot",
+          sub: "Notre audit vérifie votre présence dans l'index Bing et dans Copilot — un levier que peu de marques exploitent.",
+          label: "Réserver un audit",
+        }}
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}
       >

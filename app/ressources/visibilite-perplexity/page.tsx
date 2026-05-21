@@ -127,6 +127,12 @@ export default function Page() {
         intro="Perplexity cite ses sources explicitement — ce qui en fait le moteur de réponse le plus actionnable pour le GEO. Voici la méthode en 5 étapes pour y faire citer votre marque."
         date="Publié en juillet 2025"
         readTime="~8 min de lecture"
+        cta={{
+          heading: "Mesurez votre visibilité",
+          accent: "Perplexity",
+          sub: "Perplexity cite ses sources : notre audit identifie précisément où votre marque apparaît — ou non — et comment y remédier.",
+          label: "Réserver un audit",
+        }}
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}
       >

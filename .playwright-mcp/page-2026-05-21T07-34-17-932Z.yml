@@ -1,0 +1,207 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "Zenifai — Accueil" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - text: Zenifai•
+      - list [ref=e6]:
+        - listitem [ref=e7]:
+          - link "Méthode" [ref=e8] [cursor=pointer]:
+            - /url: /methode
+            - text: Méthode
+        - listitem [ref=e9]:
+          - link "Services" [ref=e10] [cursor=pointer]:
+            - /url: /services
+            - text: Services
+        - listitem [ref=e11]:
+          - link "Cas clients" [ref=e12] [cursor=pointer]:
+            - /url: /#cas-clients
+            - text: Cas clients
+        - listitem [ref=e13]:
+          - link "FAQ" [ref=e14] [cursor=pointer]:
+            - /url: /#faq
+            - text: FAQ
+        - listitem [ref=e15]:
+          - link "Ressources" [ref=e16] [cursor=pointer]:
+            - /url: /ressources
+            - text: Ressources
+      - link "Réserver un audit GEO gratuit" [ref=e19] [cursor=pointer]:
+        - /url: https://calendly.com/rclerc26/new-meeting
+        - text: Audit gratuit
+    - generic [ref=e21]:
+      - img [ref=e24]
+      - paragraph [ref=e30]: Guide · E-commerce
+      - heading "GEO pour e-commerce" [level=1] [ref=e31]
+      - paragraph [ref=e32]: Vos clients demandent à ChatGPT et Perplexity quel produit acheter. Voici comment faire en sorte que vos produits soient ceux que les IA recommandent — guide GEO complet pour l’e-commerce.
+      - generic [ref=e33]:
+        - generic [ref=e34]: Publié en décembre 2025
+        - generic [ref=e35]: ~10 min de lecture
+    - generic [ref=e37]:
+      - paragraph [ref=e38]: "Le parcours d’achat en ligne commençait hier sur Google ou sur une marketplace. Il commence de plus en plus par une question posée à une IA : « quel est le meilleur aspirateur robot pour les poils d’animaux ? », « quelle alternative à cette marque de cosmétiques ? », « quel vélo électrique pour un trajet urbain de 15 km ? »."
+      - paragraph [ref=e39]: La réponse de l’IA contient quelques produits, quelques marques. Soit les vôtres en font partie, soit le client ne les verra jamais — il ne saura même pas qu’ils existaient. C’est exactement le problème que résout le GEO (Generative Engine Optimization) pour l’e-commerce.
+      - figure [ref=e40]:
+        - blockquote [ref=e41]: « Trois ou quatre produits dans la réponse de l’IA. Soit les vôtres en font partie, soit le client ne saura jamais qu’ils existaient. »
+      - heading "Les 4 types de requêtes IA qui décident d’un achat" [level=2] [ref=e42]
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - generic [ref=e46]: Requêtes de catégorie — « meilleur [type de produit] », « meilleur [produit] pour [usage] ». L’IA construit un classement de la catégorie.
+        - listitem [ref=e47]:
+          - generic [ref=e49]: Requêtes de comparaison — « [produit A] ou [produit B] ? », « [marque] vs [marque] ». L’acheteur hésite entre deux options et veut trancher.
+        - listitem [ref=e50]:
+          - generic [ref=e52]: "Requêtes d’alternative — « alternative à [marque/produit] ». Acheteur insatisfait ou en quête d’une option plus accessible : intention d’achat très forte."
+        - listitem [ref=e53]:
+          - generic [ref=e55]: Requêtes de cas d’usage — « quel produit pour [besoin précis] ? ». L’IA recommande des solutions concrètes adaptées au contexte.
+      - heading "Pourquoi les sites e-commerce sont mal cités" [level=2] [ref=e56]
+      - paragraph [ref=e57]: "Les boutiques en ligne sont souvent excellentes en SEO produit mais invisibles dans les IA. Les causes récurrentes que nous identifions :"
+      - list [ref=e58]:
+        - listitem [ref=e59]:
+          - generic [ref=e61]: "Le site n’a que des pages produit : elles décrivent un article, mais ne répondent pas aux questions de choix que posent les acheteurs."
+        - listitem [ref=e62]:
+          - generic [ref=e64]: Aucun contenu de comparaison ni guide d’achat — les formats que les IA mobilisent pour recommander.
+        - listitem [ref=e65]:
+          - generic [ref=e67]: Les avis clients existent mais ne sont pas structurés (pas de schema Review / AggregateRating), donc peu exploitables par les IA.
+        - listitem [ref=e68]:
+          - generic [ref=e70]: "Le balisage produit est incomplet : prix, disponibilité, marque, caractéristiques mal déclarés en schema.org."
+        - listitem [ref=e71]:
+          - generic [ref=e73]: "L’entité de marque est floue : l’IA ne sait pas situer la boutique, son positionnement, sa fiabilité."
+        - listitem [ref=e74]:
+          - generic [ref=e76]: "Faible présence sur les sources tierces que les IA consultent pour les produits : comparateurs, médias spécialisés, communautés."
+      - heading "Les leviers GEO pour l’e-commerce" [level=2] [ref=e77]
+      - paragraph [ref=e78]: "Par ordre d’impact pour la majorité des sites marchands :"
+      - list [ref=e79]:
+        - listitem [ref=e80]:
+          - generic [ref=e82]: Guides d’achat et pages « meilleur X » — le format le plus cité par les IA pour les requêtes de catégorie. Un guide par catégorie clé, structuré et argumenté.
+        - listitem [ref=e83]:
+          - generic [ref=e85]: Contenu de comparaison — pages « A vs B » et comparatifs multi-produits, mobilisés par les IA pour départager des options.
+        - listitem [ref=e86]:
+          - generic [ref=e88]: Balisage produit complet — schema.org Product, Offer (prix, disponibilité), Brand et AggregateRating sur chaque fiche, pour une lecture fiable par les IA.
+        - listitem [ref=e89]:
+          - generic [ref=e91]: "Avis clients structurés — exposer les avis en schema Review : la preuve sociale devient un signal exploitable, pas un simple bloc visuel."
+        - listitem [ref=e92]:
+          - generic [ref=e94]: Pages catégorie LLM-ready — décrire la catégorie, les critères de choix et les cas d’usage, au format question-réponse.
+        - listitem [ref=e95]:
+          - generic [ref=e97]: Consolidation d’entité de marque — aligner nom, positionnement et informations clés sur le site, les profils, les comparateurs et Wikidata.
+        - listitem [ref=e98]:
+          - generic [ref=e100]: Autorité tierce — présence maîtrisée sur les comparateurs, médias et communautés spécialisés de votre secteur.
+      - heading "Google Shopping, AI Overviews et fiches produit" [level=2] [ref=e101]
+      - paragraph [ref=e102]:
+        - text: Pour l’e-commerce, Google joue un rôle double. Les
+        - link "AI Overviews" [ref=e103] [cursor=pointer]:
+          - /url: /ressources/google-ai-overviews
+        - text: intègrent de plus en plus de recommandations de produits, et Google relie son index, Google Shopping et son knowledge graph. Un flux produit propre, des fiches bien balisées et des avis structurés alimentent ces surfaces. Le travail GEO et le travail e-commerce technique se renforcent ici mutuellement.
+      - heading "Erreurs fréquentes à éviter" [level=2] [ref=e104]
+      - list [ref=e105]:
+        - listitem [ref=e106]:
+          - generic [ref=e108]: "Se reposer uniquement sur les pages produit : sans contenu de choix, l’IA n’a rien à recommander."
+        - listitem [ref=e109]:
+          - generic [ref=e111]: Négliger les pages de comparaison par peur de citer des concurrents — c’est précisément là que se joue la décision d’achat.
+        - listitem [ref=e112]:
+          - generic [ref=e114]: Laisser les avis clients en texte non structuré, invisibles pour les IA.
+        - listitem [ref=e115]:
+          - generic [ref=e117]: "Traiter le GEO comme un projet ponctuel : la visibilité IA se construit et se mesure par cycles."
+      - heading "Par où commencer" [level=2] [ref=e118]
+      - paragraph [ref=e119]:
+        - text: La première étape est un
+        - link "audit de visibilité IA" [ref=e120] [cursor=pointer]:
+          - /url: /services/audit-visibilite-ia
+        - text: ": il mesure la fréquence à laquelle vos produits et votre marque sont cités par les IA sur les requêtes d’achat de votre marché, et identifie les leviers prioritaires. Pour la vue d’ensemble, voir aussi notre guide pilier"
+        - link "« Comment apparaître dans les réponses des IA »" [ref=e121] [cursor=pointer]:
+          - /url: /ressources/visibilite-ia
+        - text: .
+    - generic [ref=e123]:
+      - heading "Questions fréquentes" [level=2] [ref=e124]
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - button "Pourquoi le GEO est-il stratégique pour un e-commerce ?" [ref=e127] [cursor=pointer]:
+            - generic [ref=e128]: Pourquoi le GEO est-il stratégique pour un e-commerce ?
+            - img [ref=e130]
+          - paragraph [ref=e131]: "Les acheteurs utilisent de plus en plus les IA pour choisir un produit : « quel est le meilleur X ? », « quelle alternative à Y ? », « où acheter Z ? ». Si vos produits ne sont pas cités dans ces réponses, vous êtes éliminé d’une présélection que vous ne voyez pas — avant même la comparaison de prix."
+        - generic [ref=e132]:
+          - button "Quelle différence entre le GEO et le SEO e-commerce classique ?" [ref=e133] [cursor=pointer]:
+            - generic [ref=e134]: Quelle différence entre le GEO et le SEO e-commerce classique ?
+            - img [ref=e136]
+          - paragraph [ref=e137]: Le SEO e-commerce optimise le classement des pages produit et catégorie dans Google. Le GEO optimise la citation de vos produits dans une réponse générée. Les deux partagent des fondations (schema produit, contenu de qualité, autorité), mais le GEO exige en plus du contenu de comparaison, des avis structurés et une entité de marque claire.
+        - generic [ref=e138]:
+          - button "Les pages produit suffisent-elles pour être cité par les IA ?" [ref=e139] [cursor=pointer]:
+            - generic [ref=e140]: Les pages produit suffisent-elles pour être cité par les IA ?
+            - img [ref=e142]
+          - paragraph [ref=e143]: "Rarement. Les pages produit décrivent un article ; les IA, elles, répondent à des questions de choix. Il faut leur fournir du contenu qui compare, classe et recommande : guides d’achat, pages « meilleur X », comparatifs « A vs B ». C’est ce contenu que les IA mobilisent pour bâtir leurs recommandations."
+        - generic [ref=e144]:
+          - button "Le GEO fonctionne-t-il pour une petite boutique en ligne ?" [ref=e145] [cursor=pointer]:
+            - generic [ref=e146]: Le GEO fonctionne-t-il pour une petite boutique en ligne ?
+            - img [ref=e148]
+          - paragraph [ref=e149]: "Oui. Les marques de niche ont souvent un avantage : sur des catégories précises, la concurrence dans les IA est plus faible que sur Google. Une boutique spécialisée qui structure tôt sa présence GEO peut devenir la référence citée de son segment."
+    - generic [ref=e151]:
+      - heading "Auditez vos produits dans les IA" [level=2] [ref=e152]
+      - paragraph [ref=e153]: Découvrez si vos produits sont recommandés par les IA sur les requêtes d'achat de votre marché.
+      - link "Réserver un audit →" [ref=e154] [cursor=pointer]:
+        - /url: https://calendly.com/rclerc26/new-meeting
+      - paragraph [ref=e155]:
+        - link "← Toutes les ressources" [ref=e156] [cursor=pointer]:
+          - /url: /ressources/
+    - generic [ref=e158]:
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - link "Zenifai — retour à l'accueil" [ref=e161] [cursor=pointer]:
+            - /url: /
+            - text: Zenifai•
+          - paragraph [ref=e162]: L'agence GEO qui fait citer votre marque par les IA.
+        - generic [ref=e163]:
+          - link "Services" [ref=e164] [cursor=pointer]:
+            - /url: /services
+          - list [ref=e165]:
+            - listitem [ref=e166]:
+              - link "Audit de visibilité IA" [ref=e167] [cursor=pointer]:
+                - /url: /services/audit-visibilite-ia
+            - listitem [ref=e168]:
+              - link "Stratégie & Consulting GEO" [ref=e169] [cursor=pointer]:
+                - /url: /services/strategie-geo
+            - listitem [ref=e170]:
+              - link "Optimisation de contenu" [ref=e171] [cursor=pointer]:
+                - /url: /services/contenu-llm
+            - listitem [ref=e172]:
+              - link "Autorité & Mentions" [ref=e173] [cursor=pointer]:
+                - /url: /services/autorite-marque
+        - generic [ref=e174]:
+          - link "Ressources" [ref=e175] [cursor=pointer]:
+            - /url: /ressources
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "Lexique GEO" [ref=e178] [cursor=pointer]:
+                - /url: /ressources/lexique-geo
+            - listitem [ref=e179]:
+              - link "Statistiques GEO 2026" [ref=e180] [cursor=pointer]:
+                - /url: /ressources/statistiques-geo
+            - listitem [ref=e181]:
+              - link "Apparaître dans les IA" [ref=e182] [cursor=pointer]:
+                - /url: /ressources/visibilite-ia
+            - listitem [ref=e183]:
+              - link "GEO pour cabinets d'avocats" [ref=e184] [cursor=pointer]:
+                - /url: /ressources/geo-avocats
+            - listitem [ref=e185]:
+              - generic [ref=e186]: Newsletter IA bientôt
+        - generic [ref=e187]:
+          - heading "Contact" [level=4] [ref=e188]
+          - list [ref=e189]:
+            - listitem [ref=e190]:
+              - link "robin@zenifai.ai" [ref=e191] [cursor=pointer]:
+                - /url: mailto:robin@zenifai.ai
+            - listitem [ref=e192]:
+              - link "louis@zenifai.ai" [ref=e193] [cursor=pointer]:
+                - /url: mailto:louis@zenifai.ai
+            - listitem [ref=e194]:
+              - link "Zenifai sur LinkedIn" [ref=e195] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/zenifai
+                - text: LinkedIn
+            - listitem [ref=e196]:
+              - link "Réserver un audit gratuit sur Calendly" [ref=e197] [cursor=pointer]:
+                - /url: https://calendly.com/rclerc26/new-meeting
+                - text: Réserver un audit →
+      - generic [ref=e198]:
+        - paragraph [ref=e199]: © 2026 Zenifai. Tous droits réservés.
+        - generic [ref=e200]:
+          - link "Mentions légales" [ref=e201] [cursor=pointer]:
+            - /url: /mentions-legales
+          - link "Politique de confidentialité" [ref=e202] [cursor=pointer]:
+            - /url: /mentions-legales#donnees-personnelles
+  - alert [ref=e203]

@@ -86,6 +86,12 @@ export default function Page() {
         intro="Vos acheteurs demandent à ChatGPT et Perplexity quel outil choisir. Voici comment faire en sorte que votre SaaS soit le nom qui revient — guide complet 2026."
         date="Publié en octobre 2025"
         readTime="~10 min de lecture"
+        cta={{
+          heading: "Auditez la visibilité IA de votre",
+          accent: "SaaS",
+          sub: "Découvrez si votre SaaS est recommandé par les IA sur les requêtes d'évaluation de votre marché.",
+          label: "Réserver un audit",
+        }}
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}
       >

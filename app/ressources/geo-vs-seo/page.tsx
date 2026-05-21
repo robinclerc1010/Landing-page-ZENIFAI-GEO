@@ -158,6 +158,12 @@ export default function Page() {
         intro="Le SEO optimise votre classement dans une liste de liens. Le GEO optimise votre citation dans une réponse d’IA. Voici le comparatif complet — et les chiffres qui montrent pourquoi les deux comptent désormais."
         date="Publié en février 2025"
         readTime="~8 min de lecture"
+        cta={{
+          heading: "Mesurez votre écart",
+          accent: "SEO ↔ GEO",
+          sub: "Notre audit révèle le décalage entre votre performance SEO et votre présence réelle dans les IA.",
+          label: "Réserver un audit",
+        }}
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}
       >

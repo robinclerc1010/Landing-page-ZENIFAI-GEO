@@ -137,6 +137,12 @@ export default function Page() {
         intro="Gemini est l’assistant IA de Google — présent dans une app dédiée, dans Workspace et sur Android. Voici comment faire en sorte que votre marque figure dans ses réponses."
         date="Publié en août 2025"
         readTime="~9 min de lecture"
+        cta={{
+          heading: "Mesurez votre visibilité",
+          accent: "Gemini",
+          sub: "Notre audit évalue la présence de votre marque dans l'assistant de Google et son knowledge graph.",
+          label: "Réserver un audit",
+        }}
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}
       >

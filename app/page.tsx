@@ -11,6 +11,7 @@ import Differentiation from "@/components/Differentiation";
 import FAQ from "@/components/FAQ";
 import FinalCTA from "@/components/FinalCTA";
 import Footer from "@/components/Footer";
+import SectionDivider from "@/components/SectionDivider";
 import { FAQ_ITEMS } from "@/lib/constants";
 
 const faqJsonLd = {
@@ -59,11 +60,13 @@ export default function Home() {
       <StatsBar />
       <ProblemSection />
       <WhyNow />
+      <SectionDivider />
       <Services />
       <Methodology />
       <CaseStudy />
       <ForWho />
       <Differentiation />
+      <SectionDivider />
       <FAQ />
       <FinalCTA />
       <Footer />

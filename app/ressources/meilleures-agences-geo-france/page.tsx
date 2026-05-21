@@ -86,6 +86,12 @@ export default function Page() {
         intro="Le marché des agences GEO est jeune et hétérogène. Plutôt qu’un classement figé, voici une grille de critères objective pour choisir l’agence de Generative Engine Optimization adaptée à votre besoin."
         date="Publié en janvier 2026 — mis à jour régulièrement"
         readTime="~9 min de lecture"
+        cta={{
+          heading: "Comparez Zenifai en",
+          accent: "30 minutes",
+          sub: "Un pré-audit de cadrage gratuit qui vous donne déjà une photographie de votre visibilité IA actuelle.",
+          label: "Réserver un cadrage",
+        }}
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}
       >

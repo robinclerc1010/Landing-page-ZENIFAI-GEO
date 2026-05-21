@@ -86,6 +86,12 @@ export default function Page() {
         intro="Vos clients demandent à ChatGPT et Perplexity quel produit acheter. Voici comment faire en sorte que vos produits soient ceux que les IA recommandent — guide GEO complet pour l’e-commerce."
         date="Publié en décembre 2025"
         readTime="~10 min de lecture"
+        cta={{
+          heading: "Auditez vos produits dans les",
+          accent: "IA",
+          sub: "Découvrez si vos produits sont recommandés par les IA sur les requêtes d'achat de votre marché.",
+          label: "Réserver un audit",
+        }}
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}
       >

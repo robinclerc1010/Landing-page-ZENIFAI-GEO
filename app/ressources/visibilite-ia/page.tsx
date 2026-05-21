@@ -172,6 +172,12 @@ export default function Page() {
         intro="Vos prospects ne cherchent plus seulement sur Google : ils demandent à ChatGPT, Perplexity ou Gemini quelle solution choisir. Voici le guide complet de la visibilité IA — les plateformes, les mécanismes communs et la méthode."
         date="Publié en avril 2025"
         readTime="~12 min de lecture"
+        cta={{
+          heading: "Mesurez votre part de voix dans les",
+          accent: "IA",
+          sub: "Notre audit calcule votre IA Visibility Score™ sur ChatGPT, Perplexity, Gemini et Claude, et priorise les actions.",
+          label: "Réserver un audit",
+        }}
         faq={faq}
         backLink={{ href: "/ressources", label: "Toutes les ressources" }}
       >
