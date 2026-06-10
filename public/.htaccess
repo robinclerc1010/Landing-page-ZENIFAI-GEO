@@ -1,8 +1,35 @@
-# Hostinger / Apache — cache & compression
-# Tous les bundles JS, CSS et fontes générés par Next.js ont un hash dans
-# leur nom de fichier ; on peut donc les marquer immutables un an.
+# Hostinger / Apache — sécurité, cache & compression
+
+# Pas de listage de répertoires
+Options -Indexes
+
+# Canonicalisation : www -> apex (en HTTPS)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^www\.zenifai\.ai$ [NC]
+  RewriteRule ^(.*)$ https://zenifai.ai/$1 [R=301,L]
+</IfModule>
 
 <IfModule mod_headers.c>
+  # ── Headers de sécurité ──────────────────────────────────────────────
+  # HSTS : force HTTPS pendant 1 an, sous-domaines inclus
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  # Empêche le MIME-sniffing
+  Header always set X-Content-Type-Options "nosniff"
+  # Interdit l'intégration du site dans une iframe (clickjacking)
+  Header always set X-Frame-Options "DENY"
+  # Referrer minimal vers les sites tiers
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  # Désactive les API navigateur non utilisées
+  Header always set Permissions-Policy "camera=(), microphone=(), geolocation=(), payment=(), usb=()"
+  # CSP : tout en local ('unsafe-inline' requis par les scripts d'hydratation
+  # Next.js et le JSON-LD inline ; aucun script tiers n'est chargé)
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests"
+
+  # ── Cache ────────────────────────────────────────────────────────────
+  # Tous les bundles JS, CSS et fontes générés par Next.js ont un hash dans
+  # leur nom de fichier ; on peut donc les marquer immutables un an.
+
   # JS / CSS / fontes hashées — cache 1 an, immuable
   <FilesMatch "\.(js|css|woff2|woff|ttf|otf|eot)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
